@@ -1,0 +1,17 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(user, "Desenvolvedor / Esteira CICD", "Qualquer usuário que interage diretamente com o código fonte do software.")
+System(horusecCLI, "Horusec CLI", "Ferramenta que realiza as análises de seguranças no código do desenvolvedor.")
+System(horusecPlatform, "Horusec Platform (opcional)", "Ferramenta WEB para gerenciar e visualizar as vulnerabilidades encontradas pela CLI.")
+
+Rel(user, horusecCLI, "Inicia análise de segurança no projeto")
+
+Rel(horusecCLI, horusecPlatform, "Salva resultado da análise na API caso exista token de autenticação")
+
+Rel(horusecPlatform, horusecCLI, "Retorna sucesso ou erro para resposta da requisição")
+
+Rel(horusecCLI, user, "Exibe ou exporta resultado da análise")
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(user, "Desenvolvedor", "Qualquer desenvolvedor de software.")
+System(horusecVsCode, "Horusec VsCode", "Interface do VSCODE com a CLI instalada via extensões para executar análise de seguranças.")
+System(horusecCLIDockerImage, "Horusec CLI Docker Image", "Ferramenta que realiza as análises de seguranças no código do desenvolvedor.")
+
+Rel(user, horusecVsCode, "Inicia análise de segurança no projeto.")
+
+Rel(horusecVsCode, horusecCLIDockerImage, "Executa a análise e recebe o resultadovi arquivo texto.")
+
+Rel(horusecCLIDockerImage, horusecVsCode, "Exibe ou exporta resultado da análise.")
+
+Rel(horusecVsCode, user, "Exibe falhas de segurança no projeto de acordo com as vulnerabilidades encontradas na extensão.")
+@enduml

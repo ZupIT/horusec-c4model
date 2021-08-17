@@ -1,0 +1,13 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(user, "SRE/DevSecOps/DevOps", "Pessoa que queira instalar o Horusec Platform.")
+System(horusecOperator, "Horusec Operator", "Operator kubernetes que faz instalação do Horusec Platform na infraestrutura do usuário")
+System(Kubernetes, "Kubernetes", "Cluster kubernetes onde o usuário consulta alterações realizadas pelo Horusec Operator")
+
+Rel(user, horusecOperator, "Instala operator na CRD disponibilizada pelo Horusec e envia um arquivo .yaml com as alterações que deseja sobre os serviços do horusec na instancia kubernetes")
+Rel(user, Kubernetes, "Verifica alterações no cluster de acordo com o que foi configurado pelo horusec operator")
+
+@enduml
