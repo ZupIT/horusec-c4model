@@ -1,39 +1,51 @@
-@startuml
+@startuml horusec-cli-c2
 
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Deployment.puml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Dynamic.puml
-' uncomment the following line and comment the first to use locally
-' !include C4_Container.puml
-
-' LAYOUT_TOP_DOWN()
-' LAYOUT_AS_SKETCH()
-
 LAYOUT_WITH_LEGEND()
 
 Person(user, "Desenvolvedor / Esteira CICD", "Qualquer usuário que interage diretamente com o código fonte do software.")
 
 System_Boundary(horusecCLI, "Horusec-CLI") {
-    Container(horusecCLIPhase1, "Horusec-CLI Phase 1", "Step", "Realiza Verificações de entrada de dados")
-    Container(horusecCLIPhase2, "Horusec-CLI Phase 2", "Step", "Inicía análise")
-    Container(horusecCLIPhase3, "Horusec-CLI Phase 3", "Step", "Inicía análise")
-    Container(horusecCLIPhase4, "Horusec-CLI Phase 4", "Step", "Inicía análise")
-    ' ContainerDb(database, "Database", "SQL Database", "Stores user registraion information, hased auth credentials, access logs, etc.")
+    System(horusecCLIPhase1, "", "Realiza Verificações de entrada de dados")
+    System(horusecCLIPhase2, "", "Inicía análise")
+    System(horusecCLIPhase3, "", "Inicia todas as ferramentas de análise necessárias de forma assincrona")
+    System(horusecCLIPhase4_1, "", "Baixa a imagem docker")
+    System(horusecCLIPhase4_2, "", "Executa e formata a análise")
+    System(horusecCLIPhase5, "", "Exporta o resultado da análise")
+}
+
+System_Ext(horusecResponse, "Response", "Retorna saída de sucesso ou erro de acordo com as configurações realizadas", "")
+
+System_Boundary(horusecPlatform, "Horusec-Platform") {
+    Container(horusecPlatformAPI, "Horusec-API", "API que recebe a análise realizada e salva em sua base de dados API que mostra se existe alguma validação aplicada para as vulnerabilidades encontradas como: falso positivo, risco aceito, dentre outros.")
+    ContainerDb(HorusecPlatformDatabase, "Database-Horusec", "[Container: Postgresql:12]", "Armazena nova análise no banco de dados platform")
+    ComponentQueue(horusecPlatformRabbitMQ, "Message Broker", "RabbitMQ:3", "Serviço de menssageria")
+    Container(horusecWebhook, "Horusec-Webhook", "Aplicação que recebe análise e envia para API REST de terceiros.")
+    Container(horusecAnalytic, "Horusec-Analytic", "Aplicação que salva os dados para visão análitica de vulnerabilidades.")
+    ContainerDb(HorusecAnalyticDatabase, "Database-Analytic", "[Container: Postgresql:12]", "Armazena dados do dashboard")
 }
 
 
 Rel(user, horusecCLIPhase1, "horusec start", "command")
-Rel(horusecCLIPhase1, horusecCLIPhase2, "Logic", "internal")
-Rel(horusecCLIPhase2, horusecCLIPhase3, "Logic", "internal")
-Rel(horusecCLIPhase3, horusecCLIPhase4, "Logic", "internal")
-' Rel(user, spa, "Uses", "HTTPS")
-' Rel(user, mobile_app, "Uses")
 
-' Rel_Neighbor(web_app, spa, "Delivers")
-' Rel(spa, backend_api, "Uses", "async, JSON/HTTPS")
-' Rel(mobile_app, backend_api, "Uses", "async, JSON/HTTPS")
-' Rel_Back_Neighbor(database, backend_api, "Reads from and writes to", "sync, JDBC")
+Rel(horusecCLIPhase1, horusecCLIPhase2, "", "Passo")
+Rel(horusecCLIPhase2, horusecCLIPhase3, "", "Passo")
+Rel(horusecCLIPhase3, horusecCLIPhase4_1, "É necessário fazer download da imagem docker?", "Passo SIM")
+Rel(horusecCLIPhase3, horusecCLIPhase4_2, "É necessário fazer download da imagem docker?", "Passo NÃO")
+Rel(horusecCLIPhase4_1, horusecCLIPhase4_2, "", "Passo")
+Rel(horusecCLIPhase4_2, horusecCLIPhase5, "", "Passo")
+Rel(horusecCLIPhase4_2, horusecPlatformAPI, "Envia dados para aplicação externa apenas se existir token de autenticação?", "Passo SIM")
+Rel(horusecPlatformAPI, horusecCLIPhase4_2, "Adicionar as validações das vulnerabilidades encontradas", "retorno")
+Rel(horusecPlatformAPI, HorusecPlatformDatabase, "", "Passo")
+Rel(horusecPlatformAPI, horusecPlatformRabbitMQ, "", "Passo")
+Rel(horusecPlatformRabbitMQ, horusecWebhook, "Existe webhook configurado?", "Passo SIM")
+Rel(horusecWebhook, HorusecPlatformDatabase, "", "Passo")
+Rel(horusecPlatformRabbitMQ, horusecAnalytic, "", "Passo")
+Rel(horusecAnalytic, HorusecAnalyticDatabase, "", "Passo")
+Rel(horusecCLIPhase5, horusecResponse, "", "Passo")
 
 @enduml

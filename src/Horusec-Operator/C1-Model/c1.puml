@@ -1,4 +1,4 @@
-@startuml
+@startuml horusec-operator-c1
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
 
 LAYOUT_WITH_LEGEND()
