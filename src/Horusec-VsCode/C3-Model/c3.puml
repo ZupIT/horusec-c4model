@@ -48,11 +48,16 @@ System_Boundary(HorusecCLIDocker, "Horusec-CLI via docker image") {
       System(HorusecCLIDockerCommandStartPhase3, "Normaliza as configurações e realiza a validação de entradas", "As validações podem ser entre: Diretório inválido, Requisitos não atendidos, dentre outros")
       System(HorusecCLIDockerCommandStartPhase4, "Verifica quais linguagens de programação tem no projeto", "Além de identificar é feito um filtro de linguagens suportadas pela ferramenta")
       System_Boundary(HorusecCLIDockerCommandStartPhase5, "Iníciar análise") {
-        System(HorusecCLIDockerCommandStartPhase5_1, "Inicia a detecção de falhas de segurança para cada linguagem de programação de forma assíncrona", "Caso a linguagem de programação exija download da imagem docker irá verificar se o usuário pediu para desabilitar a funcionalidade.")
-        System(HorusecCLIDockerCommandStartPhase5_2, "Centralização de dados das possíveis falhas de segurança via referência de memoria", "")
-        System(HorusecCLIDockerCommandStartPhase5_3, "Após todas as linguagens de programação terminar sua análise deve ser feito normalização dos dados", "A normalização são validações como falso positivos, minímo de severidade para ser acusada, dentre outros.")
+        System(HorusecCLIDockerCommandStartPhase5_1, "Inicia a detecção de falhas de segurança para cada linguagem de programação de forma assíncrona", "")
+        System(HorusecCLIDockerCommandStartPhase5_2, "Existe download de imagem docker para a linguagem?", "É verificado se o usuário pediu para desabilitar o docker na análise caso sim é apenas ignorado esse passo")
+        System(HorusecCLIDockerCommandStartPhase5_3, "Inicia download da imagem", "Este passo pode ser pulado caso a opção para desabilitar docker esteja ativa")
+        System(HorusecCLIDockerCommandStartPhase5_4, "Inicia o processo de análise das ferramentas necessárias.", "Ao iniciar esse process é realizado uma verificação se a ferramenta utiliza")
+        System(HorusecCLIDockerCommandStartPhase5_5, "Ferramentas de mercado que utilizam docker", "Este passo pode ser pulado caso a opção para desabilitar docker esteja ativa")
+        System(HorusecCLIDockerCommandStartPhase5_6, "Ferramentas criadas pelo Horusec que utilizam Horusec-Engine", "Neste processo será verificado as regras disponíveis dentro do binário e se o usuário passou qualquer regra externa e começará a análise.")
+        System(HorusecCLIDockerCommandStartPhase5_7, "Centralização de dados das possíveis falhas de segurança via referência de memoria", "")
+        System(HorusecCLIDockerCommandStartPhase5_8, "Após todas as linguagens de programação terminar sua análise deve ser feito normalização dos dados", "A normalização são validações como falso positivos, minímo de severidade para ser acusada, dentre outros.")
       }
-      System(HorusecCLIDockerCommandStartPhase7, "Cria o output da análise", "O output para o plugin do vscode sempre será no formato json")
+      System(HorusecCLIDockerCommandStartPhase6, "Cria o output da análise", "O output para o plugin do vscode sempre será no formato json")
     }
 }
 
@@ -91,8 +96,15 @@ Rel(HorusecCLIDockerCommandStartPhase2, HorusecCLIDockerCommandStartPhase3, "")
 Rel(HorusecCLIDockerCommandStartPhase3, HorusecCLIDockerCommandStartPhase4, "")
 Rel(HorusecCLIDockerCommandStartPhase4, HorusecCLIDockerCommandStartPhase5_1, "")
 Rel(HorusecCLIDockerCommandStartPhase5_1, HorusecCLIDockerCommandStartPhase5_2, "")
-Rel(HorusecCLIDockerCommandStartPhase5_2, HorusecCLIDockerCommandStartPhase5_3, "")
-Rel(HorusecCLIDockerCommandStartPhase5_3, HorusecCLIDockerCommandStartPhase7, "")
-Rel(HorusecCLIDockerCommandStartPhase7, responseGenerate, "")
+Rel(HorusecCLIDockerCommandStartPhase5_2, HorusecCLIDockerCommandStartPhase5_3, "SIM")
+Rel(HorusecCLIDockerCommandStartPhase5_2, HorusecCLIDockerCommandStartPhase5_4, "NÃO")
+Rel(HorusecCLIDockerCommandStartPhase5_3, HorusecCLIDockerCommandStartPhase5_4, "")
+Rel(HorusecCLIDockerCommandStartPhase5_4, HorusecCLIDockerCommandStartPhase5_5, "")
+Rel(HorusecCLIDockerCommandStartPhase5_4, HorusecCLIDockerCommandStartPhase5_6, "")
+Rel(HorusecCLIDockerCommandStartPhase5_5, HorusecCLIDockerCommandStartPhase5_7, "")
+Rel(HorusecCLIDockerCommandStartPhase5_6, HorusecCLIDockerCommandStartPhase5_7, "")
+Rel(HorusecCLIDockerCommandStartPhase5_7, HorusecCLIDockerCommandStartPhase5_8, "")
+Rel(HorusecCLIDockerCommandStartPhase5_8, HorusecCLIDockerCommandStartPhase6, "")
+Rel(HorusecCLIDockerCommandStartPhase6, responseGenerate, "")
 
 @enduml
