@@ -1,8 +1,253 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="129px" preserveAspectRatio="none" style="width:153px;height:129px;background:#FFFFFF;" version="1.1" viewBox="0 0 153 129" width="153px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="95.4844" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="129" x="8" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="14" y="37.9951">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="77" y="37.9951"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="14" y="41.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="18" y="54.292">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="14" y="57.5938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="18" y="70.5889">system</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="14" y="73.8906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="18" y="86.8857">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="14" y="90.1875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="18" y="103.1826">external system</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="14" x2="131" y1="25" y2="25"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="14" x2="131" y1="41.2969" y2="41.2969"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="14" x2="131" y1="57.5938" y2="57.5938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="14" x2="131" y1="73.8906" y2="73.8906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="14" x2="131" y1="90.1875" y2="90.1875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="14" x2="131" y1="106.4844" y2="106.4844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="14" x2="14" y1="25" y2="106.4844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="131" x2="131" y1="25" y2="106.4844"/><!--MD5=[350d2f5e48825ebfe17e06a52c12201a]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="5731px" preserveAspectRatio="none" style="width:2708px;height:5731px;background:#FFFFFF;" version="1.1" viewBox="0 0 2708 5731" width="2708px" zoomAndPan="magnify"><defs/><g><!--MD5=[8316aae69bbe8e3dc310d25af1c011df]
+cluster horusecCLI--><rect fill="#FFFFFF" height="3689.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1362" x="1340" y="252"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="108" x="1967" y="268.8516">Horusec-CLI</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="1990" y="283.7637">[System]</text><!--MD5=[fda6507f42ee6a5a8fe30e630dcce20a]
+cluster commandStart--><rect fill="#FFFFFF" height="3606.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="547" x="1364" y="311"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="143" x="1566" y="327.8516">Comando 'Start'</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="1606.5" y="342.7637">[System]</text><!--MD5=[4fd821d4aab08e594726137ae254df99]
+cluster commandStartPhase1--><rect fill="#FFFFFF" height="659" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="394" x="1441" y="370"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="378" x="1449" y="386.8516">Realiza o set das configurações do projeto</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="1607" y="401.7637">[System]</text><!--MD5=[668dcc5969a9e37bee382f6c010bef09]
+cluster commandStartPhase5--><rect fill="#FFFFFF" height="1092" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="252" x="1421" y="1778"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="119" x="1487.5" y="1794.8516">Iníciar análise</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="1516" y="1809.7637">[System]</text><!--MD5=[1a2d03364b493d1bc283ceda84f22268]
+cluster commandStartPhase6--><rect fill="#FFFFFF" height="801.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="499" x="1388" y="2917"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="483" x="1396" y="2933.8516">Envio e sincronização da análise com a web application</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="1606.5" y="2948.7637">[System]</text><!--MD5=[dca2143effcbdaa6645d6fecfe120150]
+cluster commandGenerate--><rect fill="#FFFFFF" height="378" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="467" x="1935" y="412"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="2078" y="428.8516">Comando 'Generate'</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="2137.5" y="443.7637">[System]</text><!--MD5=[3a42aabd26cf36e4b82ecc3395687c11]
+cluster commandVersion--><rect fill="#FFFFFF" height="124" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="252" x="2426" y="421.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="165" x="2469.5" y="438.3516">Comando 'Version'</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="2521" y="453.2637">[System]</text><!--MD5=[3df576935897ee00c97ca07c8593dec1]
+cluster horusecPlatform--><rect fill="#FFFFFF" height="2074.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1309" x="7" y="3467"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="156" x="583.5" y="3483.8516">Horusec-Platform</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="630.5" y="3498.7637">[System]</text><!--MD5=[6e190c96cb51b7351f8b2b1684b6881c]
+cluster horusecPlatformAPI--><rect fill="#FFFFFF" height="1092.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1063" x="229" y="3526"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="236" x="642.5" y="3542.8516">Micro-serviço Horusec-API</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="729.5" y="3557.7637">[System]</text><!--MD5=[e12e2039b08dee3e2ccb84718a3e9ddc]
+cluster horusecPlatformAPIRotaGet--><rect fill="#FFFFFF" height="523.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="512" x="756" y="3585"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="496" x="764" y="3601.8516">Micro-serviço Horusec-API Rota [GET /api/analysis/{ID}]</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="981" y="3616.7637">[System]</text><!--MD5=[0c80b759ef409c8c18d7cea1b5d0c49f]
+cluster horusecPlatformAPIRotaPost--><rect fill="#FFFFFF" height="1009.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="479" x="253" y="3585"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="463" x="261" y="3601.8516">Micro-serviço Horusec-API Rota [POST /api/analysis]</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="461.5" y="3616.7637">[System]</text><!--MD5=[1763765587c396d9291dd78e1efa1c79]
+cluster horusecPlatformWebhook--><rect fill="#FFFFFF" height="852" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="371" x="534" y="4665.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="290" x="574.5" y="4682.3516">Micro-serviço Horusec-Webhook</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="688.5" y="4697.2637">[System]</text><!--MD5=[ee0f2e09115e5edbcce4921d16201b0f]
+cluster horusecPlatformAnalytic--><rect fill="#FFFFFF" height="684" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="291" x="219" y="4665.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="275" x="227" y="4682.3516">Micro-serviço Horusec-Analytic</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="333.5" y="4697.2637">[System]</text><!--MD5=[abf76476af4851857ec531dd62d9da7b]
+entity commandStartPhase2--><rect fill="#1168BD" height="141.0625" style="stroke:#3C7FC0;stroke-width:1.5;" width="220" x="1586" y="1090"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="1602.5" y="1114.8516">Verifica se o usuário</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="200" x="1596" y="1133.4766">não passou o diretório</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="87" x="1652.5" y="1152.1016">da análise</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1698" y="1168.8701"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1635.5" y="1185.167">Caso não tenha a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="1596.5" y="1201.4639">informação deverá perguntar</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="1612" y="1217.7607">antes de iniciar a análise</text><!--MD5=[5c290583bc918b4d67f1df8abaaf2509]
+entity commandStartPhase3--><rect fill="#1168BD" height="175.9844" style="stroke:#3C7FC0;stroke-width:1.5;" width="212" x="1505" y="1306"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="111" x="1552.5" y="1330.8516">Normaliza as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="142" x="1537" y="1349.4766">configurações e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="186" x="1515" y="1368.1016">realiza a validação de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="79" x="1571.5" y="1386.7266">entradas</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1613" y="1403.4951"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="1525" y="1419.792">As validações podem ser</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="1527" y="1436.0889">entre: Diretório inválido,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="1519" y="1452.3857">Requisitos não atendidos,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1563.5" y="1468.6826">dentre outros</text><!--MD5=[94b524559bd88de1a5af99ddd11a193c]
+entity commandStartPhase4--><rect fill="#1168BD" height="159.6875" style="stroke:#3C7FC0;stroke-width:1.5;" width="211" x="1463.5" y="1557"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="118" x="1507" y="1581.8516">Verifica quais</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="1505" y="1600.4766">linguagens de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="185" x="1473.5" y="1619.1016">programação tem no</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="64" x="1537" y="1637.7266">projeto</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1571" y="1654.4951"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="1482.5" y="1670.792">Além de identificar é feito</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="1488.5" y="1687.0889">um filtro de linguagens</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="1474" y="1703.3857">suportadas pela ferramenta</text><!--MD5=[1569cb88b1aa72f3f41dd2f7c43d867c]
+entity commandStartPhase7--><rect fill="#1168BD" height="122.4375" style="stroke:#3C7FC0;stroke-width:1.5;" width="215" x="1579.5" y="3779.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="144" x="1612" y="3804.3516">Cria o output da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="60" x="1657" y="3822.9766">análise</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1689" y="3839.7451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="1593.5" y="3856.042">O output pode variar entre:</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1615.5" y="3872.3389">terminal, texto, json,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="1649.5" y="3888.6357">sonarqube</text><!--MD5=[5c1d38549e85a23b1eff36d8b32cdc45]
+entity commandStartPhase1_1--><rect fill="#1168BD" height="159.6875" style="stroke:#3C7FC0;stroke-width:1.5;" width="192" x="1611" y="421"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="94" x="1657" y="445.8516">Adquire as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="153" x="1627.5" y="464.4766">configurações do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="93" x="1657.5" y="483.1016">arquivo de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="114" x="1650" y="501.7266">configuração</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1709" y="518.4951"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1647.5" y="534.792">Logo em seguida</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="1647.5" y="551.0889">sobreescreve as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="1621" y="567.3857">configurações anteriores</text><!--MD5=[23382c722f2ceba7870cabe0498cd500]
+entity commandStartPhase1_2--><rect fill="#1168BD" height="141.0625" style="stroke:#3C7FC0;stroke-width:1.5;" width="213" x="1595.5" y="656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="94" x="1652" y="680.8516">Adquire as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="162" x="1618" y="699.4766">configurações das</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="193" x="1605.5" y="718.1016">variáveis de ambiente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1704" y="734.8701"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1642.5" y="751.167">Logo em seguida</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="1642.5" y="767.4639">sobreescreve as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="1616" y="783.7607">configurações anteriores</text><!--MD5=[f7f4ee39084b203e14bdbffa0832ffc7]
+entity commandStartPhase1_3--><rect fill="#1168BD" height="141.0625" style="stroke:#3C7FC0;stroke-width:1.5;" width="192" x="1601" y="872"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="94" x="1647" y="896.8516">Adquire as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="162" x="1613" y="915.4766">configurações das</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="42" x="1676" y="934.1016">flags</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1699" y="950.8701"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1637.5" y="967.167">Logo em seguida</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="1637.5" y="983.4639">sobreescreve as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="1611" y="999.7607">configurações anteriores</text><!--MD5=[70caad1c705bf459abff7257f27d64c6]
+entity commandStartPhase5_1--><rect fill="#1168BD" height="227.2031" style="stroke:#3C7FC0;stroke-width:1.5;" width="220" x="1437" y="1829"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="177" x="1455.5" y="1853.8516">Inicia a detecção de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="178" x="1455" y="1872.4766">falhas de segurança</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="1453.5" y="1891.1016">para cada linguagem</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="172" x="1458" y="1909.7266">de programação de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="153" x="1470.5" y="1928.3516">forma assíncrona</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1549" y="1945.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="1474.5" y="1961.417">Caso a linguagem de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="1447" y="1977.7139">programação exija download</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="1471" y="1994.0107">da imagem docker irá</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="1453" y="2010.3076">verificar se o usuário pediu</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1487" y="2026.6045">para desabilitar a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="1495" y="2042.9014">funcionalidade.</text><!--MD5=[30b0b0a34b8d9abeb44c9ff2038e1f66]
+entity commandStartPhase5_2--><rect fill="#1168BD" height="113.125" style="stroke:#3C7FC0;stroke-width:1.5;" width="204" x="1445" y="2131"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="146" x="1471" y="2155.8516">Centralização de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="177" x="1455.5" y="2174.4766">dados das possíveis</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="178" x="1455" y="2193.1016">falhas de segurança</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="149" x="1469.5" y="2211.7266">via referência de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="76" x="1509" y="2230.3516">memoria</text><!--MD5=[1ee8ac210d4e78fba68985329379ca89]
+entity commandStartPhase5_3--><rect fill="#1168BD" height="229.5313" style="stroke:#3C7FC0;stroke-width:1.5;" width="219" x="1437.5" y="2319"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="126" x="1481" y="2343.8516">Após todas as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="1483" y="2362.4766">linguagens de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="198" x="1448" y="2381.1016">programação terminar</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="1453.5" y="2399.7266">sua análise deve ser</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="199" x="1447.5" y="2418.3516">feito normalização dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="53" x="1520.5" y="2436.9766">dados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1549" y="2453.7451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1480.5" y="2470.042">A normalização são</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="1469.5" y="2486.3389">validações como falso</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1474.5" y="2502.6357">positivos, minímo de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="1477" y="2518.9326">severidade para ser</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="1464.5" y="2535.2295">acusada, dentre outros.</text><!--MD5=[33497f4291fceec8357c8b122463433d]
+entity commandStartPhase5_4--><rect fill="#1168BD" height="229.5313" style="stroke:#3C7FC0;stroke-width:1.5;" width="219" x="1437.5" y="2624"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="126" x="1481" y="2648.8516">Após todas as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="1483" y="2667.4766">linguagens de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="198" x="1448" y="2686.1016">programação terminar</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="1453.5" y="2704.7266">sua análise deve ser</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="199" x="1447.5" y="2723.3516">feito normalização dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="53" x="1520.5" y="2741.9766">dados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1549" y="2758.7451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1480.5" y="2775.042">A normalização são</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="1469.5" y="2791.3389">validações como falso</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1474.5" y="2807.6357">positivos, minímo de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="1477" y="2823.9326">severidade para ser</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="1464.5" y="2840.2295">acusada, dentre outros.</text><!--MD5=[248539008c025bdaf31c1aea7bd66d85]
+entity commandStartPhase6_1--><rect fill="#1168BD" height="57.25" style="stroke:#3C7FC0;stroke-width:1.5;" width="165" x="1458.5" y="2968"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="139" x="1468.5" y="2992.8516">Existe token de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="111" x="1485.5" y="3011.4766">autorização?</text><!--MD5=[3424e2df546cedbeb47dee29ac79b4b2]
+entity commandStartPhase6_2--><rect fill="#1168BD" height="57.25" style="stroke:#3C7FC0;stroke-width:1.5;" width="198" x="1415" y="3100"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="172" x="1425" y="3124.8516">Envia análise para a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="123" x="1452.5" y="3143.4766">aplicação web</text><!--MD5=[dd64564326f246a4681e9961deeac5d5]
+entity commandStartPhase6_3--><rect fill="#1168BD" height="173.6563" style="stroke:#3C7FC0;stroke-width:1.5;" width="205" x="1411.5" y="3232"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="150" x="1436" y="3256.8516">Adquire a análise</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="150" x="1436" y="3275.4766">tratada pela web</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="83" x="1472.5" y="3294.1016">aplication</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1516" y="3310.8701"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="1434" y="3327.167">Os tratamentos podem</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="1447.5" y="3343.4639">váriar entre tipo de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="1421.5" y="3359.7607">vulnerabildiade e níveis de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1425" y="3376.0576">severidades alterados via</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1465.5" y="3392.3545">aplicação web</text><!--MD5=[2ae3516b0504bf96fff88cdd6c96c54e]
+entity commandStartPhase6_4--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="211" x="1412.5" y="3626.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="139" x="1445.5" y="3651.3516">Sobreescreve a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="185" x="1422.5" y="3669.9766">análise realizada pela</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="28" x="1504" y="3688.6016">CLI</text><!--MD5=[c0384a613107c8f29f528e1b7367257c]
+entity commandGeneratePhase1--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="160" x="2044" y="463"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="2073.5" y="487.8516">Arquivo de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="134" x="2054" y="506.4766">configuração já</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="63" x="2092.5" y="525.1016">existe?</text><!--MD5=[2af83bd3b1c3d2e1767367a155f41d14]
+entity commandGeneratePhase2_1--><rect fill="#1168BD" height="94.5" style="stroke:#3C7FC0;stroke-width:1.5;" width="217" x="2168.5" y="679"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="161" x="2193.5" y="703.8516">Verifica se alguma</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="180" x="2184" y="722.4766">configuração não foi</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="197" x="2178.5" y="741.1016">realizada e adiciona as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="72" x="2241" y="759.7266">padrões</text><!--MD5=[40d058539922654042ce54f63f5b93c7]
+entity commandGeneratePhase2_2--><rect fill="#1168BD" height="94.5" style="stroke:#3C7FC0;stroke-width:1.5;" width="182" x="1951" y="679"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="156" x="1961" y="703.8516">Cria e escreve no</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="91" x="1993.5" y="722.4766">arquivo as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1976.5" y="741.1016">configurações</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="72" x="2006" y="759.7266">padrões</text><!--MD5=[8c51ea489cab53524a160233216eb940]
+entity commandVersionPhase1--><rect fill="#1168BD" height="57.25" style="stroke:#3C7FC0;stroke-width:1.5;" width="220" x="2442" y="472.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="194" x="2452" y="497.3516">Mostra a versão atual</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="2490" y="515.9766">da horusec-cli</text><!--MD5=[854ad9d99cc504c63c72f55f76bdd4ac]
+entity horusecPlatformRabbitMQ--><path d="M28.5,4503 L207.5,4503 C212.5,4503 212.5,4540.5938 212.5,4540.5938 C212.5,4540.5938 212.5,4578.1875 207.5,4578.1875 L28.5,4578.1875 C23.5,4578.1875 23.5,4540.5938 23.5,4540.5938 C23.5,4540.5938 23.5,4503 28.5,4503 " fill="#85BBF0" style="stroke:#78A8D8;stroke-width:1.5;"/><path d="M207.5,4503 C202.5,4503 202.5,4540.5938 202.5,4540.5938 C202.5,4578.1875 207.5,4578.1875 207.5,4578.1875 " fill="none" style="stroke:#78A8D8;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="146" x="40" y="4522.8516">Message Broker</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="72.5" y="4537.7637">[RabbitMQ:3]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="115" y="4553.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="32.5" y="4569.8857">Serviço de menssageria</text><!--MD5=[e2d9cad45306d707b0fb2e653b7e57ee]
+entity HorusecPlatformDatabase--><path d="M921,5065.5 C921,5055.5 1025,5055.5 1025,5055.5 C1025,5055.5 1129,5055.5 1129,5065.5 L1129,5155.9844 C1129,5165.9844 1025,5165.9844 1025,5165.9844 C1025,5165.9844 921,5165.9844 921,5155.9844 L921,5065.5 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M921,5065.5 C921,5075.5 1025,5075.5 1025,5075.5 C1025,5075.5 1129,5075.5 1129,5065.5 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="166" x="942" y="5094.3516">Database-Platform</text><a href="Container:" target="_top" title="Container:" xlink:actuate="onRequest" xlink:href="Container:" xlink:show="new" xlink:title="Container:" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" text-decoration="underline" textLength="87" x="981.5" y="5109.2637">Postgresql:12</text></a><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1027" y="5125.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="935" y="5141.3857">Armazena nova análise no</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="939" y="5157.6826">banco de dados platform</text><!--MD5=[1c12f899effea005f7b9d239f6de618a]
+entity HorusecAnalyticDatabase--><path d="M23.5,5250.5 C23.5,5240.5 113,5240.5 113,5240.5 C113,5240.5 202.5,5240.5 202.5,5250.5 L202.5,5340.9844 C202.5,5350.9844 113,5350.9844 113,5350.9844 C113,5350.9844 23.5,5350.9844 23.5,5340.9844 L23.5,5250.5 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M23.5,5250.5 C23.5,5260.5 113,5260.5 113,5260.5 C113,5260.5 202.5,5260.5 202.5,5250.5 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="159" x="33.5" y="5279.3516">Database-Analytic</text><a href="Container:" target="_top" title="Container:" xlink:actuate="onRequest" xlink:href="Container:" xlink:show="new" xlink:title="Container:" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" text-decoration="underline" textLength="87" x="69.5" y="5294.2637">Postgresql:12</text></a><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="115" y="5310.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="44" y="5326.3857">Armazena dados do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="76" y="5342.6826">dashboard</text><!--MD5=[882a1bc14f5bc180131d8719f012f7a9]
+entity horusecPlatformAPIRotaGetPhase1--><rect fill="#1168BD" height="57.25" style="stroke:#3C7FC0;stroke-width:1.5;" width="136" x="970" y="3636"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="110" x="980" y="3660.8516">Validação de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="102" x="987" y="3679.4766">autorização</text><!--MD5=[eedd0e7f5f2df7a3752d0987fbffed42]
+entity horusecPlatformAPIRotaGetPhase2--><rect fill="#1168BD" height="57.25" style="stroke:#3C7FC0;stroke-width:1.5;" width="189" x="923.5" y="3812"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="163" x="933.5" y="3836.8516">Adquirir análise no</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="69" x="983.5" y="3855.4766">sistema</text><!--MD5=[5270f0344166b6fcc7165851ca5716a8]
+entity horusecPlatformAPIRotaGetPhase3--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="204" x="909" y="4016.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="178" x="919" y="4041.3516">Retorna sucesso ou</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="138" x="939" y="4059.9766">erro ao adquirir</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="60" x="981" y="4078.6016">análise</text><!--MD5=[bd922ea7e586ee9d246f7b572cc1c298]
+entity horusecPlatformAPIRotaPostPhase1--><rect fill="#1168BD" height="57.25" style="stroke:#3C7FC0;stroke-width:1.5;" width="136" x="560" y="3636"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="110" x="570" y="3660.8516">Validação de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="102" x="577" y="3679.4766">autorização</text><!--MD5=[24ca19daf5921d01ed48837193c078ac]
+entity horusecPlatformAPIRotaPostPhase2--><rect fill="#1168BD" height="57.25" style="stroke:#3C7FC0;stroke-width:1.5;" width="211" x="503.5" y="3812"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="185" x="513.5" y="3836.8516">Validação de entrada</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="81" x="568.5" y="3855.4766">de dados</text><!--MD5=[ffc8234a169d01e6138919421f31d458]
+entity horusecPlatformAPIRotaPostPhase3--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="217" x="498.5" y="4016.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="80" x="564" y="4041.3516">Hash das</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="191" x="508.5" y="4059.9766">vulnerabilidade existe</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="140" x="537" y="4078.6016">no repositório ?</text><!--MD5=[9d1c57727fce2f55a65a3b68e0f61f56]
+entity horusecPlatformAPIRotaPostPhase4--><rect fill="#1168BD" height="94.5" style="stroke:#3C7FC0;stroke-width:1.5;" width="219" x="277.5" y="4181.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="153" x="307.5" y="4206.3516">Não é necessário</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="193" x="287.5" y="4224.9766">inserir vulnerabilidade</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="126" x="321" y="4243.6016">novamente na</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="80" x="347" y="4262.2266">aplicação</text><!--MD5=[c29ca8baad2132c06887a3e7f79447e6]
+entity horusecPlatformAPIRotaPostPhase5--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="184" x="532" y="4191"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="121" x="560.5" y="4215.8516">Insere a nova</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="158" x="542" y="4234.4766">vulnerabilidade na</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="80" x="584" y="4253.1016">aplicação</text><!--MD5=[6dad8dbac76250c18440303204c1d3ed]
+entity horusecPlatformAPIRotaPostPhase6--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="210" x="282" y="4351.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="184" x="292" y="4376.3516">Envio da análise para</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="101" x="333.5" y="4394.9766">os serviços</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="106" x="334" y="4413.6016">necessários</text><!--MD5=[adc5db329d18d31be48ff0d808f93588]
+entity horusecPlatformAPIRotaPostPhase7--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="204" x="285" y="4502.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="178" x="295" y="4527.3516">Retorna sucesso ou</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="173" x="297.5" y="4545.9766">erro na inserção da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="60" x="357" y="4564.6016">análise</text><!--MD5=[f3d52baf1e2b5ea3b9924d6ce84d02f3]
+entity horusecPlatformWebhookPhase1--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="214" x="571" y="4716.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="143" x="603.5" y="4741.3516">Recebimento da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="188" x="581" y="4759.9766">análise via serviço de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="112" x="622" y="4778.6016">menssageria</text><!--MD5=[ae9755722163215a6aa9c8c1d1dcfec2]
+entity horusecPlatformWebhookPhase2--><rect fill="#1168BD" height="57.25" style="stroke:#3C7FC0;stroke-width:1.5;" width="210" x="595" y="4895.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="184" x="605" y="4920.3516">Adquirir webhook do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="97" x="651.5" y="4938.9766">repositório</text><!--MD5=[fa38a6337a524fcc00db58b9753758e3]
+entity horusecPlatformWebhookPhase3--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="218" x="591" y="5072.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="177" x="608.5" y="5097.3516">O repositório existe</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="192" x="601" y="5115.9766">webhook configurado</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="9" x="695.5" y="5134.6016">?</text><!--MD5=[5cb3d0ec74ed4e210ed1422a6054f5ce]
+entity horusecPlatformWebhookPhase4--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="212" x="550" y="5257.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="160" x="573" y="5282.3516">Montar requisição</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="186" x="560" y="5300.9766">HTTP e disparar para</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="565.5" y="5319.6016">destino de terceiros</text><!--MD5=[800699cef89a69d0479be4937ab2c075]
+entity horusecPlatformWebhookPhase5--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="184" x="635" y="5425.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="116" x="666" y="5450.3516">Habilitar para</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="158" x="645" y="5468.9766">consumir próximo</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="61" x="696.5" y="5487.6016">pacote</text><!--MD5=[796d6241dea630f8d9eba97c1eb38eeb]
+entity horusecPlatformAnalyticPhase1--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="214" x="236" y="4716.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="143" x="268.5" y="4741.3516">Recebimento da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="188" x="246" y="4759.9766">análise via serviço de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="112" x="287" y="4778.6016">menssageria</text><!--MD5=[95106603ebe71ca62ef89ce309d19187]
+entity horusecPlatformAnalyticPhase2--><rect fill="#1168BD" height="113.125" style="stroke:#3C7FC0;stroke-width:1.5;" width="219" x="235.5" y="4867.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="146" x="269" y="4892.3516">Validar dados do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="199" x="245.5" y="4910.9766">analytic fazendo parse</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="179" x="252.5" y="4929.6016">da análise para cada</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="155" x="264.5" y="4948.2266">gráfico da tela de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="93" x="298.5" y="4966.8516">dashboard</text><!--MD5=[750bd98e34b5d4cb2e0547e288581886]
+entity horusecPlatformAnalyticPhase3--><rect fill="#1168BD" height="57.25" style="stroke:#3C7FC0;stroke-width:1.5;" width="217" x="235.5" y="5082"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="197" x="245.5" y="5106.8516">Inserir dados em suas</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="173" x="257.5" y="5125.4766">respectivas tabelas</text><!--MD5=[632bbfa211ded8b5ed3d3f1b68e5383f]
+entity horusecPlatformAnalyticPhase4--><rect fill="#1168BD" height="75.875" style="stroke:#3C7FC0;stroke-width:1.5;" width="184" x="252" y="5257.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="116" x="283" y="5282.3516">Habilitar para</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="158" x="262" y="5300.9766">consumir próximo</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="61" x="313.5" y="5319.6016">pacote</text><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#08427B" height="170.4375" style="stroke:#073B6F;stroke-width:1.5;" width="216" x="2016" y="7"/><image height="48" width="48" x="2100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="144" x="2049" y="79.8516">Desenvolvedor /</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="110" x="2069" y="98.4766">Esteira CICD</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2126" y="115.2451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="2049.5" y="131.542">Qualquer usuário que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="2026" y="147.8389">interage diretamente com o</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="2036" y="164.1357">código fonte do software.</text><!--MD5=[5b00a9e77d02449924ce4bfbe3f38cdf]
+entity responseGenerate--><rect fill="#999999" height="103.8125" style="stroke:#8A8A8A;stroke-width:1.5;" width="208" x="2084" y="4002.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="83" x="2146.5" y="4027.3516">Resposta</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2190" y="4044.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="2098" y="4060.417">Retorna saída de sucesso</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="2097" y="4076.7139">ou erro de acordo com as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="2102.5" y="4093.0107">configurações realizadas</text><!--MD5=[53cbd273cd4b3f20b0e9f46d65c7385c]
+link user to commandStartPhase1_1--><path d="M2015.91,164.8 C1998.01,178.15 1980.07,192.48 1964,207 C1893.29,270.91 1822.58,353.2 1773.28,414.3 " fill="none" id="user-to-commandStartPhase1_1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1767.98,420.89,1775.3336,416.5397,1770.6599,412.7772,1767.98,420.89" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="150" x="1965" y="226.1387">1: Iniciar uma análise</text><!--MD5=[2f593996b1663d923cf0b4711f348152]
+link commandStartPhase1_1 to commandStartPhase1_2--><path d="M1705.23,581.11 C1704.75,602.71 1704.22,626.1 1703.74,647.63 " fill="none" id="commandStartPhase1_1-to-commandStartPhase1_2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1703.56,655.78,1706.7449,647.8518,1700.7465,647.7125,1703.56,655.78" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="13" x="1706" y="623.1387">2:</text><!--MD5=[71dd35cfa9d0cf6ca0ae5b59a135161e]
+link commandStartPhase1_2 to commandStartPhase1_3--><path d="M1700.37,797.28 C1699.87,818.47 1699.33,841.9 1698.82,863.6 " fill="none" id="commandStartPhase1_2-to-commandStartPhase1_3" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1698.63,871.82,1701.8152,863.8919,1695.8168,863.7524,1698.63,871.82" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="13" x="1701" y="839.1387">3:</text><!--MD5=[33ef6ba494b310ad07d3e3071992f35c]
+link commandStartPhase1_3 to commandStartPhase2--><path d="M1696.68,1013.03 C1696.58,1034.89 1696.46,1059.17 1696.36,1081.57 " fill="none" id="commandStartPhase1_3-to-commandStartPhase2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1696.32,1089.73,1699.3628,1081.7462,1693.3629,1081.714,1696.32,1089.73" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="13" x="1698" y="1057.1387">4:</text><!--MD5=[5ffe319a56c908ea9c61e63cf14e5815]
+link commandStartPhase2 to commandStartPhase3--><path d="M1670.38,1231.27 C1662.65,1252.32 1654.03,1275.8 1645.81,1298.19 " fill="none" id="commandStartPhase2-to-commandStartPhase3" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1643.04,1305.74,1648.6121,1299.263,1642.9793,1297.1962,1643.04,1305.74" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="13" x="1660" y="1273.1387">5:</text><!--MD5=[d0e323f916a2e88ee7705d7d3d5df35d]
+link commandStartPhase3 to commandStartPhase4--><path d="M1595.84,1482.01 C1592.05,1503.74 1587.99,1527.05 1584.2,1548.8 " fill="none" id="commandStartPhase3-to-commandStartPhase4" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1582.81,1556.73,1587.1364,1549.3623,1581.2251,1548.3343,1582.81,1556.73" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="13" x="1591" y="1524.1387">6:</text><!--MD5=[9935410f455c875e7cfaf77358a21549]
+link commandStartPhase4 to commandStartPhase5_1--><path d="M1563.25,1717.34 C1560.96,1748.89 1558.28,1785.88 1555.76,1820.63 " fill="none" id="commandStartPhase4-to-commandStartPhase5_1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1555.16,1828.93,1558.7382,1821.1713,1552.7543,1820.7317,1555.16,1828.93" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="13" x="1562" y="1759.1387">7:</text><!--MD5=[d0cee380b3970856489ebb45cfa3f7c0]
+link commandStartPhase5_1 to commandStartPhase5_2--><path d="M1547,2056.11 C1547,2078.91 1547,2102.14 1547,2122.55 " fill="none" id="commandStartPhase5_1-to-commandStartPhase5_2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1547,2130.81,1550,2122.81,1544,2122.81,1547,2130.81" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="13" x="1548" y="2098.1387">8:</text><!--MD5=[cf67960906a0547ee74efee33ff12b6a]
+link commandStartPhase5_2 to commandStartPhase5_3--><path d="M1547,2244.29 C1547,2264.08 1547,2287.21 1547,2310.37 " fill="none" id="commandStartPhase5_2-to-commandStartPhase5_3" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1547,2318.55,1550,2310.55,1544,2310.55,1547,2318.55" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="13" x="1548" y="2286.1387">9:</text><!--MD5=[752d16c7d1c52708172f1eeb6787952e]
+link commandStartPhase5_3 to commandStartPhase5_4--><path d="M1547,2549.12 C1547,2570.93 1547,2593.85 1547,2615.9 " fill="none" id="commandStartPhase5_3-to-commandStartPhase5_4" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1547,2623.98,1550,2615.98,1544,2615.98,1547,2623.98" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1548" y="2591.1387">10:</text><!--MD5=[85a08b19cfcc8ffb25707a3a6b75a603]
+link commandStartPhase5_4 to commandStartPhase6_1--><path d="M1544.32,2854.3 C1543.42,2892.47 1542.49,2932.26 1541.84,2959.83 " fill="none" id="commandStartPhase5_4-to-commandStartPhase6_1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1541.65,2967.98,1544.8349,2960.0518,1538.8365,2959.9125,1541.65,2967.98" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1545" y="2898.1387">11:</text><!--MD5=[7bb8947e009757cc1f8d8f44214678df]
+link commandStartPhase6_1 to commandStartPhase6_2--><path d="M1505.68,3025.21 C1497.31,3033.77 1489.51,3043.9 1485,3055 C1480.01,3067.27 1483.06,3080.74 1488.73,3092.7 " fill="none" id="commandStartPhase6_1-to-commandStartPhase6_2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1492.55,3099.93,1491.459,3091.4559,1486.1561,3094.2628,1492.55,3099.93" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="50" x="1486" y="3067.1387">12: SIM</text><!--MD5=[049603eff0a2c937b1d81f563888087f]
+link commandStartPhase6_1 to commandStartPhase7--><path d="M1605.46,3025.05 C1644.57,3046.55 1687,3080.66 1687,3127.5 C1687,3127.5 1687,3127.5 1687,3665.5 C1687,3700.31 1687,3739.04 1687,3771.1 " fill="none" id="commandStartPhase6_1-to-commandStartPhase7" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1687,3779.11,1690,3771.11,1684,3771.11,1687,3779.11" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="55" x="1688" y="3323.6387">13: NÃO</text><!--MD5=[33cd7aacd36f817d7594322273013bbf]
+link commandStartPhase6_2 to commandStartPhase6_3--><path d="M1504.06,3157.22 C1501.18,3166.55 1498.43,3177.11 1497,3187 C1495.28,3198.92 1494.97,3211.45 1495.58,3223.86 " fill="none" id="commandStartPhase6_2-to-commandStartPhase6_3" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1496.11,3231.98,1498.5897,3223.8037,1492.6021,3224.1893,1496.11,3231.98" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1498" y="3199.1387">14:</text><!--MD5=[2dfcddc3f6f07d0f47e3569866dfe181]
+link commandStartPhase6_3 to commandStartPhase6_4--><path d="M1501.62,3406.03 C1500.55,3416.12 1499.63,3426.27 1499,3436 C1494.92,3499.43 1503.41,3572.67 1510.32,3618.53 " fill="none" id="commandStartPhase6_3-to-commandStartPhase6_4" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1511.54,3626.49,1513.2898,3618.1271,1507.3594,3619.0386,1511.54,3626.49" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1500" y="3448.1387">15:</text><!--MD5=[1654c528a1eb09542e0e64e1dfe7fe9d]
+link commandStartPhase6_4 to commandStartPhase7--><path d="M1554.25,3702.83 C1574.19,3723.36 1599.52,3749.43 1622.7,3773.29 " fill="none" id="commandStartPhase6_4-to-commandStartPhase7" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1628.54,3779.31,1625.113,3771.4834,1620.8117,3775.6667,1628.54,3779.31" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1599" y="3746.6387">16:</text><!--MD5=[c9325b208a47c6564b4742d2ad152097]
+link commandStartPhase7 to responseGenerate--><path d="M1794.78,3887.11 C1877.84,3922.25 1992.29,3970.69 2076.31,4006.24 " fill="none" id="commandStartPhase7-to-responseGenerate" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2083.83,4009.42,2077.6379,4003.5329,2075.2938,4009.0561,2083.83,4009.42" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1983" y="3969.6387">17:</text><!--MD5=[4cc732cccef294636b2f4be71073cc42]
+link commandStartPhase6_2 to horusecPlatformAPIRotaPostPhase1--><path d="M1453.9,3157.18 C1340.79,3210.18 1089.96,3332.05 893,3459 C808.22,3513.65 716.58,3588.2 666.36,3630.55 " fill="none" id="commandStartPhase6_2-to-horusecPlatformAPIRotaPostPhase1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="660.14,3635.8,668.1822,3632.915,664.3022,3628.3384,660.14,3635.8" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1295" y="3323.6387">18:</text><!--MD5=[4c3af4f93117025743ff0cd69b66cc55]
+link horusecPlatformAPIRotaPostPhase1 to horusecPlatformAPIRotaPostPhase2--><path d="M624.99,3693.07 C621.72,3723.02 616.48,3770.96 612.9,3803.77 " fill="none" id="horusecPlatformAPIRotaPostPhase1-to-horusecPlatformAPIRotaPostPhase2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="612.03,3811.77,615.8831,3804.1441,609.9187,3803.491,612.03,3811.77" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="622" y="3746.6387">19:</text><!--MD5=[c0290e6d888d0109fd93caaeffd28574]
+link horusecPlatformAPIRotaPostPhase2 to horusecPlatformAPIRotaPostPhase3--><path d="M608.74,3869.22 C608.41,3904.46 607.83,3965.81 607.43,4007.97 " fill="none" id="horusecPlatformAPIRotaPostPhase2-to-horusecPlatformAPIRotaPostPhase3" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="607.35,4016.14,610.4213,4008.1671,604.4215,4008.1135,607.35,4016.14" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="609" y="3969.6387">20:</text><!--MD5=[1b5c714bca9d4184e6b1c2ebe0ddb89d]
+link horusecPlatformAPIRotaPostPhase3 to horusecPlatformAPIRotaPostPhase4--><path d="M559.8,4092.51 C528.66,4116.92 487.42,4149.26 453.04,4176.22 " fill="none" id="horusecPlatformAPIRotaPostPhase3-to-horusecPlatformAPIRotaPostPhase4" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="446.71,4181.19,454.853,4178.6031,451.1442,4173.8867,446.71,4181.19" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="50" x="505" y="4148.6387">21: SIM</text><!--MD5=[615df2820c4b159b53f31b2c464ef82d]
+link horusecPlatformAPIRotaPostPhase3 to horusecPlatformAPIRotaPostPhase5--><path d="M578.69,4092.89 C568.79,4110.47 561.57,4131.84 568,4151.5 C571.78,4163.05 578.03,4174.3 585.02,4184.46 " fill="none" id="horusecPlatformAPIRotaPostPhase3-to-horusecPlatformAPIRotaPostPhase5" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="589.7,4190.98,587.4673,4182.7329,582.5951,4186.2345,589.7,4190.98" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="55" x="569" y="4148.6387">22: NÃO</text><!--MD5=[22d4ced0f9ac3dc4ca87d6daf36fe9aa]
+link horusecPlatformAPIRotaPostPhase4 to horusecPlatformAPIRotaPostPhase6--><path d="M387,4276.7 C387,4297.74 387,4322.48 387,4343.34 " fill="none" id="horusecPlatformAPIRotaPostPhase4-to-horusecPlatformAPIRotaPostPhase6" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="387,4351.42,390,4343.42,384,4343.42,387,4351.42" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="388" y="4318.6387">23:</text><!--MD5=[0c13a79fa92c363fa9f62a1bc22fb87b]
+link horusecPlatformAPIRotaPostPhase5 to horusecPlatformAPIRotaPostPhase6--><path d="M568.43,4267.16 C532.76,4291.02 486.36,4322.05 449.41,4346.76 " fill="none" id="horusecPlatformAPIRotaPostPhase5-to-horusecPlatformAPIRotaPostPhase6" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="442.63,4351.3,450.9495,4349.3544,447.6189,4344.3638,442.63,4351.3" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="507" y="4318.6387">24:</text><!--MD5=[60fb2d0b07391cdb9be70b705f67f3c7]
+link horusecPlatformAPIRotaPostPhase6 to horusecPlatformAPIRotaPostPhase7--><path d="M375.81,4427.75 C373.4,4437.35 371.22,4447.74 370,4457.5 C368.51,4469.46 369.76,4482.26 372.14,4494.12 " fill="none" id="horusecPlatformAPIRotaPostPhase6-to-horusecPlatformAPIRotaPostPhase7" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="373.95,4502.16,375.1366,4493.6988,369.2805,4495.0049,373.95,4502.16" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="371" y="4469.6387">25:</text><!--MD5=[b6e7b139fe976aa8312a14e3fb649143]
+link horusecPlatformAPIRotaPostPhase6 to horusecPlatformRabbitMQ--><path d="M320.16,4427.52 C281.05,4449.19 231.62,4476.57 191.42,4498.83 " fill="none" id="horusecPlatformAPIRotaPostPhase6-to-horusecPlatformRabbitMQ" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="184.03,4502.93,192.4806,4501.6703,189.5686,4496.4243,184.03,4502.93" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="262" y="4469.6387">26:</text><!--MD5=[ed3d7bf7568821c29a02c4d1f586a702]
+link horusecPlatformAPIRotaPostPhase5 to HorusecPlatformDatabase--><path d="M700.49,4267.08 C707.09,4270.27 713.66,4273.44 720,4276.5 C823.48,4326.43 953,4273.6 953,4388.5 C953,4388.5 953,4388.5 953,4925 C953,4968.01 970.19,5013.05 987.78,5047.86 " fill="none" id="horusecPlatformAPIRotaPostPhase5-to-HorusecPlatformDatabase" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="991.53,5055.12,990.5272,5046.6351,985.1953,5049.3866,991.53,5055.12" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="954" y="4646.6387">27:</text><!--MD5=[1d2f74ac0c9d9b105ba4868f90f8c93c]
+link commandStartPhase6_3 to horusecPlatformAPIRotaGetPhase1--><path d="M1411.3,3394.11 C1309.29,3467.72 1157.63,3577.17 1082.92,3631.08 " fill="none" id="commandStartPhase6_3-to-horusecPlatformAPIRotaGetPhase1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1076.37,3635.81,1084.6148,3633.5687,1081.1081,3628.7001,1076.37,3635.81" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1348" y="3448.1387">28:</text><!--MD5=[caac5e13a74ce031cedaff8311ba745e]
+link horusecPlatformAPIRotaGetPhase1 to horusecPlatformAPIRotaGetPhase2--><path d="M1034.83,3693.07 C1031.39,3723.02 1025.88,3770.96 1022.11,3803.77 " fill="none" id="horusecPlatformAPIRotaGetPhase1-to-horusecPlatformAPIRotaGetPhase2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1021.19,3811.77,1025.0851,3804.1655,1019.1245,3803.4794,1021.19,3811.77" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1031" y="3746.6387">29:</text><!--MD5=[a8f8751dfce4fa64997d46df0e673995]
+link horusecPlatformAPIRotaGetPhase2 to HorusecPlatformDatabase--><path d="M1049.05,3869 C1087.78,3906.52 1149,3977.79 1149,4053.5 C1149,4053.5 1149,4053.5 1149,4925 C1149,4972.05 1120.88,5016.13 1091.42,5049.4 " fill="none" id="horusecPlatformAPIRotaGetPhase2-to-HorusecPlatformDatabase" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1085.91,5055.48,1093.4999,5051.5566,1089.0487,5047.5334,1085.91,5055.48" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="1150" y="4469.6387">30:</text><!--MD5=[04ed4e90ea358461b5da56eddd14d4b0]
+link horusecPlatformAPIRotaGetPhase2 to horusecPlatformAPIRotaGetPhase3--><path d="M1009.99,3869.22 C1003.25,3895.64 995.14,3936.61 998,3972.5 C998.92,3984.04 1000.57,3996.41 1002.38,4007.93 " fill="none" id="horusecPlatformAPIRotaGetPhase2-to-horusecPlatformAPIRotaGetPhase3" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1003.73,4016.15,1005.406,4007.772,999.4839,4008.7358,1003.73,4016.15" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="999" y="3969.6387">31:</text><!--MD5=[2fc61d85c032457fec8d3fa434f6fc27]
+link horusecPlatformRabbitMQ to horusecPlatformWebhookPhase1--><path d="M168.54,4578.15 C194.88,4595.49 228.34,4614.9 261,4626.5 C349.9,4658.09 380.61,4630.49 471,4657.5 C516.55,4671.11 564.88,4693.06 603.37,4712.53 " fill="none" id="horusecPlatformRabbitMQ-to-horusecPlatformWebhookPhase1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="610.94,4716.39,605.1714,4710.0874,602.4496,4715.4345,610.94,4716.39" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="438" y="4646.6387">32:</text><!--MD5=[8f82a697abb82da412d1049c6d546961]
+link horusecPlatformWebhookPhase1 to horusecPlatformWebhookPhase2--><path d="M678.57,4792.76 C679.11,4806.82 680.12,4822.94 682,4837.5 C684.13,4854 687.73,4872.06 691.17,4887.31 " fill="none" id="horusecPlatformWebhookPhase1-to-horusecPlatformWebhookPhase2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="693.04,4895.47,694.1643,4887.0003,688.318,4888.3494,693.04,4895.47" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="683" y="4834.6387">33:</text><!--MD5=[19764dc692e2c6be61207a743ca5791e]
+link horusecPlatformWebhookPhase2 to horusecPlatformWebhookPhase3--><path d="M691.28,4952.59 C685.92,4972.71 680.51,5000.67 683,5025.5 C684.27,5038.13 686.58,5051.67 689.09,5064.11 " fill="none" id="horusecPlatformWebhookPhase2-to-horusecPlatformWebhookPhase3" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="690.77,5072.11,692.0778,5063.6667,686.2035,5064.8887,690.77,5072.11" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="684" y="5022.6387">34:</text><!--MD5=[e84517608bb6ba1e09e6881ac65f9974]
+link horusecPlatformWebhookPhase2 to HorusecPlatformDatabase--><path d="M748.66,4952.62 C794.51,4978.66 864.68,5018.49 922.83,5051.5 " fill="none" id="horusecPlatformWebhookPhase2-to-HorusecPlatformDatabase" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="929.86,5055.49,924.3894,5048.927,921.4229,5054.1424,929.86,5055.49" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="874" y="5022.6387">35:</text><!--MD5=[031476a4c2fc3054bd078c755ce4843c]
+link horusecPlatformWebhookPhase3 to horusecPlatformWebhookPhase4--><path d="M691.1,5148.53 C684.11,5177.58 674.36,5218.15 666.91,5249.14 " fill="none" id="horusecPlatformWebhookPhase3-to-horusecPlatformWebhookPhase4" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="664.97,5257.21,669.7443,5250.1244,663.9081,5248.7322,664.97,5257.21" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="50" x="681" y="5207.6387">36: SIM</text><!--MD5=[3c2ac2824503a909930378202c725a33]
+link horusecPlatformWebhookPhase4 to horusecPlatformWebhookPhase5--><path d="M671.93,5333.75 C682.58,5358.64 696.63,5391.5 707.88,5417.79 " fill="none" id="horusecPlatformWebhookPhase4-to-horusecPlatformWebhookPhase5" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="711.12,5425.37,710.7221,5416.8353,705.2083,5419.2014,711.12,5425.37" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="699" y="5392.6387">37:</text><!--MD5=[fdde6536839b4d50de509d59e9736442]
+link horusecPlatformWebhookPhase3 to horusecPlatformWebhookPhase5--><path d="M730.42,5148.67 C748.41,5173.12 769.49,5206.76 779,5240.5 C793.11,5290.55 790.85,5306.87 779,5357.5 C774.09,5378.48 764.34,5400.08 754.59,5418.19 " fill="none" id="horusecPlatformWebhookPhase3-to-horusecPlatformWebhookPhase5" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="750.72,5425.21,757.2036,5419.6455,751.946,5416.7544,750.72,5425.21" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="55" x="790" y="5300.1387">38: NÃO</text><!--MD5=[6942a382ce36914e637f1afcb102013c]
+link horusecPlatformRabbitMQ to horusecPlatformAnalyticPhase1--><path d="M156.94,4578.19 C196.02,4615.01 256.19,4671.71 297.46,4710.59 " fill="none" id="horusecPlatformRabbitMQ-to-horusecPlatformAnalyticPhase1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="303.41,4716.2,299.6405,4708.5325,295.5283,4712.9017,303.41,4716.2" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="232" y="4646.6387">39:</text><!--MD5=[33afb6eb068aa58a6fa047bde7c6ad86]
+link horusecPlatformAnalyticPhase1 to horusecPlatformAnalyticPhase2--><path d="M343.44,4792.67 C343.68,4812.24 343.97,4836.79 344.24,4859.29 " fill="none" id="horusecPlatformAnalyticPhase1-to-horusecPlatformAnalyticPhase2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="344.34,4867.47,347.2398,4859.4331,341.2402,4859.5081,344.34,4867.47" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="345" y="4834.6387">40:</text><!--MD5=[85f38da42504b95a37a6a4ee38d4834d]
+link horusecPlatformAnalyticPhase2 to horusecPlatformAnalyticPhase3--><path d="M344.7,4980.61 C344.54,5010.76 344.34,5047.16 344.19,5073.58 " fill="none" id="horusecPlatformAnalyticPhase2-to-horusecPlatformAnalyticPhase3" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="344.15,5081.78,347.1928,5073.7962,341.1929,5073.764,344.15,5081.78" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="346" y="5022.6387">41:</text><!--MD5=[03255dd9ddde600e833ed627adb31c81]
+link horusecPlatformAnalyticPhase3 to horusecPlatformAnalyticPhase4--><path d="M344,5139.29 C344,5168.45 344,5214.75 344,5249.2 " fill="none" id="horusecPlatformAnalyticPhase3-to-horusecPlatformAnalyticPhase4" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="344,5257.24,347,5249.24,341,5249.24,344,5257.24" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="345" y="5207.6387">42:</text><!--MD5=[5e7cb2320ddd677da5df74392452ac97]
+link horusecPlatformAnalyticPhase3 to HorusecAnalyticDatabase--><path d="M309.17,5139.1 C277.1,5164.5 228.48,5203.02 187.66,5235.36 " fill="none" id="horusecPlatformAnalyticPhase3-to-HorusecAnalyticDatabase" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="181.18,5240.49,189.3128,5237.8713,185.5856,5233.1694,181.18,5240.49" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="237" y="5207.6387">43:</text><!--MD5=[05bac3f8c78c68fa44534e69293a83a9]
+link user to commandGeneratePhase1--><path d="M2124,177.33 C2124,261.51 2124,387.69 2124,454.59 " fill="none" id="user-to-commandGeneratePhase1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2124,462.84,2127,454.84,2121,454.84,2124,462.84" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="147" x="2125" y="219.1387">44: Gerar um arquivo</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="114" x="2141.5" y="233.1074">de configuração</text><!--MD5=[f5781019e4f165d31fea4a3e09e84733]
+link commandGeneratePhase1 to commandGeneratePhase2_1--><path d="M2149.44,539.16 C2174.31,575.49 2212.43,631.18 2240.53,672.23 " fill="none" id="commandGeneratePhase1-to-commandGeneratePhase2_1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2245.13,678.94,2243.0775,670.6462,2238.1301,674.0408,2245.13,678.94" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="50" x="2206" y="623.1387">45: Sim</text><!--MD5=[6c3555dc1ef652a4ea6c640097aa0176]
+link commandGeneratePhase1 to commandGeneratePhase2_2--><path d="M2110.37,539.16 C2097.15,575.19 2076.94,630.27 2061.92,671.21 " fill="none" id="commandGeneratePhase1-to-commandGeneratePhase2_2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2059.08,678.94,2064.6521,672.463,2059.0193,670.3962,2059.08,678.94" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="53" x="2084" y="623.1387">46: Não</text><!--MD5=[4ab10e63337314f2b7dfab3c6b03f3da]
+link commandGeneratePhase2_1 to responseGenerate--><path d="M2256.36,774.08 C2239.35,816.76 2218,882.15 2218,941.5 C2218,941.5 2218,941.5 2218,3841.5 C2218,3893.53 2209.03,3952.05 2200.9,3994.4 " fill="none" id="commandGeneratePhase2_1-to-responseGenerate" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2199.34,4002.38,2203.815,3995.1016,2197.9258,3993.9538,2199.34,4002.38" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="2219" y="2438.6387">47:</text><!--MD5=[3e4d8567739253532eb68b970aa15e1d]
+link commandGeneratePhase2_2 to responseGenerate--><path d="M2051.98,774.01 C2060.37,817.19 2071,883.39 2071,941.5 C2071,941.5 2071,941.5 2071,3841.5 C2071,3899.16 2104.59,3955.89 2135.77,3996.14 " fill="none" id="commandGeneratePhase2_2-to-responseGenerate" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2140.75,4002.45,2138.1541,3994.3099,2133.4418,3998.0239,2140.75,4002.45" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="2072" y="2438.6387">48:</text><!--MD5=[fd8f7b151b741070608e94d72e2441b7]
+link user to commandVersionPhase1--><path d="M2232.18,135.03 C2287.66,160.47 2353.56,197.11 2402,244 C2469.38,309.23 2516.78,411.14 2538.55,464.58 " fill="none" id="user-to-commandVersionPhase1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2541.57,472.1,2541.3702,463.5583,2535.803,465.7959,2541.57,472.1" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="135" x="2390" y="219.1387">49: Adquirir a atual</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="130" x="2394.5" y="233.1074">versão do sistema</text><!--MD5=[ae74b4d5ab36939cd7b165b1578e87dc]
+link commandVersionPhase1 to responseGenerate--><path d="M2540.19,529.65 C2523.49,571.31 2495,653.02 2495,725.5 C2495,725.5 2495,725.5 2495,3841.5 C2495,3939.53 2387.71,3995.74 2299.98,4025.32 " fill="none" id="commandVersionPhase1-to-responseGenerate" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2292.36,4027.84,2300.8974,4028.1755,2299.0129,4022.4791,2292.36,4027.84" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="2496" y="2286.1387">50:</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="159" x="2527" y="5554.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="2533" y="5574.4951">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2596" y="5574.4951"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="2533" y="5577.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="2537" y="5590.792">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="2533" y="5594.0938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="2537" y="5607.0889">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="2533" y="5610.3906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="2537" y="5623.3857">container</text><rect fill="#85BBF0" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="2533" y="5626.6875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="2537" y="5639.6826">component</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="2533" y="5642.9844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="2537" y="5655.9795">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="2533" y="5659.2813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="2537" y="5672.2764">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="2533" y="5675.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="2537" y="5688.5732">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="2533" y="5691.875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="2537" y="5704.8701">external component</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2680" y1="5561.5" y2="5561.5"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2680" y1="5577.7969" y2="5577.7969"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2680" y1="5594.0938" y2="5594.0938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2680" y1="5610.3906" y2="5610.3906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2680" y1="5626.6875" y2="5626.6875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2680" y1="5642.9844" y2="5642.9844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2680" y1="5659.2813" y2="5659.2813"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2680" y1="5675.5781" y2="5675.5781"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2680" y1="5691.875" y2="5691.875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2680" y1="5708.1719" y2="5708.1719"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2533" x2="2533" y1="5561.5" y2="5708.1719"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2680" x2="2680" y1="5561.5" y2="5708.1719"/><!--MD5=[5689d095eae32cd325f2be5c459a52e3]
 @startuml horusec-cli-c3
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Deployment.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Dynamic.puml
 
 LAYOUT_WITH_LEGEND()
+
+Person(user, "Desenvolvedor / Esteira CICD", "Qualquer usuário que interage diretamente com o código fonte do software.")
+
+System_Boundary(horusecCLI, "Horusec-CLI") {
+    System_Boundary(commandStart, "Comando 'Start'") {
+      System_Boundary(commandStartPhase1, "Realiza o set das configurações do projeto") {
+        System(commandStartPhase1_1, "Adquire as configurações do arquivo de configuração", "Logo em seguida sobreescreve as configurações anteriores")
+        System(commandStartPhase1_2, "Adquire as configurações das variáveis de ambiente", "Logo em seguida sobreescreve as configurações anteriores")
+        System(commandStartPhase1_3, "Adquire as configurações das flags", "Logo em seguida sobreescreve as configurações anteriores")
+      }
+      System(commandStartPhase2, "Verifica se o usuário não passou o diretório da análise", "Caso não tenha a informação deverá perguntar antes de iniciar a análise")
+      System(commandStartPhase3, "Normaliza as configurações e realiza a validação de entradas", "As validações podem ser entre: Diretório inválido, Requisitos não atendidos, dentre outros")
+      System(commandStartPhase4, "Verifica quais linguagens de programação tem no projeto", "Além de identificar é feito um filtro de linguagens suportadas pela ferramenta")
+      System_Boundary(commandStartPhase5, "Iníciar análise") {
+        System(commandStartPhase5_1, "Inicia a detecção de falhas de segurança para cada linguagem de programação de forma assíncrona", "Caso a linguagem de programação exija download da imagem docker irá verificar se o usuário pediu para desabilitar a funcionalidade.")
+        System(commandStartPhase5_2, "Centralização de dados das possíveis falhas de segurança via referência de memoria", "")
+        System(commandStartPhase5_3, "Após todas as linguagens de programação terminar sua análise deve ser feito normalização dos dados", "A normalização são validações como falso positivos, minímo de severidade para ser acusada, dentre outros.")
+        System(commandStartPhase5_4, "Após todas as linguagens de programação terminar sua análise deve ser feito normalização dos dados", "A normalização são validações como falso positivos, minímo de severidade para ser acusada, dentre outros.")
+      }
+      System_Boundary(commandStartPhase6, "Envio e sincronização da análise com a web application") {
+        System(commandStartPhase6_1, "Existe token de autorização?", "")
+        System(commandStartPhase6_2, "Envia análise para a aplicação web", "")
+        System(commandStartPhase6_3, "Adquire a análise tratada pela web aplication", "Os tratamentos podem váriar entre tipo de vulnerabildiade e níveis de severidades alterados via aplicação web")
+        System(commandStartPhase6_4, "Sobreescreve a análise realizada pela CLI", "")
+      }
+      System(commandStartPhase7, "Cria o output da análise", "O output pode variar entre: terminal, texto, json, sonarqube")
+    }
+    System_Boundary(commandGenerate, "Comando 'Generate'") {
+      System(commandGeneratePhase1, "Arquivo de configuração já existe?", "")
+      System(commandGeneratePhase2_1, "Verifica se alguma configuração não foi realizada e adiciona as padrões", "")
+      System(commandGeneratePhase2_2, "Cria e escreve no arquivo as configurações padrões", "")
+    }
+
+    System_Boundary(commandVersion, "Comando 'Version'") {
+      System(commandVersionPhase1, "Mostra a versão atual da horusec-cli", "")
+    }
+}
+
+System_Boundary(horusecPlatform, "Horusec-Platform") {
+    System_Boundary(horusecPlatformAPI, "Micro-serviço Horusec-API") {
+      System_Boundary(horusecPlatformAPIRotaGet, "Micro-serviço Horusec-API Rota [GET /api/analysis/{ID}]") {
+        System(horusecPlatformAPIRotaGetPhase1, "Validação de autorização", "")
+        System(horusecPlatformAPIRotaGetPhase2, "Adquirir análise no sistema", "")
+        System(horusecPlatformAPIRotaGetPhase3, "Retorna sucesso ou erro ao adquirir análise", "")
+      }
+      System_Boundary(horusecPlatformAPIRotaPost, "Micro-serviço Horusec-API Rota [POST /api/analysis]") {
+        System(horusecPlatformAPIRotaPostPhase1, "Validação de autorização", "")
+        System(horusecPlatformAPIRotaPostPhase2, "Validação de entrada de dados", "")
+        System(horusecPlatformAPIRotaPostPhase3, "Hash das vulnerabilidade existe no repositório ?", "")
+        System(horusecPlatformAPIRotaPostPhase4, "Não é necessário inserir vulnerabilidade novamente na aplicação", "")
+        System(horusecPlatformAPIRotaPostPhase5, "Insere a nova vulnerabilidade na aplicação", "")
+        System(horusecPlatformAPIRotaPostPhase6, "Envio da análise para os serviços necessários", "")
+        System(horusecPlatformAPIRotaPostPhase7, "Retorna sucesso ou erro na inserção da análise", "")
+      }
+    }
+
+    ComponentQueue(horusecPlatformRabbitMQ, "Message Broker", "RabbitMQ:3", "Serviço de menssageria")
+    ContainerDb(HorusecPlatformDatabase, "Database-Platform", "[Container: Postgresql:12]", "Armazena nova análise no banco de dados platform")
+    ContainerDb(HorusecAnalyticDatabase, "Database-Analytic", "[Container: Postgresql:12]", "Armazena dados do dashboard")
+
+    System_Boundary(horusecPlatformWebhook, "Micro-serviço Horusec-Webhook") {
+      System(horusecPlatformWebhookPhase1, "Recebimento da análise via serviço de menssageria", "")
+      System(horusecPlatformWebhookPhase2, "Adquirir webhook do repositório", "")
+      System(horusecPlatformWebhookPhase3, "O repositório existe webhook configurado ?", "")
+      System(horusecPlatformWebhookPhase4, "Montar requisição HTTP e disparar para destino de terceiros", "")
+      System(horusecPlatformWebhookPhase5, "Habilitar para consumir próximo pacote", "")
+    }
+
+    System_Boundary(horusecPlatformAnalytic, "Micro-serviço Horusec-Analytic") {
+      System(horusecPlatformAnalyticPhase1, "Recebimento da análise via serviço de menssageria", "")
+      System(horusecPlatformAnalyticPhase2, "Validar dados do analytic fazendo parse da análise para cada gráfico da tela de dashboard", "")
+      System(horusecPlatformAnalyticPhase3, "Inserir dados em suas respectivas tabelas", "")
+      System(horusecPlatformAnalyticPhase4, "Habilitar para consumir próximo pacote", "")
+    }
+}
+
+System_Ext(responseGenerate, "Resposta", "Retorna saída de sucesso ou erro de acordo com as configurações realizadas", "")
+
+Rel(user, commandStartPhase1_1, "Iniciar uma análise")
+Rel(commandStartPhase1_1, commandStartPhase1_2, "")
+Rel(commandStartPhase1_2, commandStartPhase1_3, "")
+Rel(commandStartPhase1_3, commandStartPhase2, "")
+Rel(commandStartPhase2, commandStartPhase3, "")
+Rel(commandStartPhase3, commandStartPhase4, "")
+Rel(commandStartPhase4, commandStartPhase5_1, "")
+Rel(commandStartPhase5_1, commandStartPhase5_2, "")
+Rel(commandStartPhase5_2, commandStartPhase5_3, "")
+Rel(commandStartPhase5_3, commandStartPhase5_4, "")
+Rel(commandStartPhase5_4, commandStartPhase6_1, "")
+Rel(commandStartPhase6_1, commandStartPhase6_2, "SIM")
+Rel(commandStartPhase6_1, commandStartPhase7, "NÃO")
+Rel(commandStartPhase6_2, commandStartPhase6_3, "")
+Rel(commandStartPhase6_3, commandStartPhase6_4, "")
+Rel(commandStartPhase6_4, commandStartPhase7, "")
+Rel(commandStartPhase7, responseGenerate, "")
+
+
+Rel(commandStartPhase6_2, horusecPlatformAPIRotaPostPhase1, "")
+Rel(horusecPlatformAPIRotaPostPhase1, horusecPlatformAPIRotaPostPhase2, "")
+Rel(horusecPlatformAPIRotaPostPhase2, horusecPlatformAPIRotaPostPhase3, "")
+Rel(horusecPlatformAPIRotaPostPhase3, horusecPlatformAPIRotaPostPhase4, "SIM")
+Rel(horusecPlatformAPIRotaPostPhase3, horusecPlatformAPIRotaPostPhase5, "NÃO")
+Rel(horusecPlatformAPIRotaPostPhase4, horusecPlatformAPIRotaPostPhase6, "")
+Rel(horusecPlatformAPIRotaPostPhase5, horusecPlatformAPIRotaPostPhase6, "")
+Rel(horusecPlatformAPIRotaPostPhase6, horusecPlatformAPIRotaPostPhase7, "")
+Rel(horusecPlatformAPIRotaPostPhase6, horusecPlatformRabbitMQ, "")
+Rel(horusecPlatformAPIRotaPostPhase5, HorusecPlatformDatabase, "")
+Rel(commandStartPhase6_3, horusecPlatformAPIRotaGetPhase1, "")
+Rel(horusecPlatformAPIRotaGetPhase1, horusecPlatformAPIRotaGetPhase2, "")
+Rel(horusecPlatformAPIRotaGetPhase2, HorusecPlatformDatabase, "")
+Rel(horusecPlatformAPIRotaGetPhase2, horusecPlatformAPIRotaGetPhase3, "")
+
+Rel(horusecPlatformRabbitMQ, horusecPlatformWebhookPhase1, "")
+Rel(horusecPlatformWebhookPhase1, horusecPlatformWebhookPhase2, "")
+Rel(horusecPlatformWebhookPhase2, horusecPlatformWebhookPhase3, "")
+Rel(horusecPlatformWebhookPhase2, HorusecPlatformDatabase, "")
+Rel(horusecPlatformWebhookPhase3, horusecPlatformWebhookPhase4, "SIM")
+Rel(horusecPlatformWebhookPhase4, horusecPlatformWebhookPhase5, "")
+Rel(horusecPlatformWebhookPhase3, horusecPlatformWebhookPhase5, "NÃO")
+
+Rel(horusecPlatformRabbitMQ, horusecPlatformAnalyticPhase1, "")
+Rel(horusecPlatformAnalyticPhase1, horusecPlatformAnalyticPhase2, "")
+Rel(horusecPlatformAnalyticPhase2, horusecPlatformAnalyticPhase3, "")
+Rel(horusecPlatformAnalyticPhase3, horusecPlatformAnalyticPhase4, "")
+Rel(horusecPlatformAnalyticPhase3, HorusecAnalyticDatabase, "")
+
+Rel(user, commandGeneratePhase1, "Gerar um arquivo de configuração")
+Rel(commandGeneratePhase1, commandGeneratePhase2_1, "Sim")
+Rel(commandGeneratePhase1, commandGeneratePhase2_2, "Não")
+Rel(commandGeneratePhase2_1, responseGenerate, "")
+Rel(commandGeneratePhase2_2, responseGenerate, "")
+
+
+Rel(user, commandVersionPhase1, "Adquirir a atual versão do sistema")
+Rel(commandVersionPhase1, responseGenerate, "")
 
 @enduml
 
@@ -168,14 +413,1166 @@ sprite $person [48x48/16] {
 
 
 
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<node>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #000000
+    BorderColor #A2A2A2
+    BorderStyle solid
+}
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 hide stereotype
 legend right
 |<color:#000000>**Legend**</color> |
 |<#08427B> person |
-|<#1168BD> system|
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
 |<#686868> external person |
 |<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
 endlegend
+
+rectangle "<$person>\n==Desenvolvedor / Esteira CICD\n\n Qualquer usuário que interage diretamente com o código fonte do software." <<person>> as user
+
+rectangle "==Horusec-CLI\n<size:12>[System]</size>" <<boundary>> as horusecCLI {
+    rectangle "==Comando 'Start'\n<size:12>[System]</size>" <<boundary>> as commandStart {
+      rectangle "==Realiza o set das configurações do projeto\n<size:12>[System]</size>" <<boundary>> as commandStartPhase1 {
+        rectangle "==Adquire as configurações do arquivo de configuração\n\n Logo em seguida sobreescreve as configurações anteriores" <<system>> as commandStartPhase1_1
+        rectangle "==Adquire as configurações das variáveis de ambiente\n\n Logo em seguida sobreescreve as configurações anteriores" <<system>> as commandStartPhase1_2
+        rectangle "==Adquire as configurações das flags\n\n Logo em seguida sobreescreve as configurações anteriores" <<system>> as commandStartPhase1_3
+      }
+      rectangle "==Verifica se o usuário não passou o diretório da análise\n\n Caso não tenha a informação deverá perguntar antes de iniciar a análise" <<system>> as commandStartPhase2
+      rectangle "==Normaliza as configurações e realiza a validação de entradas\n\n As validações podem ser entre: Diretório inválido, Requisitos não atendidos, dentre outros" <<system>> as commandStartPhase3
+      rectangle "==Verifica quais linguagens de programação tem no projeto\n\n Além de identificar é feito um filtro de linguagens suportadas pela ferramenta" <<system>> as commandStartPhase4
+      rectangle "==Iníciar análise\n<size:12>[System]</size>" <<boundary>> as commandStartPhase5 {
+        rectangle "==Inicia a detecção de falhas de segurança para cada linguagem de programação de forma assíncrona\n\n Caso a linguagem de programação exija download da imagem docker irá verificar se o usuário pediu para desabilitar a funcionalidade." <<system>> as commandStartPhase5_1
+        rectangle "==Centralização de dados das possíveis falhas de segurança via referência de memoria" <<system>> as commandStartPhase5_2
+        rectangle "==Após todas as linguagens de programação terminar sua análise deve ser feito normalização dos dados\n\n A normalização são validações como falso positivos, minímo de severidade para ser acusada, dentre outros." <<system>> as commandStartPhase5_3
+        rectangle "==Após todas as linguagens de programação terminar sua análise deve ser feito normalização dos dados\n\n A normalização são validações como falso positivos, minímo de severidade para ser acusada, dentre outros." <<system>> as commandStartPhase5_4
+      }
+      rectangle "==Envio e sincronização da análise com a web application\n<size:12>[System]</size>" <<boundary>> as commandStartPhase6 {
+        rectangle "==Existe token de autorização?" <<system>> as commandStartPhase6_1
+        rectangle "==Envia análise para a aplicação web" <<system>> as commandStartPhase6_2
+        rectangle "==Adquire a análise tratada pela web aplication\n\n Os tratamentos podem váriar entre tipo de vulnerabildiade e níveis de severidades alterados via aplicação web" <<system>> as commandStartPhase6_3
+        rectangle "==Sobreescreve a análise realizada pela CLI" <<system>> as commandStartPhase6_4
+      }
+      rectangle "==Cria o output da análise\n\n O output pode variar entre: terminal, texto, json, sonarqube" <<system>> as commandStartPhase7
+    }
+    rectangle "==Comando 'Generate'\n<size:12>[System]</size>" <<boundary>> as commandGenerate {
+      rectangle "==Arquivo de configuração já existe?" <<system>> as commandGeneratePhase1
+      rectangle "==Verifica se alguma configuração não foi realizada e adiciona as padrões" <<system>> as commandGeneratePhase2_1
+      rectangle "==Cria e escreve no arquivo as configurações padrões" <<system>> as commandGeneratePhase2_2
+    }
+
+    rectangle "==Comando 'Version'\n<size:12>[System]</size>" <<boundary>> as commandVersion {
+      rectangle "==Mostra a versão atual da horusec-cli" <<system>> as commandVersionPhase1
+    }
+}
+
+rectangle "==Horusec-Platform\n<size:12>[System]</size>" <<boundary>> as horusecPlatform {
+    rectangle "==Micro-serviço Horusec-API\n<size:12>[System]</size>" <<boundary>> as horusecPlatformAPI {
+      rectangle "==Micro-serviço Horusec-API Rota [GET /api/analysis/{ID}]\n<size:12>[System]</size>" <<boundary>> as horusecPlatformAPIRotaGet {
+        rectangle "==Validação de autorização" <<system>> as horusecPlatformAPIRotaGetPhase1
+        rectangle "==Adquirir análise no sistema" <<system>> as horusecPlatformAPIRotaGetPhase2
+        rectangle "==Retorna sucesso ou erro ao adquirir análise" <<system>> as horusecPlatformAPIRotaGetPhase3
+      }
+      rectangle "==Micro-serviço Horusec-API Rota [POST /api/analysis]\n<size:12>[System]</size>" <<boundary>> as horusecPlatformAPIRotaPost {
+        rectangle "==Validação de autorização" <<system>> as horusecPlatformAPIRotaPostPhase1
+        rectangle "==Validação de entrada de dados" <<system>> as horusecPlatformAPIRotaPostPhase2
+        rectangle "==Hash das vulnerabilidade existe no repositório ?" <<system>> as horusecPlatformAPIRotaPostPhase3
+        rectangle "==Não é necessário inserir vulnerabilidade novamente na aplicação" <<system>> as horusecPlatformAPIRotaPostPhase4
+        rectangle "==Insere a nova vulnerabilidade na aplicação" <<system>> as horusecPlatformAPIRotaPostPhase5
+        rectangle "==Envio da análise para os serviços necessários" <<system>> as horusecPlatformAPIRotaPostPhase6
+        rectangle "==Retorna sucesso ou erro na inserção da análise" <<system>> as horusecPlatformAPIRotaPostPhase7
+      }
+    }
+
+    queue "==Message Broker\n//<size:12>[RabbitMQ:3]</size>//\n\n Serviço de menssageria" <<component>> as horusecPlatformRabbitMQ
+    database "==Database-Platform\n//<size:12>[[Container: Postgresql:12]]</size>//\n\n Armazena nova análise no banco de dados platform" <<container>> as HorusecPlatformDatabase
+    database "==Database-Analytic\n//<size:12>[[Container: Postgresql:12]]</size>//\n\n Armazena dados do dashboard" <<container>> as HorusecAnalyticDatabase
+
+    rectangle "==Micro-serviço Horusec-Webhook\n<size:12>[System]</size>" <<boundary>> as horusecPlatformWebhook {
+      rectangle "==Recebimento da análise via serviço de menssageria" <<system>> as horusecPlatformWebhookPhase1
+      rectangle "==Adquirir webhook do repositório" <<system>> as horusecPlatformWebhookPhase2
+      rectangle "==O repositório existe webhook configurado ?" <<system>> as horusecPlatformWebhookPhase3
+      rectangle "==Montar requisição HTTP e disparar para destino de terceiros" <<system>> as horusecPlatformWebhookPhase4
+      rectangle "==Habilitar para consumir próximo pacote" <<system>> as horusecPlatformWebhookPhase5
+    }
+
+    rectangle "==Micro-serviço Horusec-Analytic\n<size:12>[System]</size>" <<boundary>> as horusecPlatformAnalytic {
+      rectangle "==Recebimento da análise via serviço de menssageria" <<system>> as horusecPlatformAnalyticPhase1
+      rectangle "==Validar dados do analytic fazendo parse da análise para cada gráfico da tela de dashboard" <<system>> as horusecPlatformAnalyticPhase2
+      rectangle "==Inserir dados em suas respectivas tabelas" <<system>> as horusecPlatformAnalyticPhase3
+      rectangle "==Habilitar para consumir próximo pacote" <<system>> as horusecPlatformAnalyticPhase4
+    }
+}
+
+rectangle "==Resposta\n\n Retorna saída de sucesso ou erro de acordo com as configurações realizadas" <<external_system>> as responseGenerate
+
+user - ->> commandStartPhase1_1 : **1: Iniciar uma análise**
+commandStartPhase1_1 - ->> commandStartPhase1_2 : **2: **
+commandStartPhase1_2 - ->> commandStartPhase1_3 : **3: **
+commandStartPhase1_3 - ->> commandStartPhase2 : **4: **
+commandStartPhase2 - ->> commandStartPhase3 : **5: **
+commandStartPhase3 - ->> commandStartPhase4 : **6: **
+commandStartPhase4 - ->> commandStartPhase5_1 : **7: **
+commandStartPhase5_1 - ->> commandStartPhase5_2 : **8: **
+commandStartPhase5_2 - ->> commandStartPhase5_3 : **9: **
+commandStartPhase5_3 - ->> commandStartPhase5_4 : **10: **
+commandStartPhase5_4 - ->> commandStartPhase6_1 : **11: **
+commandStartPhase6_1 - ->> commandStartPhase6_2 : **12: SIM**
+commandStartPhase6_1 - ->> commandStartPhase7 : **13: NÃO**
+commandStartPhase6_2 - ->> commandStartPhase6_3 : **14: **
+commandStartPhase6_3 - ->> commandStartPhase6_4 : **15: **
+commandStartPhase6_4 - ->> commandStartPhase7 : **16: **
+commandStartPhase7 - ->> responseGenerate : **17: **
+
+
+commandStartPhase6_2 - ->> horusecPlatformAPIRotaPostPhase1 : **18: **
+horusecPlatformAPIRotaPostPhase1 - ->> horusecPlatformAPIRotaPostPhase2 : **19: **
+horusecPlatformAPIRotaPostPhase2 - ->> horusecPlatformAPIRotaPostPhase3 : **20: **
+horusecPlatformAPIRotaPostPhase3 - ->> horusecPlatformAPIRotaPostPhase4 : **21: SIM**
+horusecPlatformAPIRotaPostPhase3 - ->> horusecPlatformAPIRotaPostPhase5 : **22: NÃO**
+horusecPlatformAPIRotaPostPhase4 - ->> horusecPlatformAPIRotaPostPhase6 : **23: **
+horusecPlatformAPIRotaPostPhase5 - ->> horusecPlatformAPIRotaPostPhase6 : **24: **
+horusecPlatformAPIRotaPostPhase6 - ->> horusecPlatformAPIRotaPostPhase7 : **25: **
+horusecPlatformAPIRotaPostPhase6 - ->> horusecPlatformRabbitMQ : **26: **
+horusecPlatformAPIRotaPostPhase5 - ->> HorusecPlatformDatabase : **27: **
+commandStartPhase6_3 - ->> horusecPlatformAPIRotaGetPhase1 : **28: **
+horusecPlatformAPIRotaGetPhase1 - ->> horusecPlatformAPIRotaGetPhase2 : **29: **
+horusecPlatformAPIRotaGetPhase2 - ->> HorusecPlatformDatabase : **30: **
+horusecPlatformAPIRotaGetPhase2 - ->> horusecPlatformAPIRotaGetPhase3 : **31: **
+
+horusecPlatformRabbitMQ - ->> horusecPlatformWebhookPhase1 : **32: **
+horusecPlatformWebhookPhase1 - ->> horusecPlatformWebhookPhase2 : **33: **
+horusecPlatformWebhookPhase2 - ->> horusecPlatformWebhookPhase3 : **34: **
+horusecPlatformWebhookPhase2 - ->> HorusecPlatformDatabase : **35: **
+horusecPlatformWebhookPhase3 - ->> horusecPlatformWebhookPhase4 : **36: SIM**
+horusecPlatformWebhookPhase4 - ->> horusecPlatformWebhookPhase5 : **37: **
+horusecPlatformWebhookPhase3 - ->> horusecPlatformWebhookPhase5 : **38: NÃO**
+
+horusecPlatformRabbitMQ - ->> horusecPlatformAnalyticPhase1 : **39: **
+horusecPlatformAnalyticPhase1 - ->> horusecPlatformAnalyticPhase2 : **40: **
+horusecPlatformAnalyticPhase2 - ->> horusecPlatformAnalyticPhase3 : **41: **
+horusecPlatformAnalyticPhase3 - ->> horusecPlatformAnalyticPhase4 : **42: **
+horusecPlatformAnalyticPhase3 - ->> HorusecAnalyticDatabase : **43: **
+
+user - ->> commandGeneratePhase1 : **44: Gerar um arquivo de configuração**
+commandGeneratePhase1 - ->> commandGeneratePhase2_1 : **45: Sim**
+commandGeneratePhase1 - ->> commandGeneratePhase2_2 : **46: Não**
+commandGeneratePhase2_1 - ->> responseGenerate : **47: **
+commandGeneratePhase2_2 - ->> responseGenerate : **48: **
+
+
+user - ->> commandVersionPhase1 : **49: Adquirir a atual versão do sistema**
+commandVersionPhase1 - ->> responseGenerate : **50: **
 
 @enduml
 

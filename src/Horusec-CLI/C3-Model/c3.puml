@@ -1,6 +1,145 @@
 @startuml horusec-cli-c3
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Deployment.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Dynamic.puml
 
 LAYOUT_WITH_LEGEND()
+
+Person(user, "Desenvolvedor / Esteira CICD", "Qualquer usuário que interage diretamente com o código fonte do software.")
+
+System_Boundary(horusecCLI, "Horusec-CLI") {
+    System_Boundary(commandStart, "Comando 'Start'") {
+      System_Boundary(commandStartPhase1, "Realiza o set das configurações do projeto") {
+        System(commandStartPhase1_1, "Adquire as configurações do arquivo de configuração", "Logo em seguida sobreescreve as configurações anteriores")
+        System(commandStartPhase1_2, "Adquire as configurações das variáveis de ambiente", "Logo em seguida sobreescreve as configurações anteriores")
+        System(commandStartPhase1_3, "Adquire as configurações das flags", "Logo em seguida sobreescreve as configurações anteriores")
+      }
+      System(commandStartPhase2, "Verifica se o usuário não passou o diretório da análise", "Caso não tenha a informação deverá perguntar antes de iniciar a análise")
+      System(commandStartPhase3, "Normaliza as configurações e realiza a validação de entradas", "As validações podem ser entre: Diretório inválido, Requisitos não atendidos, dentre outros")
+      System(commandStartPhase4, "Verifica quais linguagens de programação tem no projeto", "Além de identificar é feito um filtro de linguagens suportadas pela ferramenta")
+      System_Boundary(commandStartPhase5, "Iníciar análise") {
+        System(commandStartPhase5_1, "Inicia a detecção de falhas de segurança para cada linguagem de programação de forma assíncrona", "Caso a linguagem de programação exija download da imagem docker irá verificar se o usuário pediu para desabilitar a funcionalidade.")
+        System(commandStartPhase5_2, "Centralização de dados das possíveis falhas de segurança via referência de memoria", "")
+        System(commandStartPhase5_3, "Após todas as linguagens de programação terminar sua análise deve ser feito normalização dos dados", "A normalização são validações como falso positivos, minímo de severidade para ser acusada, dentre outros.")
+        System(commandStartPhase5_4, "Após todas as linguagens de programação terminar sua análise deve ser feito normalização dos dados", "A normalização são validações como falso positivos, minímo de severidade para ser acusada, dentre outros.")
+      }
+      System_Boundary(commandStartPhase6, "Envio e sincronização da análise com a web application") {
+        System(commandStartPhase6_1, "Existe token de autorização?", "")
+        System(commandStartPhase6_2, "Envia análise para a aplicação web", "")
+        System(commandStartPhase6_3, "Adquire a análise tratada pela web aplication", "Os tratamentos podem váriar entre tipo de vulnerabildiade e níveis de severidades alterados via aplicação web")
+        System(commandStartPhase6_4, "Sobreescreve a análise realizada pela CLI", "")
+      }
+      System(commandStartPhase7, "Cria o output da análise", "O output pode variar entre: terminal, texto, json, sonarqube")
+    }
+    System_Boundary(commandGenerate, "Comando 'Generate'") {
+      System(commandGeneratePhase1, "Arquivo de configuração já existe?", "")
+      System(commandGeneratePhase2_1, "Verifica se alguma configuração não foi realizada e adiciona as padrões", "")
+      System(commandGeneratePhase2_2, "Cria e escreve no arquivo as configurações padrões", "")
+    }
+
+    System_Boundary(commandVersion, "Comando 'Version'") {
+      System(commandVersionPhase1, "Mostra a versão atual da horusec-cli", "")
+    }
+}
+
+System_Boundary(horusecPlatform, "Horusec-Platform") {
+    System_Boundary(horusecPlatformAPI, "Micro-serviço Horusec-API") {
+      System_Boundary(horusecPlatformAPIRotaGet, "Micro-serviço Horusec-API Rota [GET /api/analysis/{ID}]") {
+        System(horusecPlatformAPIRotaGetPhase1, "Validação de autorização", "")
+        System(horusecPlatformAPIRotaGetPhase2, "Adquirir análise no sistema", "")
+        System(horusecPlatformAPIRotaGetPhase3, "Retorna sucesso ou erro ao adquirir análise", "")
+      }
+      System_Boundary(horusecPlatformAPIRotaPost, "Micro-serviço Horusec-API Rota [POST /api/analysis]") {
+        System(horusecPlatformAPIRotaPostPhase1, "Validação de autorização", "")
+        System(horusecPlatformAPIRotaPostPhase2, "Validação de entrada de dados", "")
+        System(horusecPlatformAPIRotaPostPhase3, "Hash das vulnerabilidade existe no repositório ?", "")
+        System(horusecPlatformAPIRotaPostPhase4, "Não é necessário inserir vulnerabilidade novamente na aplicação", "")
+        System(horusecPlatformAPIRotaPostPhase5, "Insere a nova vulnerabilidade na aplicação", "")
+        System(horusecPlatformAPIRotaPostPhase6, "Envio da análise para os serviços necessários", "")
+        System(horusecPlatformAPIRotaPostPhase7, "Retorna sucesso ou erro na inserção da análise", "")
+      }
+    }
+
+    ComponentQueue(horusecPlatformRabbitMQ, "Message Broker", "RabbitMQ:3", "Serviço de menssageria")
+    ContainerDb(HorusecPlatformDatabase, "Database-Platform", "[Container: Postgresql:12]", "Armazena nova análise no banco de dados platform")
+    ContainerDb(HorusecAnalyticDatabase, "Database-Analytic", "[Container: Postgresql:12]", "Armazena dados do dashboard")
+
+    System_Boundary(horusecPlatformWebhook, "Micro-serviço Horusec-Webhook") {
+      System(horusecPlatformWebhookPhase1, "Recebimento da análise via serviço de menssageria", "")
+      System(horusecPlatformWebhookPhase2, "Adquirir webhook do repositório", "")
+      System(horusecPlatformWebhookPhase3, "O repositório existe webhook configurado ?", "")
+      System(horusecPlatformWebhookPhase4, "Montar requisição HTTP e disparar para destino de terceiros", "")
+      System(horusecPlatformWebhookPhase5, "Habilitar para consumir próximo pacote", "")
+    }
+
+    System_Boundary(horusecPlatformAnalytic, "Micro-serviço Horusec-Analytic") {
+      System(horusecPlatformAnalyticPhase1, "Recebimento da análise via serviço de menssageria", "")
+      System(horusecPlatformAnalyticPhase2, "Validar dados do analytic fazendo parse da análise para cada gráfico da tela de dashboard", "")
+      System(horusecPlatformAnalyticPhase3, "Inserir dados em suas respectivas tabelas", "")
+      System(horusecPlatformAnalyticPhase4, "Habilitar para consumir próximo pacote", "")
+    }
+}
+
+System_Ext(responseGenerate, "Resposta", "Retorna saída de sucesso ou erro de acordo com as configurações realizadas", "")
+
+Rel(user, commandStartPhase1_1, "Iniciar uma análise")
+Rel(commandStartPhase1_1, commandStartPhase1_2, "")
+Rel(commandStartPhase1_2, commandStartPhase1_3, "")
+Rel(commandStartPhase1_3, commandStartPhase2, "")
+Rel(commandStartPhase2, commandStartPhase3, "")
+Rel(commandStartPhase3, commandStartPhase4, "")
+Rel(commandStartPhase4, commandStartPhase5_1, "")
+Rel(commandStartPhase5_1, commandStartPhase5_2, "")
+Rel(commandStartPhase5_2, commandStartPhase5_3, "")
+Rel(commandStartPhase5_3, commandStartPhase5_4, "")
+Rel(commandStartPhase5_4, commandStartPhase6_1, "")
+Rel(commandStartPhase6_1, commandStartPhase6_2, "SIM")
+Rel(commandStartPhase6_1, commandStartPhase7, "NÃO")
+Rel(commandStartPhase6_2, commandStartPhase6_3, "")
+Rel(commandStartPhase6_3, commandStartPhase6_4, "")
+Rel(commandStartPhase6_4, commandStartPhase7, "")
+Rel(commandStartPhase7, responseGenerate, "")
+
+
+Rel(commandStartPhase6_2, horusecPlatformAPIRotaPostPhase1, "")
+Rel(horusecPlatformAPIRotaPostPhase1, horusecPlatformAPIRotaPostPhase2, "")
+Rel(horusecPlatformAPIRotaPostPhase2, horusecPlatformAPIRotaPostPhase3, "")
+Rel(horusecPlatformAPIRotaPostPhase3, horusecPlatformAPIRotaPostPhase4, "SIM")
+Rel(horusecPlatformAPIRotaPostPhase3, horusecPlatformAPIRotaPostPhase5, "NÃO")
+Rel(horusecPlatformAPIRotaPostPhase4, horusecPlatformAPIRotaPostPhase6, "")
+Rel(horusecPlatformAPIRotaPostPhase5, horusecPlatformAPIRotaPostPhase6, "")
+Rel(horusecPlatformAPIRotaPostPhase6, horusecPlatformAPIRotaPostPhase7, "")
+Rel(horusecPlatformAPIRotaPostPhase6, horusecPlatformRabbitMQ, "")
+Rel(horusecPlatformAPIRotaPostPhase5, HorusecPlatformDatabase, "")
+Rel(commandStartPhase6_3, horusecPlatformAPIRotaGetPhase1, "")
+Rel(horusecPlatformAPIRotaGetPhase1, horusecPlatformAPIRotaGetPhase2, "")
+Rel(horusecPlatformAPIRotaGetPhase2, HorusecPlatformDatabase, "")
+Rel(horusecPlatformAPIRotaGetPhase2, horusecPlatformAPIRotaGetPhase3, "")
+
+Rel(horusecPlatformRabbitMQ, horusecPlatformWebhookPhase1, "")
+Rel(horusecPlatformWebhookPhase1, horusecPlatformWebhookPhase2, "")
+Rel(horusecPlatformWebhookPhase2, horusecPlatformWebhookPhase3, "")
+Rel(horusecPlatformWebhookPhase2, HorusecPlatformDatabase, "")
+Rel(horusecPlatformWebhookPhase3, horusecPlatformWebhookPhase4, "SIM")
+Rel(horusecPlatformWebhookPhase4, horusecPlatformWebhookPhase5, "")
+Rel(horusecPlatformWebhookPhase3, horusecPlatformWebhookPhase5, "NÃO")
+
+Rel(horusecPlatformRabbitMQ, horusecPlatformAnalyticPhase1, "")
+Rel(horusecPlatformAnalyticPhase1, horusecPlatformAnalyticPhase2, "")
+Rel(horusecPlatformAnalyticPhase2, horusecPlatformAnalyticPhase3, "")
+Rel(horusecPlatformAnalyticPhase3, horusecPlatformAnalyticPhase4, "")
+Rel(horusecPlatformAnalyticPhase3, HorusecAnalyticDatabase, "")
+
+Rel(user, commandGeneratePhase1, "Gerar um arquivo de configuração")
+Rel(commandGeneratePhase1, commandGeneratePhase2_1, "Sim")
+Rel(commandGeneratePhase1, commandGeneratePhase2_2, "Não")
+Rel(commandGeneratePhase2_1, responseGenerate, "")
+Rel(commandGeneratePhase2_2, responseGenerate, "")
+
+
+Rel(user, commandVersionPhase1, "Adquirir a atual versão do sistema")
+Rel(commandVersionPhase1, responseGenerate, "")
 
 @enduml

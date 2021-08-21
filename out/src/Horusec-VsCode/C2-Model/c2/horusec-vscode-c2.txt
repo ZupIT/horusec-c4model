@@ -1,4 +1,4 @@
-java.lang.IllegalStateException: net.sourceforge.plantuml.posimo.Cluster@4bba5378
+java.lang.IllegalStateException: net.sourceforge.plantuml.posimo.Cluster@3bb70555
 	at net.sourceforge.plantuml.posimo.DotxMaker.printCluster(DotxMaker.java:77)
 	at net.sourceforge.plantuml.posimo.DotxMaker.createDotString(DotxMaker.java:64)
 	at net.sourceforge.plantuml.posimo.GraphvizSolverB.solve(GraphvizSolverB.java:88)

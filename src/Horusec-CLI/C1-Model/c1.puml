@@ -6,6 +6,7 @@ LAYOUT_WITH_LEGEND()
 Person(user, "Desenvolvedor / Esteira CICD", "Qualquer usuário que interage diretamente com o código fonte do software.")
 System(horusecCLI, "Horusec CLI", "Ferramenta que realiza as análises de seguranças no código do desenvolvedor.")
 System(horusecPlatform, "Horusec Platform (opcional)", "Ferramenta WEB para gerenciar e visualizar as vulnerabilidades encontradas pela CLI.")
+System_Ext(response, "Resposta", "Retorna saída de sucesso ou erro de acordo com as configurações realizadas", "")
 
 Rel(user, horusecCLI, "Inicia análise de segurança no projeto")
 
@@ -13,5 +14,5 @@ Rel(horusecCLI, horusecPlatform, "Salva resultado da análise na API caso exista
 
 Rel(horusecPlatform, horusecCLI, "Retorna sucesso ou erro para resposta da requisição")
 
-Rel(horusecCLI, user, "Exibe ou exporta resultado da análise")
+Rel(horusecCLI, response, "Exibe ou exporta resultado da análise")
 @enduml

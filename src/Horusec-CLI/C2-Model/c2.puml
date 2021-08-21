@@ -10,42 +10,51 @@ LAYOUT_WITH_LEGEND()
 Person(user, "Desenvolvedor / Esteira CICD", "Qualquer usuário que interage diretamente com o código fonte do software.")
 
 System_Boundary(horusecCLI, "Horusec-CLI") {
-    System(horusecCLIPhase1, "", "Realiza Verificações de entrada de dados")
-    System(horusecCLIPhase2, "", "Inicía análise")
-    System(horusecCLIPhase3, "", "Inicia todas as ferramentas de análise necessárias de forma assincrona")
-    System(horusecCLIPhase4_1, "", "Baixa a imagem docker")
-    System(horusecCLIPhase4_2, "", "Executa e formata a análise")
-    System(horusecCLIPhase5, "", "Exporta o resultado da análise")
+    System_Boundary(commandStart, "Horusec-CLI Comando 'Start'") {
+        System(commandStartPhase1, "Realiza Verificações de entrada de dados", "")
+        System(commandStartPhase2, "Inicía análise", "")
+        System(commandStartPhase3, "Inicia todas as ferramentas de análise necessárias de forma assincrona", "")
+        System(commandStartPhase4_1, "Baixa a imagem docker", "")
+        System(commandStartPhase4_2, "Executa e formata a análise", "")
+        System(commandStartPhase5, "Exporta o resultado da análise", "")
+    }
+    System_Boundary(commandGenerate, "Horusec-CLI Comando 'Generate'") {
+        System(commandGeneratePhase1, "Cria e atualiza arquivos de configuração da horusec-cli", "")
+    }
+    System_Boundary(commandVersion, "Horusec-CLI Comando 'Version'") {
+        System(commandVersionPhase1, "Verifica a versão atual da horusec-cli", "")
+    }
 }
 
-System_Ext(horusecResponse, "Response", "Retorna saída de sucesso ou erro de acordo com as configurações realizadas", "")
+System_Ext(horusecResponse, "Resposta", "Retorna saída de sucesso ou erro de acordo com as configurações realizadas", "")
 
 System_Boundary(horusecPlatform, "Horusec-Platform") {
     Container(horusecPlatformAPI, "Horusec-API", "API que recebe a análise realizada e salva em sua base de dados API que mostra se existe alguma validação aplicada para as vulnerabilidades encontradas como: falso positivo, risco aceito, dentre outros.")
-    ContainerDb(HorusecPlatformDatabase, "Database-Horusec", "[Container: Postgresql:12]", "Armazena nova análise no banco de dados platform")
+    ContainerDb(HorusecPlatformDatabase, "Database-Platform", "[Container: Postgresql:12]", "Armazena nova análise no banco de dados platform")
     ComponentQueue(horusecPlatformRabbitMQ, "Message Broker", "RabbitMQ:3", "Serviço de menssageria")
     Container(horusecWebhook, "Horusec-Webhook", "Aplicação que recebe análise e envia para API REST de terceiros.")
     Container(horusecAnalytic, "Horusec-Analytic", "Aplicação que salva os dados para visão análitica de vulnerabilidades.")
     ContainerDb(HorusecAnalyticDatabase, "Database-Analytic", "[Container: Postgresql:12]", "Armazena dados do dashboard")
 }
 
+Rel(user, commandStartPhase1, "horusec start", "command")
 
-Rel(user, horusecCLIPhase1, "horusec start", "command")
-
-Rel(horusecCLIPhase1, horusecCLIPhase2, "", "Passo")
-Rel(horusecCLIPhase2, horusecCLIPhase3, "", "Passo")
-Rel(horusecCLIPhase3, horusecCLIPhase4_1, "É necessário fazer download da imagem docker?", "Passo SIM")
-Rel(horusecCLIPhase3, horusecCLIPhase4_2, "É necessário fazer download da imagem docker?", "Passo NÃO")
-Rel(horusecCLIPhase4_1, horusecCLIPhase4_2, "", "Passo")
-Rel(horusecCLIPhase4_2, horusecCLIPhase5, "", "Passo")
-Rel(horusecCLIPhase4_2, horusecPlatformAPI, "Envia dados para aplicação externa apenas se existir token de autenticação?", "Passo SIM")
-Rel(horusecPlatformAPI, horusecCLIPhase4_2, "Adicionar as validações das vulnerabilidades encontradas", "retorno")
+Rel(commandStartPhase1, commandStartPhase2, "", "Passo")
+Rel(commandStartPhase2, commandStartPhase3, "", "Passo")
+Rel(commandStartPhase3, commandStartPhase4_1, "É necessário fazer download da imagem docker?", "Passo SIM")
+Rel(commandStartPhase3, commandStartPhase4_2, "É necessário fazer download da imagem docker?", "Passo NÃO")
+Rel(commandStartPhase4_1, commandStartPhase4_2, "", "Passo")
+Rel(commandStartPhase4_2, commandStartPhase5, "", "Passo")
+Rel(commandStartPhase4_2, horusecPlatformAPI, "Envia dados para aplicação externa apenas se existir token de autenticação?", "Passo SIM")
+Rel(horusecPlatformAPI, commandStartPhase4_2, "Adicionar as validações das vulnerabilidades encontradas", "retorno")
 Rel(horusecPlatformAPI, HorusecPlatformDatabase, "", "Passo")
 Rel(horusecPlatformAPI, horusecPlatformRabbitMQ, "", "Passo")
 Rel(horusecPlatformRabbitMQ, horusecWebhook, "Existe webhook configurado?", "Passo SIM")
 Rel(horusecWebhook, HorusecPlatformDatabase, "", "Passo")
 Rel(horusecPlatformRabbitMQ, horusecAnalytic, "", "Passo")
 Rel(horusecAnalytic, HorusecAnalyticDatabase, "", "Passo")
-Rel(horusecCLIPhase5, horusecResponse, "", "Passo")
+Rel(commandStartPhase5, horusecResponse, "", "Passo")
+Rel(commandGeneratePhase1, horusecResponse, "", "Passo")
+Rel(commandVersionPhase1, horusecResponse, "", "Passo")
 
 @enduml
