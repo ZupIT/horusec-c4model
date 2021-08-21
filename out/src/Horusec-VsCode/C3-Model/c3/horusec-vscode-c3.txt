@@ -1,11 +1,9 @@
-java.lang.IllegalStateException: net.sourceforge.plantuml.posimo.Cluster@5ee8df86
-	at net.sourceforge.plantuml.posimo.DotxMaker.printCluster(DotxMaker.java:77)
-	at net.sourceforge.plantuml.posimo.DotxMaker.createDotString(DotxMaker.java:64)
-	at net.sourceforge.plantuml.posimo.GraphvizSolverB.solve(GraphvizSolverB.java:88)
-	at net.sourceforge.plantuml.cucadiagram.dot.CucaDiagramTxtMaker.<init>(CucaDiagramTxtMaker.java:114)
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at net.sourceforge.plantuml.posimo.Path.<init>(Path.java:59)
+	at net.sourceforge.plantuml.cucadiagram.dot.CucaDiagramTxtMaker.<init>(CucaDiagramTxtMaker.java:112)
 	at net.sourceforge.plantuml.cucadiagram.CucaDiagram.createFilesTxt(CucaDiagram.java:663)
 	at net.sourceforge.plantuml.cucadiagram.CucaDiagram.exportDiagramInternal(CucaDiagram.java:608)
-	at net.sourceforge.plantuml.classdiagram.ClassDiagram.exportDiagramInternal(ClassDiagram.java:188)
 	at net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:144)
 	at net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:157)
 	at net.sourceforge.plantuml.servlet.DiagramResponse.sendDiagram(DiagramResponse.java:112)
