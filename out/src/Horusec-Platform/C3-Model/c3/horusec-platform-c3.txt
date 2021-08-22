@@ -1,4 +1,4 @@
-java.lang.IllegalStateException: net.sourceforge.plantuml.posimo.Cluster@4dc7508a
+java.lang.IllegalStateException: net.sourceforge.plantuml.posimo.Cluster@39acfb7f
 	at net.sourceforge.plantuml.posimo.DotxMaker.printCluster(DotxMaker.java:77)
 	at net.sourceforge.plantuml.posimo.DotxMaker.createDotString(DotxMaker.java:64)
 	at net.sourceforge.plantuml.posimo.GraphvizSolverB.solve(GraphvizSolverB.java:88)
@@ -10,8 +10,8 @@ java.lang.IllegalStateException: net.sourceforge.plantuml.posimo.Cluster@4dc7508
 	at net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:157)
 	at net.sourceforge.plantuml.servlet.DiagramResponse.sendDiagram(DiagramResponse.java:112)
 	at net.sourceforge.plantuml.servlet.UmlDiagramService.doDiagramResponse(UmlDiagramService.java:101)
-	at net.sourceforge.plantuml.servlet.UmlDiagramService.doGet(UmlDiagramService.java:68)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at net.sourceforge.plantuml.servlet.UmlDiagramService.doPost(UmlDiagramService.java:88)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)

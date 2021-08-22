@@ -5,6 +5,11 @@ This project was created using [c4builder](https://adrianvlupu.github.io/C4-Buil
 Take a look at
 
 - [vscode-plantuml](https://github.com/qjebbs/vscode-plantuml) plugin for visual studio code to view diagrams at design time
+  - Add in your `settings.json` this configs
+    ```
+        "plantuml.server": "http://127.0.0.1:8080",
+        "plantuml.render": "PlantUMLServer"
+    ```
 
 # Getting started
 ## Requirements

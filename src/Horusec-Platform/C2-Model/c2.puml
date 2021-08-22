@@ -1,6 +1,49 @@
 @startuml horusec-platform-c2
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Deployment.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Dynamic.puml
 
 LAYOUT_WITH_LEGEND()
+Person(user, "Desenvolvedor/QA/AppSec/Gestor/Supervisor/CTO", "Qualquer pessoa que deseja realizar a gestão de vulnerabilidades do seu projeto.")
+System(HorusecManager, "Horusec-Manager", "Aplicação com a interface gráfica web do Horusec")
+System(HorusecAuth, "Horusec-Auth", "Serviço de autorização e autenticação.")
+System(HorusecCore, "Horusec-Core", "Serviço de gestão de entidades: Workspace, Repositórios e Usuários.")
+System(HorusecVulnerability, "Horusec-Vulnerability", "Serviço de gestão da entidade: Vulnerabilidade(salvar, buscar e atualizar no banco de dados)")
+System(HorusecWebhook, "Horusec-Webhook", "Serviço de gestão da entidade: Webhook; Serviço de integração para terceiros através de gatilhos.")
+System(HorusecAnalytic, "Horusec-Analytic", "Serviço de gestão do dashboard para as entidades: Vulnerabilidades por autor, Vulnerabilidades por tempo, Vulnerabilidades por linguagem, Vulnerabilidades por repositório")
+System(HorusecAPI, "Horusec-API", "Serviço de gestão das análises recebidas pela Horusec-CLI. Seu objetivo é receber a análise realizada e salvar em sua base de dados.")
+System_Ext(HorusecGRPC, "GRPC", "Verificação para permissão e sessão autorizada")
+Container(HorusecMigrations, "Horusec-Migrations", "Job Service", "Serviço de migração e atualização das tabelas do banco de dados")
+System(HorusecMessages, "Horusec-Messages", "Serviço de mensagerias para controle de fluxo de emails")
+ComponentQueue(HorusecRabbitMQ, "Message Broker", "RabbitMQ:3", "Serviço de menssageria")
+ContainerDb(HorusecPlatformDatabase, "Database-Platform", "[Container: Postgresql:12]", "Armazena nova análise no banco de dados platform")
+ContainerDb(HorusecAnalyticDatabase, "Database-Analytic", "[Container: Postgresql:12]", "Armazena dados do dashboard")
+
+Rel(user, HorusecManager, "Interação através da aplicação web")
+Rel(HorusecManager, HorusecAuth, "Realizar Login; Cadastro de usuário; Recuperação de senha; Renovação de token de sessão.")
+Rel(HorusecAuth, HorusecPlatformDatabase, "")
+Rel(HorusecAuth, HorusecRabbitMQ, "Apenas se SMTP estiver habilitado.")
+Rel(HorusecCore, HorusecRabbitMQ, "Apenas se SMTP estiver habilitado.")
+Rel(HorusecRabbitMQ, HorusecMessages, "Emails para: Confirmação de criação de conta; Convite para o workspace; Redefinição de senha.")
+Rel(HorusecGRPC, HorusecAuth, "")
+Rel(HorusecManager, HorusecCore, "Criar, Atualizar, Deletar, Visualizar workspace; Gestão de acessos ao workspace; Adicionar, Deletar, Visualizar Tokens de workspace; Criar, Atualizar, Deletar, Visualizar repositório; Gestão de acessos ao repositório; Adicionar, Deletar, Visualizar Tokens de repositório.")
+Rel(HorusecCore, HorusecPlatformDatabase, "")
+Rel(HorusecCore, HorusecGRPC, "")
+Rel(HorusecManager, HorusecVulnerability, "Visualiza vulnerabilidades por repositório; Atualiza severidade e tipo da vulnerabilidade.")
+Rel(HorusecVulnerability, HorusecPlatformDatabase, "")
+Rel(HorusecVulnerability, HorusecGRPC, "")
+Rel(HorusecManager, HorusecWebhook, "Criar, Atualizar, Deletar, Visualizar webhook do repositório.")
+Rel(HorusecWebhook, HorusecPlatformDatabase, "")
+Rel(HorusecWebhook, HorusecGRPC, "")
+Rel(HorusecManager, HorusecAnalytic, "Visualizar dados analíticos das análises")
+Rel(HorusecAPI, HorusecRabbitMQ, "")
+Rel(HorusecRabbitMQ, HorusecAnalytic, "")
+Rel(HorusecAPI, HorusecPlatformDatabase, "")
+Rel(HorusecAnalytic, HorusecAnalyticDatabase, "")
+Rel(HorusecAnalytic, HorusecGRPC, "")
+Rel(HorusecMigrations, HorusecPlatformDatabase, "")
+Rel(HorusecMigrations, HorusecAnalyticDatabase, "")
 
 @enduml
