@@ -6,7 +6,11 @@
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Dynamic.puml
 
 LAYOUT_WITH_LEGEND()
-Person(user, "Desenvolvedor/QA/AppSec/Gestor/Supervisor/CTO", "Qualquer pessoa que deseja realizar a gestão de vulnerabilidades do seu projeto.")
+
+Person(developer, "Membro (Desenvolvedor/QA)", "Usuário básico do Horusec, possui apenas permissão de leitura sobre workspace ou repositório.")
+Person(supervisor, "Supervisor (AppSec/TechLead)", "Usuário com permissão especifica para repositórios, consegue realizar a gestão de vulnerabilidades e operações de leitura.")
+Person(admin, "Administrador (PO/Head)", "Usuário com o maior nível de permissões do Horusec, possui todas as permissões de escrita e leitura.")
+Person(applicationAdmin, "Administrador da Aplicação (CTO/Principal)", "Usuário opcional especial que possui todas as permissões do administrador, caso ativado apenas ele conseguirá criar novos workspaces, removendo essa permissão do administrador padrão.")
 
 System_Boundary(horusecPlatform, "Horusec Platform") {
   System(HorusecManager, "Horusec-Manager", "Aplicação com a interface gráfica web do Horusec")
@@ -16,37 +20,41 @@ System_Boundary(horusecPlatform, "Horusec Platform") {
   System(HorusecWebhook, "Horusec-Webhook", "Serviço de gestão da entidade: Webhook; Serviço de integração para terceiros através de gatilhos.")
   System(HorusecAnalytic, "Horusec-Analytic", "Serviço de gestão do dashboard para as entidades: Vulnerabilidades por autor, Vulnerabilidades por tempo, Vulnerabilidades por linguagem, Vulnerabilidades por repositório")
   System(HorusecAPI, "Horusec-API", "Serviço de gestão das análises recebidas pela Horusec-CLI. Seu objetivo é receber a análise realizada e salvar em sua base de dados.")
-  System_Ext(HorusecGRPC, "GRPC", "Verificação para permissão e sessão autorizada")
+  System(HorusecMessages, "Horusec-Messages", "Serviço de envio de email")
+
   Container(HorusecMigrations, "Horusec-Migrations", "Job Service", "Serviço de migração e atualização das tabelas do banco de dados")
-  System(HorusecMessages, "Horusec-Messages", "Serviço de mensagerias para controle de fluxo de emails")
-  ComponentQueue(HorusecRabbitMQ, "Message Broker", "RabbitMQ:3", "Serviço de menssageria")
-  ContainerDb(HorusecPlatformDatabase, "Database-Platform", "[Container: Postgresql:12]", "Armazena nova análise no banco de dados platform")
-  ContainerDb(HorusecAnalyticDatabase, "Database-Analytic", "[Container: Postgresql:12]", "Armazena dados do dashboard")
+
+  ContainerDb(HorusecPlatformDatabase, "Database-Platform", "(Postgresql:12)", "Armazena nova análise no banco de dados platform")
+  ContainerDb(HorusecAnalyticDatabase, "Database-Analytic", "(Postgresql:12)", "Armazena dados do dashboard")
 }
 
-Rel(user, HorusecManager, "Interação através da aplicação web")
+System_Ext(horusecCLI, "Horusec CLI", "Interface de linha de comandos do Horusec, realiza análise estática de código em busca de vulnerabilidades.")
+System_Ext(externalAPP, "Aplicação Externa", "Aplicação externa que irá receber os dados da análise do Horusec.")
+
+Rel(developer, HorusecManager, "Busca worksapaces e repositórios, visualiza vulnerabilidades e dashboard dos repositórios ao qual tem permissão.")
+Rel(supervisor, HorusecManager, "Busca worksapaces e repositórios, gestão de vulnerabilidades e dashboard dos repositórios ao qual tem permissão.")
+Rel(admin, HorusecManager, "Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios.")
+Rel(applicationAdmin, HorusecManager, "Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios.")
+
+
 Rel(HorusecManager, HorusecAuth, "Realizar Login; Cadastro de usuário; Recuperação de senha; Renovação de token de sessão.")
-Rel(HorusecAuth, HorusecPlatformDatabase, "")
-Rel(HorusecAuth, HorusecRabbitMQ, "Apenas se SMTP estiver habilitado.")
-Rel(HorusecCore, HorusecRabbitMQ, "Apenas se SMTP estiver habilitado.")
-Rel(HorusecRabbitMQ, HorusecMessages, "Emails para: Confirmação de criação de conta; Convite para o workspace; Redefinição de senha.")
-Rel(HorusecGRPC, HorusecAuth, "")
 Rel(HorusecManager, HorusecCore, "Criar, Atualizar, Deletar, Visualizar workspace; Gestão de acessos ao workspace; Adicionar, Deletar, Visualizar Tokens de workspace; Criar, Atualizar, Deletar, Visualizar repositório; Gestão de acessos ao repositório; Adicionar, Deletar, Visualizar Tokens de repositório.")
-Rel(HorusecCore, HorusecPlatformDatabase, "")
-Rel(HorusecCore, HorusecGRPC, "")
 Rel(HorusecManager, HorusecVulnerability, "Visualiza vulnerabilidades por repositório; Atualiza severidade e tipo da vulnerabilidade.")
-Rel(HorusecVulnerability, HorusecPlatformDatabase, "")
-Rel(HorusecVulnerability, HorusecGRPC, "")
 Rel(HorusecManager, HorusecWebhook, "Criar, Atualizar, Deletar, Visualizar webhook do repositório.")
-Rel(HorusecWebhook, HorusecPlatformDatabase, "")
-Rel(HorusecWebhook, HorusecGRPC, "")
 Rel(HorusecManager, HorusecAnalytic, "Visualizar dados analíticos das análises")
-Rel(HorusecAPI, HorusecRabbitMQ, "")
-Rel(HorusecRabbitMQ, HorusecAnalytic, "")
-Rel(HorusecAPI, HorusecPlatformDatabase, "")
-Rel(HorusecAnalytic, HorusecAnalyticDatabase, "")
-Rel(HorusecAnalytic, HorusecGRPC, "")
-Rel(HorusecMigrations, HorusecPlatformDatabase, "")
-Rel(HorusecMigrations, HorusecAnalyticDatabase, "")
+
+Rel(HorusecAuth, HorusecMessages, "Pacote via rabbitMQ para envio de email ao recuperar senha e confirmar conta. Opcional, pois é necessário que esteja com o envio de email ativo.")
+
+Rel(HorusecCore, HorusecAuth, "Requisição enviada via GRPC para validar autenticidade da chamada HTTP recebida do manager.")
+Rel(HorusecCore, HorusecMessages, "Pacote via rabbitMQ para envio de email ao usuário ser convidado para workspace ou repositório. Opcional, pois é necessário que esteja com o envio de email ativo.")
+
+Rel(HorusecVulnerability, HorusecAuth, "Requisição enviada via GRPC para validar autenticidade da chamada HTTP recebida do manager.")
+Rel(HorusecVulnerability, HorusecAnalytic, "Pacote via rabbitMQ para envio de alterações nos dados das vulnerabilidades.")
+
+Rel(HorusecWebhook, externalAPP, "Requisição enviada via HTTP através do webhook configurado no horusec para alguma aplicação externa. Opcional, pois caso não tenha nenhum webhook configurado não irá ocorrer.")
+
+Rel(HorusecAPI, HorusecAuth, "Requisição enviada via GRPC para validar autenticidade da chamada HTTP recebida do manager.")
+
+Rel(horusecCLI, HorusecAPI, "Envia os dados das vulnerabilidades encontradas para o Horusec API.")
 
 @enduml
