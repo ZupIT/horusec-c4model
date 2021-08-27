@@ -1,6 +1,29 @@
 @startuml horusec-operator-c3
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Deployment.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Dynamic.puml
 
 LAYOUT_WITH_LEGEND()
+
+Person(user, "SRE/DevSecOps/DevOps", "Pessoa que queira instalar ou realizar a manutenção do Horusec-Platform em um cluster Kubernetes.")
+
+System_Boundary(horusecOperator, "Horusec-Operator") {
+  System(HorusecOperatorPhase0, "Usuário instala a CRD do Horusec em seu cluster.")
+  System(HorusecOperatorPhase1, "Kubernetes informa ao horusec-operator que houve uma alteração externa nos recursos horusec.")
+  System(HorusecOperatorPhase2, "Ao ser notificado pelo Kubernetes, o horusec-operator busca as definições que receberam alterações.")
+  System(HorusecOperatorPhase3, "Com as definições em mãos, o horusec-operator as compara com o estado atual da instalação.")
+  System(HorusecOperatorPhase4, "Aplica o estado de configurações para atingir o estado desejado.")
+}
+
+System_Ext(Kubernetes, "Kubernetes", "Sistema de orquestração de contêineres")
+
+Rel(user, HorusecOperatorPhase0, "")
+Rel(HorusecOperatorPhase0, Kubernetes, "")
+Rel(Kubernetes, HorusecOperatorPhase1, "")
+Rel(HorusecOperatorPhase1, HorusecOperatorPhase2, "")
+Rel(HorusecOperatorPhase2, HorusecOperatorPhase3, "")
+Rel(HorusecOperatorPhase3, HorusecOperatorPhase4, "")
 
 @enduml

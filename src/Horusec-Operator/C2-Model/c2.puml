@@ -11,11 +11,7 @@ Person(user, "SRE/DevSecOps/DevOps", "Pessoa que queira instalar ou realizar a m
 
 System_Boundary(horusecOperator, "Horusec-Operator") {
   System(HorusecOperatorPhase0, "Usuário instala a CRD do Horusec em seu cluster.")
-  System(HorusecOperatorPhase1, "Kubernetes informa ao horusec-operator que houve uma alteração externa nos recursos horusec.")
-  System(HorusecOperatorPhase2, "Recebe a alteração e junta com os valores padrões esperado pelo horusec caso estejam vazios.")
-  System(HorusecOperatorPhase3, "Verifica se houve alguma alteração a partir da entrada enviada do usuário.")
-  System(HorusecOperatorPhase4, "Faz a junção dos novos dados com o que já existe na aplicação kubernetes, colhendo as informações do cluster que são necessárias criar, alterar, remover configurações e serviços.")
-  System(HorusecOperatorPhase5, "Realiza aplicação das alterações no cluster kubernetes.")
+  System(HorusecOperatorPhase1, "O horusec-operator é notificado pelo kubernetes, que aplica o estado de configurações para atingir o estado desejado.")
 }
 
 System_Ext(Kubernetes, "Kubernetes", "Sistema de orquestração de contêineres")
@@ -23,9 +19,6 @@ System_Ext(Kubernetes, "Kubernetes", "Sistema de orquestração de contêineres"
 Rel(user, HorusecOperatorPhase0, "")
 Rel(HorusecOperatorPhase0, Kubernetes, "")
 Rel(Kubernetes, HorusecOperatorPhase1, "")
-Rel(HorusecOperatorPhase1, HorusecOperatorPhase2, "")
-Rel(HorusecOperatorPhase2, HorusecOperatorPhase3, "")
-Rel(HorusecOperatorPhase3, HorusecOperatorPhase4, "")
-Rel(HorusecOperatorPhase4, HorusecOperatorPhase5, "")
+
 
 @enduml
