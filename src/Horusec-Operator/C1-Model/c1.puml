@@ -5,7 +5,7 @@ LAYOUT_WITH_LEGEND()
 
 Person(user, "SRE/DevSecOps/DevOps", "Pessoa que queira instalar ou realizar a manutenção do Horusec Platform em um cluster Kubernetes.")
 System(horusecOperator, "Horusec Operator", "Operator kubernetes que faz instalação do Horusec Platform na infraestrutura do usuário")
-System(Kubernetes, "Kubernetes", "Cluster kubernetes com serviços horusec rodando em seu ambiente")
+System_Ext(Kubernetes, "Kubernetes", "Cluster kubernetes com serviços horusec rodando em seu ambiente")
 
 Rel(user, horusecOperator, "Instala operator na CRD disponibilizada pelo Horusec e envia um arquivo .yaml com as alterações que deseja sobre os serviços do horusec na instancia kubernetes")
 Rel(user, Kubernetes, "Após Horusec-Operator instaldo, ao realizar qualquer alteração no cluster")
