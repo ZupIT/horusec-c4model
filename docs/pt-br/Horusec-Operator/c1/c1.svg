@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="822px" preserveAspectRatio="none" style="width:489px;height:822px;" version="1.1" viewBox="0 0 489 822" width="489px" zoomAndPan="magnify"><defs/><g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#08427B" height="186.7344" style="stroke: #073B6F; stroke-width: 1.5;" width="220" x="64" y="7"/><image height="48" width="48" x="150" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="146" x="101" y="79.8516">SRE/DevSecOps/</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="139.5" y="98.4766">DevOps</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="176" y="115.2451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="182" x="81" y="131.542">Pessoa que queira instalar</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="74" y="147.8389">ou realizar a manutenção do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="87" y="164.1357">Horusec Platform em um</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="106" y="180.4326">cluster Kubernetes.</text><!--MD5=[63edf1524b0573db3bef1d75560274d9]
+entity horusecOperator--><rect fill="#1168BD" height="120.1094" style="stroke: #3C7FC0; stroke-width: 1.5;" width="220" x="7" y="583"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="37" y="607.8516">Horusec Operator</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="119" y="624.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="17" y="640.917">Operator kubernetes que faz</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="38.5" y="657.2139">instalação do Horusec</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="17.5" y="673.5107">Platform na infraestrutura do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="91.5" y="689.8076">usuário</text><!--MD5=[003bc8d3bcf70ea39831b7d42e34a0c6]
+entity Kubernetes--><rect fill="#999999" height="103.8125" style="stroke: #8A8A8A; stroke-width: 1.5;" width="204" x="274" y="322.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="324.5" y="347.3516">Kubernetes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="378" y="364.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="290.5" y="380.417">Cluster kubernetes com</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="180" x="284" y="396.7139">serviços horusec rodando</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="121" x="315.5" y="413.0107">em seu ambiente</text><!--MD5=[ee892fe2314641e1146a2713df0481d2]
+link user to horusecOperator--><path d="M137.03,194.08 C124.54,229.98 112.2,271.81 106,311 C91.67,401.59 99.47,507.8 107.38,574.99 " fill="none" id="user-to-horusecOperator" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="108.35,582.99,110.3713,574.6885,104.4144,575.4064,108.35,582.99" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="110.5" y="323.1387">Instala operator na</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="109.5" y="337.1074">CRD disponibilizada</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="148" x="107.5" y="351.0762">pelo Horusec e envia</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="119.5" y="365.0449">um arquivo .yaml</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="129" x="115" y="379.0137">com as alterações</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="107" y="392.9824">que deseja sobre os</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="141" x="109" y="406.9512">serviços do horusec</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="136" y="420.9199">na instancia</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="140.5" y="434.8887">kubernetes</text><!--MD5=[7f0048f9a8f36480b88c68012cc6c110]
+link user to Kubernetes--><path d="M242.95,194.35 C272.86,234.62 306.96,280.53 333.15,315.8 " fill="none" id="user-to-Kubernetes" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="337.94,322.25,335.581,314.0381,330.7631,317.6141,337.94,322.25" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="102" x="328.5" y="236.1387">Após Horusec-</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="132" x="311.5" y="250.1074">Operator instaldo,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="305" y="264.0762">ao realizar qualquer</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="308" y="278.0449">alteração no cluster</text><!--MD5=[79b7de2a7d857ad839dafa54a1ebf431]
+link Kubernetes to horusecOperator--><path d="M326.37,426.57 C284.81,469.33 225.26,530.6 180.29,576.88 " fill="none" id="Kubernetes-to-horusecOperator" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="174.6,582.74,182.3237,579.087,178.0173,574.9092,174.6,582.74" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="299" y="480.1387">Ao perceber que</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="285" y="494.1074">houve uma alteração</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="310" y="508.0762">o kubernetes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="142" x="288.5" y="522.0449">informa ao horusec-</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="129" x="293" y="536.0137">operator sobre as</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="64" x="327.5" y="549.9824">mudança</text><rect fill="#FFFFFF" height="95.4844" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="129" x="333" y="716.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="339" y="736.1045">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="402" y="736.1045"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="339" y="739.4063"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="343" y="752.4014">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="339" y="755.7031"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="343" y="768.6982">system</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="339" y="772"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="343" y="784.9951">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="339" y="788.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="343" y="801.292">external system</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="339" x2="456" y1="723.1094" y2="723.1094"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="339" x2="456" y1="739.4063" y2="739.4063"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="339" x2="456" y1="755.7031" y2="755.7031"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="339" x2="456" y1="772" y2="772"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="339" x2="456" y1="788.2969" y2="788.2969"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="339" x2="456" y1="804.5938" y2="804.5938"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="339" x2="339" y1="723.1094" y2="804.5938"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="456" x2="456" y1="723.1094" y2="804.5938"/><!--MD5=[cb7136f6f9f3680459e591b38ee88b2f]
+@startuml horusec-operator-c1
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(user, "SRE/DevSecOps/DevOps", "Pessoa que queira instalar ou realizar a manutenção do Horusec Platform em um cluster Kubernetes.")
+System(horusecOperator, "Horusec Operator", "Operator kubernetes que faz instalação do Horusec Platform na infraestrutura do usuário")
+System_Ext(Kubernetes, "Kubernetes", "Cluster kubernetes com serviços horusec rodando em seu ambiente")
+
+Rel(user, horusecOperator, "Instala operator na CRD disponibilizada pelo Horusec e envia um arquivo .yaml com as alterações que deseja sobre os serviços do horusec na instancia kubernetes")
+Rel(user, Kubernetes, "Após Horusec-Operator instaldo, ao realizar qualquer alteração no cluster")
+Rel(Kubernetes, horusecOperator, "Ao perceber que houve uma alteração o kubernetes informa ao horusec-operator sobre as mudança")
+
+@enduml
+
+@startuml horusec-operator-c1
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system|
+|<#686868> external person |
+|<#999999> external system |
+endlegend
+
+rectangle "<$person>\n==SRE/DevSecOps/DevOps\n\n Pessoa que queira instalar ou realizar a manutenção do Horusec Platform em um cluster Kubernetes." <<person>> as user
+rectangle "==Horusec Operator\n\n Operator kubernetes que faz instalação do Horusec Platform na infraestrutura do usuário" <<system>> as horusecOperator
+rectangle "==Kubernetes\n\n Cluster kubernetes com serviços horusec rodando em seu ambiente" <<external_system>> as Kubernetes
+
+user - ->> horusecOperator : **Instala operator na CRD disponibilizada pelo Horusec e envia um arquivo .yaml com as alterações que deseja sobre os serviços do horusec na instancia kubernetes**
+user - ->> Kubernetes : **Após Horusec-Operator instaldo, ao realizar qualquer alteração no cluster**
+Kubernetes - ->> horusecOperator : **Ao perceber que houve uma alteração o kubernetes informa ao horusec-operator sobre as mudança**
+
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

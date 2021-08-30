@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="766px" preserveAspectRatio="none" style="width:335px;height:766px;" version="1.1" viewBox="0 0 335 766" width="335px" zoomAndPan="magnify"><defs/><g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#08427B" height="135.5156" style="stroke: #073B6F; stroke-width: 1.5;" width="215" x="7" y="7"/><image height="48" width="48" x="90.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="132" x="48.5" y="79.8516">Desenvolvedor</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="116.5" y="96.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="17" y="112.917">Qualquer desenvolvedor de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="83" y="129.2139">software.</text><!--MD5=[6e987745799f3647b1fa4b5d4ae7b941]
+entity horusecVsCode--><rect fill="#1168BD" height="120.1094" style="stroke: #3C7FC0; stroke-width: 1.5;" width="215" x="7" y="302"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="146" x="41.5" y="326.8516">Horusec VsCode</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="116.5" y="343.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="17" y="359.917">Interface do VSCODE com a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="184" x="20.5" y="376.2139">CLI instalada via extensões</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="28.5" y="392.5107">para executar análise de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="85" x="72" y="408.8076">seguranças.</text><!--MD5=[bccc98c5d1031dddac577055a2e454d8]
+entity horusecCLIDockerImage--><rect fill="#1168BD" height="122.4375" style="stroke: #3C7FC0; stroke-width: 1.5;" width="209" x="10" y="525"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="177" x="23" y="549.8516">Horusec CLI Docker</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="54" x="87.5" y="568.4766">Image</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="116.5" y="585.2451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="23.5" y="601.542">Ferramenta que realiza as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="20" y="617.8389">análises de seguranças no</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="25" y="634.1357">código do desenvolvedor.</text><!--MD5=[e042ba3f93ead2d293576c06fdef6015]
+link user to horusecVsCode--><path d="M47.22,143.15 C40.85,152.57 35.34,162.6 31.5,173 C16.25,214.27 15.37,231.06 31.5,272 C34.67,280.05 38.95,287.81 43.91,295.15 " fill="none" id="user-to-horusecVsCode" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="48.64,301.78,46.4399,293.5241,41.5538,297.0065,48.64,301.78" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="32.5" y="213.1387">Inicia análise de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="41.5" y="227.1074">segurança no</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="63.5" y="241.0762">projeto.</text><!--MD5=[462c8de934faca0726ac6209da81e52b]
+link horusecVsCode to user--><path d="M146.72,301.97 C150.76,292.21 154.26,282 156.5,272 C166.12,229.06 165.43,216.08 156.5,173 C155,165.74 152.92,158.36 150.49,151.07 " fill="none" id="horusecVsCode-to-user" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="147.73,143.21,147.5585,151.7523,153.2176,149.7587,147.73,143.21" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="107" x="173.5" y="185.1387">Exibe falhas de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="178.5" y="199.1074">segurança no</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="163.5" y="213.0762">projeto de acordo</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="49" x="202.5" y="227.0449">com as</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="168" y="241.0137">vulnerabilidades</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="112" x="171" y="254.9824">encontradas na</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="193.5" y="268.9512">extensão.</text><!--MD5=[1df46bdbfe1a2f5e1f815b11499c99ef]
+link horusecVsCode to horusecCLIDockerImage--><path d="M34.95,422.1 C27.11,431.23 20.3,441.23 15.5,452 C7.72,469.46 7.77,477.52 15.5,495 C19.13,503.21 23.93,511 29.45,518.3 " fill="none" id="horusecVsCode-to-horusecCLIDockerImage" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="34.71,524.86,32.0505,516.7404,27.3674,520.4912,34.71,524.86" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="137" x="21" y="464.1387">Executa a análise e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="146" x="16.5" y="478.1074">recebe o resultadovi</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="99" x="42" y="492.0762">arquivo texto.</text><!--MD5=[76c15b6c13f930ea98750d3db1bce221]
+link horusecCLIDockerImage to horusecVsCode--><path d="M158.96,524.75 C164.11,515.2 168.56,505.12 171.5,495 C176.82,476.65 176.87,470.34 171.5,452 C169.26,444.34 166.13,436.71 162.49,429.33 " fill="none" id="horusecCLIDockerImage-to-horusecVsCode" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="158.68,422.04,159.7237,430.52,165.0422,427.7428,158.68,422.04" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="189" y="464.1387">Exibe ou exporta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="176.5" y="478.1074">resultado da análise</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="5" x="247.5" y="492.0762">.</text><rect fill="#FFFFFF" height="95.4844" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="129" x="179.5" y="660.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="185.5" y="680.4326">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="248.5" y="680.4326"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="185.5" y="683.7344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="189.5" y="696.7295">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="185.5" y="700.0313"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="189.5" y="713.0264">system</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="185.5" y="716.3281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="189.5" y="729.3232">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="185.5" y="732.625"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="189.5" y="745.6201">external system</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="185.5" x2="302.5" y1="667.4375" y2="667.4375"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="185.5" x2="302.5" y1="683.7344" y2="683.7344"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="185.5" x2="302.5" y1="700.0313" y2="700.0313"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="185.5" x2="302.5" y1="716.3281" y2="716.3281"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="185.5" x2="302.5" y1="732.625" y2="732.625"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="185.5" x2="302.5" y1="748.9219" y2="748.9219"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="185.5" x2="185.5" y1="667.4375" y2="748.9219"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="302.5" x2="302.5" y1="667.4375" y2="748.9219"/><!--MD5=[29513d4d21a9940189a297e7bb6abf75]
+@startuml horusec-vscode-c1
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(user, "Desenvolvedor", "Qualquer desenvolvedor de software.")
+System(horusecVsCode, "Horusec VsCode", "Interface do VSCODE com a CLI instalada via extensões para executar análise de seguranças.")
+System(horusecCLIDockerImage, "Horusec CLI Docker Image", "Ferramenta que realiza as análises de seguranças no código do desenvolvedor.")
+
+Rel(user, horusecVsCode, "Inicia análise de segurança no projeto.")
+
+Rel(horusecVsCode, horusecCLIDockerImage, "Executa a análise e recebe o resultadovi arquivo texto.")
+
+Rel(horusecCLIDockerImage, horusecVsCode, "Exibe ou exporta resultado da análise.")
+
+Rel(horusecVsCode, user, "Exibe falhas de segurança no projeto de acordo com as vulnerabilidades encontradas na extensão.")
+@enduml
+
+@startuml horusec-vscode-c1
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system|
+|<#686868> external person |
+|<#999999> external system |
+endlegend
+
+rectangle "<$person>\n==Desenvolvedor\n\n Qualquer desenvolvedor de software." <<person>> as user
+rectangle "==Horusec VsCode\n\n Interface do VSCODE com a CLI instalada via extensões para executar análise de seguranças." <<system>> as horusecVsCode
+rectangle "==Horusec CLI Docker Image\n\n Ferramenta que realiza as análises de seguranças no código do desenvolvedor." <<system>> as horusecCLIDockerImage
+
+user - ->> horusecVsCode : **Inicia análise de segurança no projeto.**
+
+horusecVsCode - ->> horusecCLIDockerImage : **Executa a análise e recebe o resultadovi arquivo texto.**
+
+horusecCLIDockerImage - ->> horusecVsCode : **Exibe ou exporta resultado da análise.**
+
+horusecVsCode - ->> user : **Exibe falhas de segurança no projeto de acordo com as vulnerabilidades encontradas na extensão.**
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

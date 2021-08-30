@@ -19,10 +19,6 @@ For run this project you can run this command:
 ```
 make run
 ```
-or
-```
-c4builder site
-```
 And see site generated in **https://localhost:3000**:
 
 ## Usage in VsCode

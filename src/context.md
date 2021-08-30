@@ -16,7 +16,7 @@ Another goal is to ensure that your project's new functionality is safe. For thi
 You will find the full explanation of [c4model here](https://c4model.com).
 
 In horusec we used c4model for explain how our contributors interact with our applications which can be basically broken down into:
-* [Horusec-CLI](/Horusec-CLI/HOME)
-* [Horusec-Platform](/Horusec-Platform/HOME)
-* [Horusec-VsCode](/Horusec-VsCode/HOME)
-* [Horusec-Operator](/Horusec-Operator/HOME)
+* [Horusec-CLI](/en/Horusec-CLI/HOME)
+* [Horusec-Platform](/en/Horusec-Platform/HOME)
+* [Horusec-VsCode](/en/Horusec-VsCode/HOME)
+* [Horusec-Operator](/en/Horusec-Operator/HOME)

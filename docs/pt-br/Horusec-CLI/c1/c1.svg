@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="759px" preserveAspectRatio="none" style="width:540px;height:759px;" version="1.1" viewBox="0 0 540 759" width="540px" zoomAndPan="magnify"><defs/><g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#08427B" height="170.4375" style="stroke: #073B6F; stroke-width: 1.5;" width="216" x="107" y="7"/><image height="48" width="48" x="191" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="140" y="79.8516">Desenvolvedor /</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="110" x="160" y="98.4766">Esteira CICD</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="217" y="115.2451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="138.5" y="131.542">Qualquer usuário que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="117" y="147.8389">interage diretamente com o</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="127" y="164.1357">código fonte do software.</text><!--MD5=[076b20a01ef34dd568effd28f63d9cb2]
+entity horusecCLI--><rect fill="#1168BD" height="103.8125" style="stroke: #3C7FC0; stroke-width: 1.5;" width="209" x="110.5" y="280"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="107" x="161.5" y="304.8516">Horusec CLI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="217" y="321.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="124" y="337.917">Ferramenta que realiza as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="120.5" y="354.2139">análises de seguranças no</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="125.5" y="370.5107">código do desenvolvedor.</text><!--MD5=[50aed3f8b328b03f7692a4db4a49c413]
+entity horusecPlatform--><rect fill="#1168BD" height="138.7344" style="stroke: #3C7FC0; stroke-width: 1.5;" width="188" x="7" y="501"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="168" x="17" y="525.8516">Horusec Platform (</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="79" x="61.5" y="544.4766">opcional)</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="103" y="561.2451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="24.5" y="577.542">Ferramenta WEB para</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="17" y="593.8389">gerenciar e visualizar as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="43.5" y="610.1357">vulnerabilidades</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="148" x="27" y="626.4326">encontradas pela CLI.</text><!--MD5=[4e23214894d297b5e2584558f34895ad]
+entity response--><rect fill="#999999" height="103.8125" style="stroke: #8A8A8A; stroke-width: 1.5;" width="204" x="300" y="518.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="360.5" y="543.3516">Resposta</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="404" y="560.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="180" x="310" y="576.417">Retorna saída de sucesso</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="311" y="592.7139">ou erro de acordo com as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="316.5" y="609.0107">configurações realizadas</text><!--MD5=[3a42f2466ea4168d69ebd7089fd71f10]
+link user to horusecCLI--><path d="M215,177.24 C215,208.4 215,243.04 215,271.55 " fill="none" id="user-to-horusecCLI" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="215,279.8,218,271.8,212,271.8,215,279.8" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="216" y="219.1387">Inicia análise de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="225" y="233.1074">segurança no</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="249.5" y="247.0762">projeto</text><!--MD5=[a2e4a81dde0b8ae084f45ab9d44d3f91]
+link horusecCLI to horusecPlatform--><path d="M110.06,355.04 C78.64,367.07 47.63,385.57 29,414 C12.84,438.67 19.99,467.55 34.82,493.69 " fill="none" id="horusecCLI-to-horusecPlatform" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="38.97,500.62,37.4342,492.2152,32.2864,495.2974,38.97,500.62" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="32" y="426.1387">Salva resultado da</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="137" x="30" y="440.1074">análise na API caso</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="110" x="43.5" y="454.0762">exista token de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="54" y="468.0449">autenticação</text><!--MD5=[9caabce25516eb3ae5e7300cca993aa0]
+link horusecPlatform to horusecCLI--><path d="M158.27,500.87 C164.83,491.19 170.96,481.1 176,471 C188.29,446.38 197.24,417.29 203.44,392.18 " fill="none" id="horusecPlatform-to-horusecCLI" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="205.36,384.18,200.5734,391.2573,206.4072,392.6596,205.36,384.18" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="141" x="197" y="433.1387">Retorna sucesso ou</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="135" x="200" y="447.1074">erro para resposta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="96" x="221.5" y="461.0762">da requisição</text><!--MD5=[c19fc47cd72509c796072b54824a19df]
+link horusecCLI to response--><path d="M319.43,384.08 C331.15,392.88 342.07,402.85 351,414 C373.01,441.48 385.66,478.8 392.86,509.98 " fill="none" id="horusecCLI-to-response" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="394.66,518.19,395.8761,509.733,390.0154,511.0187,394.66,518.19" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="393.5" y="440.1387">Exibe ou exporta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="381" y="454.1074">resultado da análise</text><rect fill="#FFFFFF" height="95.4844" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="129" x="384" y="652.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="390" y="672.7295">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="453" y="672.7295"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="390" y="676.0313"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="394" y="689.0264">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="390" y="692.3281"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="394" y="705.3232">system</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="390" y="708.625"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="394" y="721.6201">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="117" x="390" y="724.9219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="394" y="737.917">external system</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="390" x2="507" y1="659.7344" y2="659.7344"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="390" x2="507" y1="676.0313" y2="676.0313"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="390" x2="507" y1="692.3281" y2="692.3281"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="390" x2="507" y1="708.625" y2="708.625"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="390" x2="507" y1="724.9219" y2="724.9219"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="390" x2="507" y1="741.2188" y2="741.2188"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="390" x2="390" y1="659.7344" y2="741.2188"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="507" x2="507" y1="659.7344" y2="741.2188"/><!--MD5=[8c0ebc8280d7a29b7a4784c43e42ae05]
+@startuml horusec-cli-c1
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(user, "Desenvolvedor / Esteira CICD", "Qualquer usuário que interage diretamente com o código fonte do software.")
+System(horusecCLI, "Horusec CLI", "Ferramenta que realiza as análises de seguranças no código do desenvolvedor.")
+System(horusecPlatform, "Horusec Platform (opcional)", "Ferramenta WEB para gerenciar e visualizar as vulnerabilidades encontradas pela CLI.")
+System_Ext(response, "Resposta", "Retorna saída de sucesso ou erro de acordo com as configurações realizadas", "")
+
+Rel(user, horusecCLI, "Inicia análise de segurança no projeto")
+
+Rel(horusecCLI, horusecPlatform, "Salva resultado da análise na API caso exista token de autenticação")
+
+Rel(horusecPlatform, horusecCLI, "Retorna sucesso ou erro para resposta da requisição")
+
+Rel(horusecCLI, response, "Exibe ou exporta resultado da análise")
+@enduml
+
+@startuml horusec-cli-c1
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system|
+|<#686868> external person |
+|<#999999> external system |
+endlegend
+
+rectangle "<$person>\n==Desenvolvedor / Esteira CICD\n\n Qualquer usuário que interage diretamente com o código fonte do software." <<person>> as user
+rectangle "==Horusec CLI\n\n Ferramenta que realiza as análises de seguranças no código do desenvolvedor." <<system>> as horusecCLI
+rectangle "==Horusec Platform (opcional)\n\n Ferramenta WEB para gerenciar e visualizar as vulnerabilidades encontradas pela CLI." <<system>> as horusecPlatform
+rectangle "==Resposta\n\n Retorna saída de sucesso ou erro de acordo com as configurações realizadas" <<external_system>> as response
+
+user - ->> horusecCLI : **Inicia análise de segurança no projeto**
+
+horusecCLI - ->> horusecPlatform : **Salva resultado da análise na API caso exista token de autenticação**
+
+horusecPlatform - ->> horusecCLI : **Retorna sucesso ou erro para resposta da requisição**
+
+horusecCLI - ->> response : **Exibe ou exporta resultado da análise**
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>

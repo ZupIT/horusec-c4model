@@ -1,0 +1,32 @@
+@startuml horusec-vscode-c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Deployment.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Dynamic.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(user, "Desenvolvedor", "Qualquer usuário que interage diretamente com o código fonte do software.")
+
+
+System_Boundary(horusecVsCode, "Horusec-VsCode") {
+  System(CommandStart, "Comando de Inicialização da análise", "Ao iniciar análise o plugin do visual studio code irá chamar um comando na própria máquina para iniciar a imagem docker da Horusec-CLI e realizar a leitura da análise via exportação de arquivo json")
+  System(CommandStop, "Comando para interromper análise da análise", "Ao parar análise o plugin do visual studio code irá remover o container da Horusec-CLI rodando")
+  System(CommandConfig, "Comando para realizar configuração do projeto", "Ao realizar a configuração do projeto o plugin do visual studio code irá criar/modificar o arquivo de configuração do projeto")
+}
+
+System_Boundary(HorusecCLIDocker, "Horusec-CLI via docker image") {
+  Container(HorusecCLI, "Horusec-CLI", "Binary", "Arquivo executável com todas as configurações da Horusec-CLI")
+  Container(HorusecCLIResponse, "Resposta", "Arquivo", "Resposta com status_code da análise e criação do arquivo com a análise realizada")
+}
+
+Rel(user, CommandStart, "")
+Rel(user, CommandStop, "")
+Rel(user, CommandConfig, "")
+
+Rel(CommandStop, HorusecCLI, "Remove volume e imagem docker via 'exec command'")
+Rel(CommandStart, HorusecCLI, "Cria volume e imagem docker via 'exec command'")
+Rel(HorusecCLI, HorusecCLIResponse, "")
+
+@enduml

@@ -1,0 +1,22 @@
+@startuml horusec-platform-c1
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(developer, "Membro (Desenvolvedor/QA)", "Usuário básico do Horusec, possui apenas permissão de leitura sobre workspace ou repositório.")
+Person(supervisor, "Supervisor (AppSec/TechLead)", "Usuário com permissão especifica para repositórios, consegue realizar a gestão de vulnerabilidades e operações de leitura.")
+Person(admin, "Administrador (PO/Head)", "Usuário com o maior nível de permissões do Horusec, possui todas as permissões de escrita e leitura.")
+Person(applicationAdmin, "Administrador da Aplicação (CTO/Principal)", "Usuário opcional especial que possui todas as permissões do administrador, caso ativado apenas ele conseguirá criar novos workspaces, removendo essa permissão do administrador padrão.")
+
+System(horusecPlatform, "Horusec Platform (Opcional)", "Conjunto de serviços web para gestão e visualização de vulnerabilidades encontradas pela CLI do Horusec.")
+
+System_Ext(horusecCLI, "Horusec CLI", "Interface de linha de comandos do Horusec, realiza analise estática de código em busca de vulnerabilidades.")
+
+Rel(developer, horusecPlatform, "Busca worksapaces e repositórios, visualiza vulnerabilidades e dashboard dos repositórios ao qual tem permissão.")
+Rel(supervisor, horusecPlatform, "Busca worksapaces e repositórios, gestão de vulnerabilidades e dashboard dos repositórios ao qual tem permissão.")
+Rel(admin, horusecPlatform, "Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios.")
+Rel(applicationAdmin, horusecPlatform, "Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios.")
+
+Rel(horusecCLI, horusecPlatform, "Envia os dados das vulnerabilidades encontradas para os serviços web.")
+
+@enduml

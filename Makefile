@@ -1,6 +1,9 @@
 GO ?= go
 ADDLICENSE ?= addlicense
 
+build:
+	ARGS=""; c4builder $(ARGS)
+
 run:
 	c4builder site
 
