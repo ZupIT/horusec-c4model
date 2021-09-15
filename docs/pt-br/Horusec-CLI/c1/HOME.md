@@ -5,6 +5,5 @@
 # C4Model Horusec-CLI - C1
 
 ## Descrição
-Um diagrama de contexto do sistema é um bom ponto de partida para diagramação e documentar um sistema de software, permitindo que você recue e veja a grande figura.Desenhe um diagrama mostrando seu sistema como uma caixa no centro, cercado por seus usuários e os outros sistemas que interage.
 
-O detalhe não é importante aqui, pois esta é a sua opinião ampliada mostrando uma grande imagem da paisagem do sistema.O foco deve estar em pessoas (atores, papéis, personas, etc) e sistemas de software, em vez de tecnologias, protocolos e outros detalhes de baixo nível.É o tipo de diagrama que você poderia mostrar para pessoas não técnicas.
+Com a CLI do Horusec, o desenvolvedor ou a própria esteira de CI podem executar uma análise estatística de código em busca de prováveis vulnerabilidades. Após a análise, o resultado é exibido pela CLI e pode também ser enviado para os serviços web do Horusec para gestão de vulnerabilidades, lembrando que a cli não depende dos serviços web e pode ser utilizada de forma independente.
