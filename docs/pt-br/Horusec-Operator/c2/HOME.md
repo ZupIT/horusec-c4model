@@ -5,6 +5,5 @@
 # C4Model Horusec-Operator - C2
 
 ## Descrição
-Depois de entender como seu sistema se encaixa no ambiente geral de TI, um próximo passo realmente útil é aumentar o limite no limite do sistema com um diagrama de contêineres.Um "contêiner" é algo como um aplicativo da Web do lado do servidor, aplicativo de página única, aplicativo de desktop, aplicativo móvel, esquema de banco de dados, sistema de arquivos, etc. Essencialmente, um contêiner é uma unidade de forma separada / implementável (por exemplo, um espaço de processo separado) que executa dados ou armazena dados.
-
-O diagrama de contêiner mostra a forma de alto nível da arquitetura de software e como as responsabilidades são distribuídas através dela.Também mostra as principais escolhas de tecnologia e como os contêineres se comunicam uns com os outros.É um diagrama focado de tecnologia simples e de alto nível que é útil para desenvolvedores de software e equipe de suporte / operações.
+Para realizar a instalação do operator, é necessário adicionar o recurso personalizado (CRD) do Horusec no Cluster. 
+Após a instalação será possível editar todas as configurações do Horusec através do CRD, onde qualquer alteração notificará o Kubernetes e irá atualizar todos os serviços WEB.
