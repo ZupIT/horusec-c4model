@@ -14,6 +14,7 @@ Take a look at
 # Getting started
 ## Requirements
 * [c4builder](https://github.com/adrianvlupu/C4-Builder)
+* [graphviz](https://graphviz.org/download)
 
 For run this project you can run this command:
 ```

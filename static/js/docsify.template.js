@@ -31,7 +31,7 @@ module.exports = options => {
 
     <head>
       <meta charset="UTF-8">
-      <title>Custom Template example</title>
+      <title>Horusec-C4Model</title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
       <meta name="description" content="Description">
       <meta name="viewport"
