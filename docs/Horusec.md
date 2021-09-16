@@ -92,7 +92,8 @@ A CLI (sigla para interface de linha de comando) é o programa responsável por 
 
 [C4Model](#Horusec)
 
-Ao invés de instalar, atualizar e gerenciar manualmente o Horusec em um ambiente de produção, deixe que o operador do Horusec faça isso para você.
+O horusec-operator é um facilitador para gerenciamento e orquestramento do ambiente de produção do horusec-platform.
+
 
 ![diagram](c3.svg)
 
