@@ -58,7 +58,9 @@ No primeiro nível podemos ver de forma superficial como é a ligação entre em
 
 [C4Model](#Horusec)
 
-Nesse nível mostramos de maneira mais detalhada o sistema descrevendo os seus containers e como eles se comunicam/interagem. Nesse nível é dado ênfase na arquitetura e tecnologias utilizadas. A ideia é mostrar como o sistema é de forma macro. Um container pode ser uma aplicação web, um database, um sistema de arquivos, etc.
+No segundo nível podemos verificar de forma mais detalhada como é interligada a arquitetura do Horusec e seus componentes, como também as tecnologias que fazem parte desse ecossistema.
+
+![diagram](c2.svg)
 
 ## C3 - Component
 
@@ -92,7 +94,7 @@ A CLI (sigla para interface de linha de comando) é o programa responsável por 
 
 [C4Model](#Horusec)
 
-O horusec-operator é um facilitador para gerenciamento e orquestramento do ambiente de produção do horusec-platform.
+O horusec-operator é um facilitador para gerenciamento e orquestramento do ambiente de produção do [horusec-platform](C3%20-%20Component/Platform/HOME).
 
 
 ![diagram](c3.svg)
@@ -103,7 +105,7 @@ O horusec-operator é um facilitador para gerenciamento e orquestramento do ambi
 
 [C4Model](#Horusec)
 
-As aplicações web do Horusec (Platform) são uma extensão das funcionalidades da CLI para gerenciar as vulnerabilidades encontradas e, assim, realizar a classificação delas.
+A aplicação web do Horusec (horusec-platform) é uma extensão das funcionalidades da CLI. Na aplicação é possível realizar a organização em repositórios e workspaces para facilitar a visualização das vulnerabilidades em forma de gráficos e também classifica-las da forma que convém a equipe.
 
 
 ![diagram](c3.svg)

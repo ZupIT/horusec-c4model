@@ -17,4 +17,6 @@
 
 ---
 
-Nesse nível mostramos de maneira mais detalhada o sistema descrevendo os seus containers e como eles se comunicam/interagem. Nesse nível é dado ênfase na arquitetura e tecnologias utilizadas. A ideia é mostrar como o sistema é de forma macro. Um container pode ser uma aplicação web, um database, um sistema de arquivos, etc.
+No segundo nível podemos verificar de forma mais detalhada como é interligada a arquitetura do Horusec e seus componentes, como também as tecnologias que fazem parte desse ecossistema.
+
+![diagram](c2.svg)
