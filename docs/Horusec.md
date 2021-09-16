@@ -1,4 +1,15 @@
-# C4Model
+# Horusec
+
+* [C4Model](#C4Model)
+  * [C3 - Component](#C3---Component)
+    * [CLI](#CLI)
+    * [Operator](#Operator)
+    * [Platform](#Platform)
+    * [VScode](#VScode)
+
+---
+
+## C4Model
 
 ## Overview
 
@@ -27,3 +38,62 @@ Horusec é uma ferramenta de código aberto que realiza análise de código est�
 <img src="https://horusec.io/site/horus-animation-1.gif" alt="usec-animation-cli" style="width: 40%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
 
 <img src="https://horusec.io/site/static/67e40e4cf66a01b3cd5c68cb8089f911/ee604/example-illustration.png" alt="horusec-arquitecture" style="width: 40%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+
+
+## C3 - Component
+
+`/C3 - Component`
+
+[C4Model](#Horusec)
+
+Nesse nível damos mais um passo nos detalhes em comparação ao Container; descrevendo as partes que compõem os componentes. Nesse nível damos ênfase nas interações, responsabilidades e tecnologias utilizadas de maneira mais detalhada que nos níveis anteriores.
+
+O Horusec hoje é dividido em 4 frentes, sendo cada um deles um container dentro do C4Model.
+
+- CLI
+- Operator
+- Platform
+- VSCode
+
+
+## CLI
+
+`/C3 - Component/CLI`
+
+[C4Model](#Horusec)
+
+A CLI (sigla para interface de linha de comando) é o programa responsável por processar comandos de um software ou qualquer programa computacional por meio de texto. No contexto da ferramenta, o Horusec-CLI é a parte de código que permite você rodar os comandos de análise de segurança e de identificação e/ou classificação de vulnerabilidades.
+
+
+![diagram](c3.svg)
+
+## Operator
+
+`/C3 - Component/Operator`
+
+[C4Model](#Horusec)
+
+
+
+![diagram](c3.svg)
+
+## Platform
+
+`/C3 - Component/Platform`
+
+[C4Model](#Horusec)
+
+As aplicações web do Horusec (Platform) são uma extensão das funcionalidades da CLI para gerenciar as vulnerabilidades encontradas e, assim, realizar a classificação delas.
+
+
+![diagram](c3.svg)
+
+## VScode
+
+`/C3 - Component/VScode`
+
+[C4Model](#Horusec)
+
+O Horusec disponibiliza a extensão do VS Code para realizar análises de código, na qual é possível você fazer análises completas em seu projeto com apenas um clique.
+
+![diagram](c3.svg)

@@ -17,3 +17,8 @@ license:
 license-fix:
 	$(GO) get -u github.com/google/addlicense
 	@$(ADDLICENSE) -f ./copyright.txt $(shell find -regex '.*\.\(go\|js\|ts\|yml\|yaml\|sh\|dockerfile|md\)')
+
+dev:
+	make build
+	make license-fix
+	make run
