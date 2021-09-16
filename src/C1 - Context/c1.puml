@@ -2,6 +2,7 @@
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
 
 LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
 
 Person(user, "DevSecOps", "Usuário que deseje realizar análise de código e gestão de vulnerabilidades")
 
