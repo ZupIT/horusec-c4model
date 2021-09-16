@@ -1,6 +1,8 @@
 # Horusec
 
 * [C4Model](#C4Model)
+  * [C1 - Context](#C1---Context)
+  * [C2 - Container](#C2---Container)
   * [C3 - Component](#C3---Component)
     * [CLI](#CLI)
     * [Operator](#Operator)
@@ -39,6 +41,22 @@ Horusec é uma ferramenta de código aberto que realiza análise de código est�
 
 <img src="https://horusec.io/site/static/67e40e4cf66a01b3cd5c68cb8089f911/ee604/example-illustration.png" alt="horusec-arquitecture" style="width: 40%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
 
+
+## C1 - Context
+
+`/C1 - Context`
+
+[C4Model](#Horusec)
+
+No primeiro nível podemos ver de forma superficial como é a ligação entre em os diferentes componentes do Horusec e um pouco sobre suas responsabilidades.
+
+![diagram](c1.svg)
+
+## C2 - Container
+
+`/C2 - Container`
+
+[C4Model](#Horusec)
 
 ## C3 - Component
 
