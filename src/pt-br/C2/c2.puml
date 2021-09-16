@@ -1,0 +1,85 @@
+@startuml horusec-c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(devSecOps, "DevSecOps", "Usuário que deseje realizar análise de código e gestão de vulnerabilidades")
+Person(developer, "Membro", "Usuário básico do Horusec, possui apenas permissão de leitura sobre workspace ou repositório")
+Person(supervisor, "Supervisor", "Usuário com permissão especifica para repositórios, consegue realizar a gestão de vulnerabilidades e operações de leitura")
+Person(admin, "Administrador", "Usuário com o maior nível de permissões do Horusec, possui todas as permissões de escrita e leitura")
+Person(applicationAdmin, "Administrador da Aplicação", "Usuário opcional especial que possui todas as permissões do administrador padrão, caso ativado apenas ele conseguirá criar novos workspaces, removendo essa permissão de todos outros níveis")
+
+Container(horusecCLI, "Horusec CLI", "Go", "Ferramenta que realiza análise estática de código em busca de vulnerabilidades")
+Container(horusecOperator, "Horusec Operator", "Go", "Operator kubernetes que faz instalação do Horusec Platform na infraestrutura do usuário")
+Container(horusecVSCode, "Horusec VSCode", "Typescript", "Extensão do Horusec CLI para o Visual Studio Code")
+
+System_Ext(kubernetes, "Kubernetes")
+System_Ext(response, "Resultado", "Retorna possíveis vulnerabilidades e informações sobre a análise")
+
+System_Boundary(horusecPlatform, "Horusec Platform") {
+    Container(horusecAuth, "Auth", "Go", "Serviço de autorização e autenticação")
+    Container(horusecApi, "Api", "Go", "Serviço de gestão das análises recebidas pela Horusec-CLI")
+    Container(horusecCore, "Core", "Go", "Serviço de gestão de workspaces, repositórios e usuários")
+    Container(horusecWebhook, "Webhook", "Go", "Serviço de gestão de webhooks")
+    Container(horusecAnalytic, "Analytic", "Go", "Serviço de visão analítica estratégica e dashboard")
+    Container(horusecManager, "Manager", "React", "Aplicação com a interface gráfica web do Horusec")
+    Container(horusecMessages, "Messages", "Go", "Serviço de envio de email")
+    Container(horusecVulnerability, "Vulnerability", "Go", "Serviço de gestão de vulnerabilidades")
+
+    System_Ext(rabbitMQ, "RabbitMQ", "Serviço de messageria")
+
+    ContainerDb(horusecAnalyticDatabase, "Banco de Dados Analítico", "Postgresql", "Armazena dados analíticos do Horusec")
+    ContainerDb(horusecHorusecDatabase, "Banco de Dados Geral Horusec", "Postgresql", "Armazena dados e infomações gerais do Horusec")
+
+    Rel(horusecApi, horusecAuth, "Verifica autenticidade de requisição", "GRPC")
+    Rel(horusecCore, horusecAuth, "Verifica autenticidade de requisição", "GRPC")
+    Rel(horusecWebhook, horusecAuth, "Verifica autenticidade de requisição", "GRPC")
+    Rel(horusecAnalytic, horusecAuth, "Verifica autenticidade de requisição", "GRPC")
+    Rel(horusecVulnerability, horusecAuth, "Verifica autenticidade de requisição", "GRPC")
+
+    Rel(horusecManager, horusecAuth, "Operações de conta e autenticação", "HTTP")
+    Rel(horusecManager, horusecCore, "Gestão de workspace e repositórios", "HTTP")
+    Rel(horusecManager, horusecWebhook, "Gestão de webhooks", "HTTP")
+    Rel(horusecManager, horusecAnalytic, "Visão estratégica e daashboard", "HTTP")
+    Rel(horusecManager, horusecVulnerability, "Gestão de vulnerabilidades", "HTTP")
+
+    Rel(horusecAuth, horusecMessages, "Publicação de pacotes de email", "AMQP")
+    Rel(horusecCore, horusecMessages, "Publicação de pacotes de email", "AMQP")
+    Rel(horusecApi,  horusecMessages, "Publicação de pacotes de novas análises", "AMQP")
+    Rel(horusecApi, horusecAnalytic, "Publicação de pacotes de novas análises", "AMQP")
+    Rel(horusecApi, horusecWebhook, "Publicação de pacotes de novas análises", "AMQP")
+
+    Rel(horusecApi, rabbitMQ, "Conexão com o rabbitMQ")
+    Rel(horusecAuth, rabbitMQ, "Conexão com o rabbitMQ")
+    Rel(horusecCore, rabbitMQ, "Conexão com o rabbitMQ")
+    Rel(horusecWebhook, rabbitMQ, "Conexão com o rabbitMQ")
+    Rel(horusecAnalytic, rabbitMQ, "Conexão com o rabbitMQ")
+    Rel(horusecMessages, rabbitMQ, "Conexão com o rabbitMQ")
+
+    Rel(horusecAnalytic, horusecAnalyticDatabase, "Conexão com o banco de dados")
+    Rel(horusecWebhook, horusecHorusecDatabase, "Conexão com o banco de dados")
+    Rel(horusecApi, horusecHorusecDatabase, "Conexão com o banco de dados")
+    Rel(horusecAuth, horusecHorusecDatabase, "Conexão com o banco de dados")
+    Rel(horusecCore, horusecHorusecDatabase, "Conexão com o banco de dados")
+    Rel(horusecVulnerability, horusecHorusecDatabase, "Conexão com o banco de dados")
+}
+
+Rel(devSecOps, horusecOperator, "Realizar instalação do Horusec Platform")
+Rel(devSecOps, horusecCLI, "Inicia análise de segurança no projeto desejado")
+Rel(devSecOps, horusecVSCode, "Inicia análise de segurança no projeto desejado")
+Rel(developer, horusecManager, "Busca worksapaces e repositórios, visualiza vulnerabilidades e dashboard dos repositórios ao qual tem permissão", "HTTP")
+Rel(supervisor, horusecManager, "Busca worksapaces e repositórios, gestão de vulnerabilidades e dashboard dos repositórios ao qual tem permissão", "HTTP")
+Rel(admin, horusecManager, "Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios", "HTTP")
+Rel(applicationAdmin, horusecManager, "Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios", "HTTP")
+
+Rel(horusecCLI, horusecApi, "Envio de dados dos resultados da CLI", "HTTP")
+Rel(horusecCLI, horusecVSCode, "CLI é exportada para extensão do VSCODE")
+
+Rel(horusecPlatform, horusecOperator, "Platform pode ser instalado no Kubernetes via Operator")
+
+Rel(horusecOperator, kubernetes , "Operator realizada instalação e atualização dos serviços WEB")
+
+Rel(horusecVSCode, response, "Exibe ou exporta resultado da análise da CLI")
+Rel(horusecCLI, response, "Exibe ou exporta resultado da análise da CLI")
+@enduml
