@@ -18,6 +18,7 @@
       * [c3](en/Horusec-VsCode/c3/HOME)
   * [pt-br](pt-br/HOME)
     * [C1](pt-br/C1/HOME)
+    * [C2](pt-br/C2/HOME)
     * [Horusec-CLI](pt-br/Horusec-CLI/HOME)
       * [c1](pt-br/Horusec-CLI/c1/HOME)
       * [c2](pt-br/Horusec-CLI/c2/HOME)

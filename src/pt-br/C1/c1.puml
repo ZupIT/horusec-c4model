@@ -1,4 +1,4 @@
-@startuml horusec-cli-c1
+@startuml horusec-c1
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
 
 LAYOUT_WITH_LEGEND()
@@ -14,10 +14,14 @@ System_Ext(response, "Resultado", "Retorna possíveis vulnerabilidades e informa
 System_Ext(kubernetes, "Kubernetes")
 
 Rel(user, horusecCLI, "Inicia análise de segurança no projeto desejado")
+Rel(user, horusecOperator, "Realizar instalação do Horusec Platform")
+Rel(user, horusecVSCode, "Inicia análise de segurança no projeto desejado")
 
 Rel(horusecCLI, horusecPlatform, "Possíveis vulnerabilidades são enviadas para os serviços WEB")
-Rel(horusecCLI, response, "Exibe ou exporta resultado da análise da CLI")
 Rel(horusecCLI, horusecVSCode, "CLI é exportada para extensão do VSCODE")
+
+Rel(horusecCLI, response, "Exibe ou exporta resultado da análise da CLI")
+Rel(horusecVSCode, response, "Exibe ou exporta resultado da análise da CLI")
 
 Rel(horusecPlatform, horusecOperator, "Platform pode ser instalado no Kubernetes via Operator")
 
