@@ -5,7 +5,6 @@
 # C4Model Horusec-CLI - C2
 
 ## Descrição
+Depois de entender como seu sistema se encaixa no ambiente geral de TI, um próximo passo realmente útil é aumentar o limite no limite do sistema com um diagrama de contêineres.Um "contêiner" é algo como um aplicativo da Web do lado do servidor, aplicativo de página única, aplicativo de desktop, aplicativo móvel, esquema de banco de dados, sistema de arquivos, etc. Essencialmente, um contêiner é uma unidade de forma separada / implementável (por exemplo, um espaço de processo separado) que executa dados ou armazena dados.
 
-Assim que a CLI for acionada, algumas validações de configurações e dependências serão executadas. Caso tudo esteja de forma correta, o Horusec irá começar a identificar linguagens contidas no local de execução e baixar suas respectivas imagens Docker contendo as ferramentas de análise, lembrando que apenas ferramentas open source de terceiros estão contidas nas imagens, o motor próprio do Horusec não depende do Docker. Após a execução dos containers, o resultado de cada um será formatado para um padrão e apresentado ao usuário, sendo que esse pode ser também enviado aos serviços web do Horusec para gestão de vulnerabilidades e visão estratégica.
-
-Também existem outros dois comandos além do principal para início de análise, sendo eles o comando de versão da CLI instalada e o de geração de arquivo de configuração da CLI, o qual irá gerar um exemplo de configuração com valores padrões.
+O diagrama de contêiner mostra a forma de alto nível da arquitetura de software e como as responsabilidades são distribuídas através dela.Também mostra as principais escolhas de tecnologia e como os contêineres se comunicam uns com os outros.É um diagrama focado de tecnologia simples e de alto nível que é útil para desenvolvedores de software e equipe de suporte / operações.

@@ -5,4 +5,6 @@
 # C4Model Horusec-Operator - C3
 
 ## Description
-This step-by-step happens when verifying that changes were made in the Horusec resource, where Kubernetes will notify the operator. Once notified, the operator looks for the new settings and compares them with the current state of the installation and applies the desired state, ie the new settings to services, deployments and so on. Thus saving all the work of the user having to make modifications to all these features of Kubernetes.
+Then you can expand and decompose each container to identify the main structural building blocks and your interactions.
+
+The component diagram shows how a container is composed of a number of "components", which each of these components is, their responsibilities and details of technology / implementation.
