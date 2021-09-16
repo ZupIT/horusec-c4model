@@ -1,0 +1,5 @@
+# C1 - Context
+
+No primeiro nível podemos ver de forma superficial como é a ligação entre em os diferentes componentes do Horusec e um pouco sobre suas responsabilidades.
+
+![diagram](c1.svg)

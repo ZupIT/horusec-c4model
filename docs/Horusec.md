@@ -1,4 +1,17 @@
-# C4Model
+# Horusec
+
+* [C4Model](#C4Model)
+  * [C1 - Context](#C1---Context)
+  * [C2 - Container](#C2---Container)
+  * [C3 - Component](#C3---Component)
+    * [CLI](#CLI)
+    * [Operator](#Operator)
+    * [Platform](#Platform)
+    * [VScode](#VScode)
+
+---
+
+## C4Model
 
 ## Overview
 
@@ -27,3 +40,82 @@ Horusec é uma ferramenta de código aberto que realiza análise de código est�
 <img src="https://horusec.io/site/horus-animation-1.gif" alt="usec-animation-cli" style="width: 40%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
 
 <img src="https://horusec.io/site/static/67e40e4cf66a01b3cd5c68cb8089f911/ee604/example-illustration.png" alt="horusec-arquitecture" style="width: 40%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+
+
+## C1 - Context
+
+`/C1 - Context`
+
+[C4Model](#Horusec)
+
+No primeiro nível podemos ver de forma superficial como é a ligação entre em os diferentes componentes do Horusec e um pouco sobre suas responsabilidades.
+
+![diagram](c1.svg)
+
+## C2 - Container
+
+`/C2 - Container`
+
+[C4Model](#Horusec)
+
+No segundo nível podemos verificar de forma mais detalhada como é interligada a arquitetura do Horusec e seus componentes, como também as tecnologias que fazem parte desse ecossistema.
+
+![diagram](c2.svg)
+
+## C3 - Component
+
+`/C3 - Component`
+
+[C4Model](#Horusec)
+
+Nesse nível damos mais um passo nos detalhes em comparação ao Container; descrevendo as partes que compõem os componentes. Nesse nível damos ênfase nas interações, responsabilidades e tecnologias utilizadas de maneira mais detalhada que nos níveis anteriores.
+
+O Horusec hoje é dividido em 4 frentes, sendo cada um deles um container dentro do C4Model.
+
+- [CLI](C3%20-%20Component/CLI/HOME)
+- [Operator](C3%20-%20Component/Operator/HOME)
+- [Platform](C3%20-%20Component/Platform/HOME)
+- [VScode](C3%20-%20Component/VScode/HOME)
+
+## CLI
+
+`/C3 - Component/CLI`
+
+[C4Model](#Horusec)
+
+A CLI (sigla para interface de linha de comando) é o programa responsável por processar comandos de um software ou qualquer programa computacional por meio de texto. No contexto da ferramenta, o Horusec-CLI é a parte de código que permite você rodar os comandos de análise de segurança e de identificação e/ou classificação de vulnerabilidades.
+
+
+![diagram](c3.svg)
+
+## Operator
+
+`/C3 - Component/Operator`
+
+[C4Model](#Horusec)
+
+O horusec-operator é um facilitador para gerenciamento e orquestramento do ambiente de produção do [horusec-platform](C3%20-%20Component/Platform/HOME).
+
+
+![diagram](c3.svg)
+
+## Platform
+
+`/C3 - Component/Platform`
+
+[C4Model](#Horusec)
+
+A aplicação web do Horusec (horusec-platform) é uma extensão das funcionalidades da CLI. Na aplicação é possível realizar a organização em repositórios e workspaces para facilitar a visualização das vulnerabilidades em forma de gráficos e também classifica-las da forma que convém a equipe.
+
+
+![diagram](c3.svg)
+
+## VScode
+
+`/C3 - Component/VScode`
+
+[C4Model](#Horusec)
+
+O Horusec disponibiliza a extensão do VS Code para realizar análises de código, na qual é possível você fazer análises completas em seu projeto com apenas um clique.
+
+![diagram](c3.svg)

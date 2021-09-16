@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1969px" preserveAspectRatio="none" style="width:2396px;height:1969px;" version="1.1" viewBox="0 0 2396 1969" width="2396px" zoomAndPan="magnify"><defs/><g><!--MD5=[3df576935897ee00c97ca07c8593dec1]
+cluster horusecPlatform--><rect fill="#FFFFFF" height="1106" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="1608" x="477.41" y="711"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="155" x="1203.91" y="727.8516">Horusec Platform</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="1250.41" y="742.7637">[System]</text><!--MD5=[775fa01766a7658848537535ce519909]
+entity horusecAuth--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="193" x="1259.91" y="1270"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="42" x="1335.41" y="1294.8516">Auth</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="27" x="1342.91" y="1309.7637">[Go]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1358.41" y="1325.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="1269.91" y="1341.8857">Serviço de autorização e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="1311.91" y="1358.1826">autenticação</text><!--MD5=[cdbcd9d1d169b29a04ebf34724073a2d]
+entity horusecApi--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="185" x="576.91" y="770"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="27" x="655.91" y="794.8516">Api</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="27" x="655.91" y="809.7637">[Go]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="671.41" y="825.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="590.91" y="841.8857">Serviço de gestão das</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="161" x="586.91" y="858.1826">análises recebidas pela</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="627.91" y="874.4795">Horusec-CLI</text><!--MD5=[d985f9c1bb30b74f834780fcaeecd1eb]
+entity horusecCore--><rect fill="#438DD5" height="117.7813" style="stroke: #3C7FC0; stroke-width: 1.5;" width="210" x="1843.41" y="1013"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="42" x="1927.41" y="1037.8516">Core</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="27" x="1934.91" y="1052.7637">[Go]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1950.41" y="1068.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="1873.41" y="1084.8857">Serviço de gestão de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="1853.41" y="1101.1826">workspaces, repositórios e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="1918.91" y="1117.4795">usuários</text><!--MD5=[0bda646300c7cdd509cf9be96eca6645]
+entity horusecWebhook--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="170" x="1017.41" y="1021.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="84" x="1060.41" y="1046.3516">Webhook</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="27" x="1088.91" y="1061.2637">[Go]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1104.41" y="1077.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="1027.41" y="1093.3857">Serviço de gestão de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="1066.41" y="1109.6826">webhooks</text><!--MD5=[dc5dc7c865e689cc7f8dd51b38e6746f]
+entity horusecAnalytic--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="194" x="784.41" y="1021.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="846.91" y="1046.3516">Analytic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="27" x="867.91" y="1061.2637">[Go]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="883.41" y="1077.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="794.41" y="1093.3857">Serviço de visão analítica</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="797.41" y="1109.6826">estratégica e dashboard</text><!--MD5=[075ed170e5664799916dce14975b44ed]
+entity horusecManager--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="199" x="1354.91" y="778.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="77" x="1415.91" y="803.3516">Manager</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="46" x="1431.41" y="818.2637">[React]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1456.41" y="834.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="1364.91" y="850.3857">Aplicação com a interface</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="162" x="1373.41" y="866.6826">gráfica web do Horusec</text><!--MD5=[f4fb7044fd4ea33b25408fcee8060adf]
+entity horusecMessages--><rect fill="#438DD5" height="85.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="195" x="1219.91" y="1518"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="1272.91" y="1542.8516">Messages</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="27" x="1303.91" y="1557.7637">[Go]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1319.41" y="1573.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="1229.91" y="1589.8857">Serviço de envio de email</text><!--MD5=[44bf5f8848839ea2ecdf23ffdf33d0cc]
+entity horusecVulnerability--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="170" x="1638.41" y="1021.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="1669.41" y="1046.3516">Vulnerability</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="27" x="1709.91" y="1061.2637">[Go]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1725.41" y="1077.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="1648.41" y="1093.3857">Serviço de gestão de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="1667.91" y="1109.6826">vulnerabilidades</text><!--MD5=[01f86abbde3cf69607b9d981b533abfe]
+entity rabbitMQ--><rect fill="#999999" height="71.2188" style="stroke: #8A8A8A; stroke-width: 1.5;" width="176" x="937.41" y="1722"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="982.41" y="1746.8516">RabbitMQ</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1027.41" y="1763.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="947.41" y="1779.917">Serviço de messageria</text><!--MD5=[24260000b722bda4a3809dfea301d349]
+entity horusecAnalyticDatabase--><path d="M757.41,1266 C757.41,1256 861.41,1256 861.41,1256 C861.41,1256 965.41,1256 965.41,1266 L965.41,1375.1094 C965.41,1385.1094 861.41,1385.1094 861.41,1385.1094 C861.41,1385.1094 757.41,1385.1094 757.41,1375.1094 L757.41,1266 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M757.41,1266 C757.41,1276 861.41,1276 861.41,1276 C861.41,1276 965.41,1276 965.41,1266 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="786.91" y="1294.8516">Banco de Dados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="824.41" y="1313.4766">Analítico</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="824.41" y="1328.3887">[Postgresql]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="863.41" y="1344.2139"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="184" x="767.41" y="1360.5107">Armazena dados analíticos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="821.41" y="1376.8076">do Horusec</text><!--MD5=[cec55566725cf879f8737b752a585e59]
+entity horusecHorusecDatabase--><path d="M1449.91,1498 C1449.91,1488 1557.41,1488 1557.41,1488 C1557.41,1488 1664.91,1488 1664.91,1498 L1664.91,1623.4063 C1664.91,1633.4063 1557.41,1633.4063 1557.41,1633.4063 C1557.41,1633.4063 1449.91,1633.4063 1449.91,1623.4063 L1449.91,1498 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M1449.91,1498 C1449.91,1508 1557.41,1508 1557.41,1508 C1557.41,1508 1664.91,1508 1664.91,1498 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="195" x="1459.91" y="1526.8516">Banco de Dados Geral</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="1520.91" y="1545.4766">Horusec</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="1520.41" y="1560.3887">[Postgresql]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1559.41" y="1576.2139"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="129" x="1490.91" y="1592.5107">Armazena dados e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="148" x="1481.41" y="1608.8076">infomações gerais do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="58" x="1528.41" y="1625.1045">Horusec</text><!--MD5=[027fa43ab14e86e651d7d386ac6a68a6]
+entity devSecOps--><rect fill="#08427B" height="151.8125" style="stroke: #073B6F; stroke-width: 1.5;" width="211" x="228.91" y="7"/><image height="48" width="48" x="310.41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="101" x="283.91" y="79.8516">DevSecOps</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="336.41" y="96.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="187" x="238.91" y="112.917">Usuário que deseje realizar</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="239.41" y="129.2139">análise de código e gestão</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="267.91" y="145.5107">de vulnerabilidades</text><!--MD5=[23e4898078453906b079a6bea7d1245c]
+entity developer--><rect fill="#08427B" height="168.1094" style="stroke: #073B6F; stroke-width: 1.5;" width="219" x="1719.91" y="312"/><image height="48" width="48" x="1805.41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="322"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="1792.91" y="384.8516">Membro</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1831.41" y="401.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="189" x="1732.91" y="417.917">Usuário básico do Horusec,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="199" x="1729.91" y="434.2139">possui apenas permissão de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="187" x="1733.91" y="450.5107">leitura sobre workspace ou</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="1792.41" y="466.8076">repositório</text><!--MD5=[4bebba49608589dc38d1c6132cbcfa51]
+entity supervisor--><rect fill="#08427B" height="184.4063" style="stroke: #073B6F; stroke-width: 1.5;" width="217" x="967.91" y="304"/><image height="48" width="48" x="1052.41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="314"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="1028.91" y="376.8516">Supervisor</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1078.41" y="393.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="162" x="993.41" y="409.917">Usuário com permissão</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="977.91" y="426.2139">especifica para repositórios,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="187" x="980.91" y="442.5107">consegue realizar a gestão</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="1001.41" y="458.8076">de vulnerabilidades e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="1005.41" y="475.1045">operações de leitura</text><!--MD5=[79a439086b036a57b90a01d7b2f8bbd1]
+entity admin--><rect fill="#08427B" height="168.1094" style="stroke: #073B6F; stroke-width: 1.5;" width="218" x="1220.41" y="312"/><image height="48" width="48" x="1305.41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="322"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="1267.41" y="384.8516">Administrador</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1331.41" y="401.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="1230.41" y="417.917">Usuário com o maior nível de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="1242.91" y="434.2139">permissões do Horusec,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="1230.41" y="450.5107">possui todas as permissões</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="1265.91" y="466.8076">de escrita e leitura</text><!--MD5=[817f4330aad7f3a040fa98f5e33a52a9]
+entity applicationAdmin--><rect fill="#08427B" height="268.2188" style="stroke: #073B6F; stroke-width: 1.5;" width="211" x="1473.91" y="262"/><image height="48" width="48" x="1555.41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="272"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="1500.91" y="334.8516">Administrador da</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="1538.41" y="353.4766">Aplicação</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1581.41" y="370.2451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="1489.91" y="386.542">Usuário opcional especial</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="1507.41" y="402.8389">que possui todas as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="103" x="1525.91" y="419.1357">permissões do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="187" x="1483.91" y="435.4326">administrador padrão, caso</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="129" x="1512.91" y="451.7295">ativado apenas ele</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="1499.41" y="468.0264">conseguirá criar novos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="1492.41" y="484.3232">workspaces, removendo</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="1489.91" y="500.6201">essa permissão de todos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="1535.41" y="516.917">outros níveis</text><!--MD5=[076b20a01ef34dd568effd28f63d9cb2]
+entity horusecCLI--><rect fill="#438DD5" height="134.0781" style="stroke: #3C7FC0; stroke-width: 1.5;" width="203" x="232.91" y="329"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="107" x="280.91" y="353.8516">Horusec CLI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="27" x="320.91" y="368.7637">[Go]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="336.41" y="384.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="253.41" y="400.8857">Ferramenta que realiza</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="242.91" y="417.1826">análise estática de código</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="287.41" y="433.4795">em busca de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="278.91" y="449.7764">vulnerabilidades</text><!--MD5=[63edf1524b0573db3bef1d75560274d9]
+entity horusecOperator--><rect fill="#438DD5" height="134.0781" style="stroke: #3C7FC0; stroke-width: 1.5;" width="220" x="2133.41" y="1005"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="2163.41" y="1029.8516">Horusec Operator</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="27" x="2229.91" y="1044.7637">[Go]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2245.41" y="1060.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="200" x="2143.41" y="1076.8857">Operator kubernetes que faz</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="2164.91" y="1093.1826">instalação do Horusec</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="2143.91" y="1109.4795">Platform na infraestrutura do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="2217.91" y="1125.7764">usuário</text><!--MD5=[1bacea79721120cc6ae46d9eca9fa04f]
+entity horusecVSCode--><rect fill="#438DD5" height="101.4844" style="stroke: #3C7FC0; stroke-width: 1.5;" width="196" x="33.41" y="778.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="57.91" y="803.3516">Horusec VSCode</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="94.41" y="818.2637">[Typescript]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="133.41" y="834.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="43.41" y="850.3857">Extensão do Horusec CLI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="43.41" y="866.6826">para o Visual Studio Code</text><!--MD5=[b5991c04719c7fdefa592c3a39d25aab]
+entity kubernetes--><rect fill="#999999" height="38.625" style="stroke: #8A8A8A; stroke-width: 1.5;" width="123" x="2181.91" y="1301"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="2191.91" y="1325.8516">Kubernetes</text><!--MD5=[4e23214894d297b5e2584558f34895ad]
+entity response--><rect fill="#999999" height="103.8125" style="stroke: #8A8A8A; stroke-width: 1.5;" width="213" x="111.91" y="1020"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="174.41" y="1044.8516">Resultado</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="220.41" y="1061.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="123" x="154.91" y="1077.917">Retorna possíveis</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="154.41" y="1094.2139">vulnerabilidades e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="121.91" y="1110.5107">informações sobre a análise</text><!--MD5=[2e6e7688b91778ca8e3d3c7fb8dceb73]
+link horusecApi to horusecAuth--><path d="M762.07,834.58 C947.17,844.69 1348.46,871.74 1389.41,918 C1482.94,1023.66 1278.83,978.17 1257.41,1005 C1220.26,1051.55 1222.84,1090.51 1257.41,1139 C1281.15,1172.3 1319.36,1136.67 1344.41,1169 C1350.14,1176.4 1353.21,1222.4 1354.81,1261.61 " fill="none" id="horusecApi-to-horusecAuth" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1355.13,1269.86,1357.8136,1261.7484,1351.8183,1261.9839,1355.13,1269.86" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="1292.41" y="1055.6387">Verifica</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="1258.41" y="1069.6074">autenticidade de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="1283.91" y="1083.5762">requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="1299.91" y="1097.5449">[GRPC]</text><!--MD5=[12d4cc18324e61c6a0e9817bc8a5d65a]
+link horusecCore to horusecAuth--><path d="M1847.84,1131.11 C1840.71,1134.07 1833.53,1136.75 1826.41,1139 C1718.04,1173.32 1670.68,1111.86 1572.41,1169 C1545.21,1184.82 1554.18,1205.38 1530.41,1226 C1523.67,1231.85 1493.64,1248.4 1460.38,1265.98 " fill="none" id="horusecCore-to-horusecAuth" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1453.24,1269.75,1461.7158,1268.6724,1458.9173,1263.365,1453.24,1269.75" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="1607.41" y="1181.1387">Verifica</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="1573.41" y="1195.1074">autenticidade de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="1598.91" y="1209.0762">requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="1614.91" y="1223.0449">[GRPC]</text><!--MD5=[e26861d57d92ff0cdc486cc5d4bab56c]
+link horusecWebhook to horusecAuth--><path d="M1142.69,1122.61 C1154.21,1137.31 1166.58,1153.61 1177.41,1169 C1194.65,1193.5 1192.39,1204.65 1213.41,1226 C1227.46,1240.28 1244.05,1253.53 1260.86,1265.3 " fill="none" id="horusecWebhook-to-horusecAuth" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1267.57,1269.91,1262.6779,1262.9052,1259.2783,1267.8491,1267.57,1269.91" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="1248.41" y="1181.1387">Verifica</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="1214.41" y="1195.1074">autenticidade de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="1239.91" y="1209.0762">requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="1255.91" y="1223.0449">[GRPC]</text><!--MD5=[9988d22cc4bd03376b06d483bd7f807c]
+link horusecAnalytic to horusecAuth--><path d="M945.45,1122.68 C962.6,1136.99 980.73,1153.05 996.41,1169 C1019.24,1192.21 1014.23,1209.71 1042.41,1226 C1116.42,1268.79 1151.12,1229.52 1232.41,1256 C1241.66,1259.01 1251.07,1262.65 1260.36,1266.64 " fill="none" id="horusecAnalytic-to-horusecAuth" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1267.78,1269.91,1261.663,1263.9449,1259.249,1269.4379,1267.78,1269.91" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="1077.41" y="1181.1387">Verifica</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="1043.41" y="1195.1074">autenticidade de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="1068.91" y="1209.0762">requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="1084.91" y="1223.0449">[GRPC]</text><!--MD5=[40fe69b05adb05d4356b594869740d3f]
+link horusecVulnerability to horusecAuth--><path d="M1648.24,1122.64 C1636.28,1128.95 1623.77,1134.69 1611.41,1139 C1519.88,1170.89 1467.79,1104.54 1395.41,1169 C1369.49,1192.09 1359.77,1229.96 1356.51,1261.93 " fill="none" id="horusecVulnerability-to-horusecAuth" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1355.82,1269.92,1359.5083,1262.2131,1353.5313,1261.6882,1355.82,1269.92" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="1430.41" y="1181.1387">Verifica</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="1396.41" y="1195.1074">autenticidade de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="1421.91" y="1209.0762">requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="42" x="1437.91" y="1223.0449">[GRPC]</text><!--MD5=[a79ba82e5b08de628bd29b97d489e999]
+link horusecManager to horusecAuth--><path d="M1453.21,879.52 C1449.78,943.13 1437.23,1055.32 1392.41,1139 C1383.51,1155.62 1369.97,1151.73 1362.41,1169 C1355.32,1185.19 1354.05,1226.24 1354.42,1261.38 " fill="none" id="horusecManager-to-horusecAuth" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1354.54,1269.7,1357.4111,1261.6528,1351.4118,1261.7492,1354.54,1269.7" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="1437.41" y="1062.6387">Operações de conta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="1457.91" y="1076.6074">e autenticação</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="1490.91" y="1090.5762">[HTTP]</text><!--MD5=[13ef7768f85221d1f7419958e1866ab7]
+link horusecManager to horusecCore--><path d="M1537.54,879.58 C1544.47,882.72 1551.48,885.58 1558.41,888 C1635.8,915.03 1664.86,886.17 1740.41,918 C1791.18,939.39 1841.14,975.5 1879.36,1007.27 " fill="none" id="horusecManager-to-horusecCore" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1885.88,1012.74,1881.6803,1005.2994,1877.8234,1009.8955,1885.88,1012.74" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="1846.91" y="930.1387">Gestão de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="1838.41" y="944.1074">workspace e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="1841.91" y="958.0762">repositórios</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="1865.41" y="972.0449">[HTTP]</text><!--MD5=[9c9bc6f1373476b2bb7eb6a9426eb187]
+link horusecManager to horusecWebhook--><path d="M1357.01,879.66 C1335.64,891.54 1313.42,904.66 1293.41,918 C1248.62,947.84 1201.39,985.61 1165.11,1016.16 " fill="none" id="horusecManager-to-horusecWebhook" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1158.92,1021.39,1166.9655,1018.5143,1163.0908,1013.9332,1158.92,1021.39" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="150" x="1294.41" y="944.1387">Gestão de webhooks</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="1349.41" y="958.1074">[HTTP]</text><!--MD5=[f40d65472611f00182795d271ca40b78]
+link horusecManager to horusecAnalytic--><path d="M1354.64,830.15 C1205.44,832.73 935.16,847.34 874.41,918 C852.36,943.65 853.95,981.59 861.14,1013.27 " fill="none" id="horusecManager-to-horusecAnalytic" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="863.07,1021.18,864.0842,1012.6964,858.2559,1014.1214,863.07,1021.18" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="875.41" y="937.1387">Visão estratégica e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="903.41" y="951.1074">daashboard</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="926.41" y="965.0762">[HTTP]</text><!--MD5=[4e05c553627360c4fd7274070ec22c9e]
+link horusecManager to horusecVulnerability--><path d="M1509.82,879.64 C1554.13,919.34 1616.19,974.94 1662,1015.98 " fill="none" id="horusecManager-to-horusecVulnerability" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1668.07,1021.42,1664.1175,1013.8452,1660.1114,1018.3119,1668.07,1021.42" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="1633.91" y="937.1387">Gestão de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="1613.41" y="951.1074">vulnerabilidades</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="1652.41" y="965.0762">[HTTP]</text><!--MD5=[b2c422231d43811cc1c9b28d3e059124]
+link horusecAuth to horusecMessages--><path d="M1311.57,1371.17 C1302.09,1384.5 1293.44,1399.54 1288.41,1415 C1278.36,1445.92 1285.43,1481.74 1295.1,1509.98 " fill="none" id="horusecAuth-to-horusecMessages" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1297.88,1517.73,1298.0032,1509.1869,1292.3555,1511.2124,1297.88,1517.73" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="1298.91" y="1427.1387">Publicação de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="1289.41" y="1441.1074">pacotes de email</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="1328.41" y="1455.0762">[AMQP]</text><!--MD5=[b210d7720391b950819e21febf850809]
+link horusecCore to horusecMessages--><path d="M1844.79,1131.11 C1797.17,1162.53 1743.58,1205.3 1708.41,1256 C1674.27,1305.21 1703.94,1336.06 1669.41,1385 C1637.89,1429.67 1620.22,1435.47 1570.41,1458 C1513.22,1483.86 1490.58,1464.42 1432.41,1488 C1415.59,1494.82 1398.47,1504.02 1382.74,1513.56 " fill="none" id="horusecCore-to-horusecMessages" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1375.62,1517.95,1384.0029,1516.2985,1380.8499,1511.1937,1375.62,1517.95" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="1718.91" y="1311.1387">Publicação de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="1709.41" y="1325.1074">pacotes de email</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="1748.41" y="1339.0762">[AMQP]</text><!--MD5=[ed2484391ec8d2af0a083de4d12c0abf]
+link horusecApi to horusecMessages--><path d="M638.51,888.37 C589.45,984.87 503.26,1172.38 544.41,1226 C575.78,1266.88 617.38,1222.35 656.41,1256 C703.75,1296.81 662.6,1347.24 712.41,1385 C790.7,1444.35 840.92,1376.76 931.41,1415 C959.99,1427.08 957.81,1445.96 986.41,1458 C1078.99,1496.96 1116.44,1452.51 1210.41,1488 C1226.99,1494.26 1243.58,1503.51 1258.57,1513.3 " fill="none" id="horusecApi-to-horusecMessages" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1265.34,1517.82,1260.358,1510.8788,1257.0224,1515.8662,1265.34,1517.82" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="558.91" y="1181.1387">Publicação de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="545.41" y="1195.1074">pacotes de novas</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="60" x="579.91" y="1209.0762">análises</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="588.41" y="1223.0449">[AMQP]</text><!--MD5=[6129e04855d0f5f7cd90798a16b2aca3]
+link horusecApi to horusecAnalytic--><path d="M673.89,888.07 C678.6,916.68 688.15,950.26 707.41,975 C725.52,998.27 750.93,1016.7 776.75,1030.93 " fill="none" id="horusecApi-to-horusecAnalytic" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="784.04,1034.83,778.4037,1028.4087,775.5713,1033.6981,784.04,1034.83" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="721.91" y="930.1387">Publicação de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="708.41" y="944.1074">pacotes de novas</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="60" x="742.91" y="958.0762">análises</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="751.41" y="972.0449">[AMQP]</text><!--MD5=[86a01d529349c0ddc8655b3ae2dd6b93]
+link horusecApi to horusecWebhook--><path d="M761.97,831.81 C840.14,837.86 951.08,857.61 1026.41,918 C1056.4,942.04 1075.51,980.96 1087.06,1013.52 " fill="none" id="horusecApi-to-horusecWebhook" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1089.69,1021.22,1089.9435,1012.6798,1084.2655,1014.6189,1089.69,1021.22" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="1082.91" y="930.1387">Publicação de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="1069.41" y="944.1074">pacotes de novas</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="60" x="1103.91" y="958.0762">análises</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="43" x="1112.41" y="972.0449">[AMQP]</text><!--MD5=[2a50caa543f3407f545b6110574d91bc]
+link horusecApi to rabbitMQ--><path d="M605.55,888.19 C576.19,919.48 544.76,960.71 530.41,1005 C478.37,1165.69 456.16,1236.37 536.41,1385 C625.38,1549.78 822.46,1663.33 937.41,1718.38 " fill="none" id="horusecApi-to-rabbitMQ" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="944.87,1721.92,938.9275,1715.7811,936.3562,1721.2022,944.87,1721.92" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="537.41" y="1318.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="559.91" y="1332.1074">rabbitMQ</text><!--MD5=[eed9345018f2f23be835e94a643cea94]
+link horusecAuth to rabbitMQ--><path d="M1261.04,1371.14 C1194.36,1407.64 1113.31,1456.23 1090.41,1488 C1041.23,1556.24 1028.93,1656.99 1026.06,1713.68 " fill="none" id="horusecAuth-to-rabbitMQ" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1025.7,1721.72,1029.0544,1713.862,1023.0604,1713.594,1025.7,1721.72" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="1091.41" y="1558.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="1113.91" y="1572.1074">rabbitMQ</text><!--MD5=[dd49e9ad5793de6e4e7c655b6877c397]
+link horusecCore to rabbitMQ--><path d="M1987.33,1131.24 C2025.37,1196.05 2071.84,1302.52 2029.41,1385 C1942.69,1553.56 1856.77,1558.63 1682.41,1633 C1494.06,1713.34 1253.27,1741.6 1121.78,1751.41 " fill="none" id="horusecCore-to-rabbitMQ" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1113.67,1752,1121.868,1754.4068,1121.4291,1748.4228,1113.67,1752" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="2011.41" y="1434.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="2033.91" y="1448.1074">rabbitMQ</text><!--MD5=[5eaef8b6eb531d936332cf3a5e7dba01]
+link horusecWebhook to rabbitMQ--><path d="M1145.14,1122.52 C1166.6,1153.67 1184.08,1193.9 1163.41,1226 C1145.97,1253.09 1121.38,1234.47 1097.41,1256 C1036.33,1310.85 1025.07,1335.82 1003.41,1415 C974.85,1519.42 998.09,1648.19 1013.86,1713.76 " fill="none" id="horusecWebhook-to-rabbitMQ" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1015.84,1721.82,1016.8395,1713.3347,1011.0137,1714.7697,1015.84,1721.82" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="1004.41" y="1434.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="1026.91" y="1448.1074">rabbitMQ</text><!--MD5=[b5acc70ac616c17ad5332a3f0bc1e430]
+link horusecAnalytic to rabbitMQ--><path d="M954.65,1122.58 C968.74,1135.88 981.55,1151.49 989.41,1169 C999.79,1192.11 989.89,1200.67 989.41,1226 C988.08,1296.7 1027.32,1329.57 983.41,1385 C952.21,1424.38 904.86,1375.03 874.41,1415 C862.83,1430.2 869.98,1439.41 874.41,1458 C897.93,1556.6 959.57,1659.5 996.41,1715.01 " fill="none" id="horusecAnalytic-to-rabbitMQ" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1001,1721.87,999.0462,1713.5524,994.0588,1716.888,1001,1721.87" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="875.41" y="1434.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="897.91" y="1448.1074">rabbitMQ</text><!--MD5=[f6711d4984ba498a6141d4f6775f693d]
+link horusecMessages to rabbitMQ--><path d="M1255.13,1603.09 C1204.58,1636.85 1133.8,1684.11 1084.21,1717.23 " fill="none" id="horusecMessages-to-rabbitMQ" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1077.36,1721.81,1085.6776,1719.8562,1082.342,1714.8688,1077.36,1721.81" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="1163.41" y="1675.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="1185.91" y="1689.1074">rabbitMQ</text><!--MD5=[aeb0e5c4ce907bfb869403757f967966]
+link horusecAnalytic to horusecAnalyticDatabase--><path d="M875.19,1122.77 C873.47,1137.63 871.72,1153.96 870.41,1169 C868.19,1194.54 866.35,1222.56 864.92,1247.43 " fill="none" id="horusecAnalytic-to-horusecAnalyticDatabase" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="864.45,1255.73,867.8884,1247.9084,861.8976,1247.5762,864.45,1255.73" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="872.91" y="1195.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="871.41" y="1209.1074">banco de dados</text><!--MD5=[216a2e996d55535bfbbcdfd73e2665f1]
+link horusecWebhook to horusecHorusecDatabase--><path d="M1146.2,1122.64 C1156.1,1136.7 1165.21,1152.65 1170.41,1169 C1178.09,1193.14 1182.13,1203.54 1170.41,1226 C1159.63,1246.66 1138.19,1235.34 1127.41,1256 C1100.89,1306.83 1097.14,1336.31 1127.41,1385 C1202.96,1506.5 1298.21,1438.38 1432.41,1488 C1435.64,1489.19 1438.89,1490.47 1442.14,1491.81 " fill="none" id="horusecWebhook-to-horusecHorusecDatabase" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1449.72,1495.05,1443.5417,1489.1484,1441.1846,1494.6661,1449.72,1495.05" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="1129.91" y="1318.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="1128.41" y="1332.1074">banco de dados</text><!--MD5=[361750f99af43ed04e0f17006c0c6692]
+link horusecApi to horusecHorusecDatabase--><path d="M669.76,888.32 C670.34,914.82 671.64,946.55 674.41,975 C678.88,1020.92 706.57,1353.63 740.41,1385 C798.8,1439.12 1024.82,1382.3 1097.41,1415 C1122.63,1426.36 1117.3,1446.4 1142.41,1458 C1260.03,1512.36 1309.06,1448.31 1432.41,1488 C1435.62,1489.03 1438.84,1490.16 1442.06,1491.36 " fill="none" id="horusecApi-to-horusecHorusecDatabase" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1449.57,1494.3,1443.2108,1488.5938,1441.0268,1494.1822,1449.57,1494.3" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="703.91" y="1195.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="702.41" y="1209.1074">banco de dados</text><!--MD5=[ef03316c5f6c593e2cb387692fd5a513]
+link horusecAuth to horusecHorusecDatabase--><path d="M1391.02,1371.03 C1410.1,1397.49 1434.67,1430.23 1458.41,1458 C1465.17,1465.9 1472.39,1473.96 1479.74,1481.91 " fill="none" id="horusecAuth-to-horusecHorusecDatabase" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1485.38,1487.96,1482.1318,1480.0575,1477.7366,1484.1419,1485.38,1487.96" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="1460.91" y="1434.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="1459.41" y="1448.1074">banco de dados</text><!--MD5=[f4a5deac9901a99037d845c099b79475]
+link horusecCore to horusecHorusecDatabase--><path d="M1940.12,1131.01 C1928,1198.29 1899.93,1309.6 1839.41,1385 C1795.52,1439.68 1729.56,1481.83 1672.47,1510.99 " fill="none" id="horusecCore-to-horusecHorusecDatabase" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1665.2,1514.66,1673.6942,1513.7384,1670.9937,1508.3805,1665.2,1514.66" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="1908.91" y="1318.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="1907.41" y="1332.1074">banco de dados</text><!--MD5=[8cc4aaa1e7d844471b9ba0b0711b5f4e]
+link horusecVulnerability to horusecHorusecDatabase--><path d="M1638.39,1116.35 C1589.18,1141.48 1536.81,1168.34 1536.41,1169 C1523.21,1190.62 1535.3,1200.69 1536.41,1226 C1539.52,1296.87 1522.11,1319.95 1550.41,1385 C1557.57,1401.45 1570.98,1398.25 1577.41,1415 C1584.26,1432.84 1579.27,1438.98 1577.41,1458 C1576.71,1465.15 1575.74,1472.55 1574.61,1479.94 " fill="none" id="horusecVulnerability-to-horusecHorusecDatabase" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1573.31,1487.95,1577.5561,1480.5358,1571.634,1479.572,1573.31,1487.95" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="1552.91" y="1318.1387">Conexão com o</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="1551.41" y="1332.1074">banco de dados</text><!--MD5=[77a20a79449d8a5fe48fe1822368c501]
+link devSecOps to horusecOperator--><path d="M439.99,89.51 C780.39,108.09 1833.98,172.37 1956.41,262 C2213.63,450.3 2180.54,606.1 2246.41,918 C2251.76,943.33 2252.6,971.55 2251.59,996.78 " fill="none" id="devSecOps-to-horusecOperator" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2251.2,1004.87,2254.5818,997.0238,2248.5887,996.7348,2251.2,1004.87" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="136" x="2207.41" y="621.1387">Realizar instalação</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="2205.41" y="635.1074">do Horusec Platform</text><!--MD5=[9ad9e3cf6cc7202811e3863a603a9ba6]
+link devSecOps to horusecCLI--><path d="M334.41,159.28 C334.41,208.33 334.41,272.03 334.41,320.85 " fill="none" id="devSecOps-to-horusecCLI" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="334.41,328.85,337.41,320.85,331.41,320.85,334.41,328.85" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="336.91" y="201.1387">Inicia análise de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="345.91" y="215.1074">segurança no</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="335.41" y="229.0762">projeto desejado</text><!--MD5=[373a1a1f9286869f142ee880e90733b2]
+link devSecOps to horusecVSCode--><path d="M228.72,132.12 C177.27,161.65 120.38,204.86 91.41,262 C6,430.43 70.94,663.99 108.94,770.7 " fill="none" id="devSecOps-to-horusecVSCode" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="111.74,778.47,111.8489,769.9267,106.2045,771.9617,111.74,778.47" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="93.91" y="386.6387">Inicia análise de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="102.91" y="400.6074">segurança no</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="92.41" y="414.5762">projeto desejado</text><!--MD5=[e383022c71c4431642e380f81be8f00c]
+link developer to horusecManager--><path d="M1824.5,480.06 C1815.69,547.54 1791.73,639.11 1727.41,687 C1712.33,698.23 1575.11,686.37 1558.41,695 C1526.25,711.63 1500.91,743.18 1483.3,771.38 " fill="none" id="developer-to-horusecManager" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1478.99,778.46,1485.7076,773.1805,1480.5797,770.0652,1478.99,778.46" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="1808.41" y="579.1387">Busca worksapaces</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="1825.91" y="593.1074">e repositórios,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="1847.41" y="607.0762">visualiza</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="1812.91" y="621.0449">vulnerabilidades e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="107" x="1824.91" y="635.0137">dashboard dos</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="1806.41" y="648.9824">repositórios ao qual</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="1827.91" y="662.9512">tem permissão</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="1860.41" y="676.9199">[HTTP]</text><!--MD5=[8a1df114539bc84ca7497e52b195b653]
+link supervisor to horusecManager--><path d="M1096.24,488.08 C1113.56,550.05 1144.02,630.71 1194.41,687 C1235.54,732.95 1295.3,766.81 1347.16,789.82 " fill="none" id="supervisor-to-horusecManager" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1354.75,793.14,1348.6189,787.1894,1346.218,792.688,1354.75,793.14" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="1197.41" y="579.1387">Busca worksapaces</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="1214.91" y="593.1074">e repositórios,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="72" x="1231.41" y="607.0762">gestão de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="1201.91" y="621.0449">vulnerabilidades e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="107" x="1213.91" y="635.0137">dashboard dos</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="1195.41" y="648.9824">repositórios ao qual</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="1216.91" y="662.9512">tem permissão</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="1249.41" y="676.9199">[HTTP]</text><!--MD5=[0a8940b0b3826d8fff4c1282fa4088da]
+link admin to horusecManager--><path d="M1339.5,480.05 C1348.07,538.86 1362.67,619.04 1385.41,687 C1395.01,715.7 1409.27,746.03 1422.33,771.17 " fill="none" id="admin-to-horusecManager" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1426.16,778.46,1425.1029,769.9816,1419.7887,772.7673,1426.16,778.46" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="1386.41" y="572.1387">Permissão de escrita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="1397.41" y="586.1074">em workspaces e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="1387.41" y="600.0762">repositórios, criação</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="130" x="1393.91" y="614.0449">de tokens, gestão</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="1386.41" y="628.0137">de vulnerabilidades,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="99" x="1409.41" y="641.9824">dashboard de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="1413.91" y="655.9512">workspace e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="1417.41" y="669.9199">repositórios</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="1440.91" y="683.8887">[HTTP]</text><!--MD5=[b09e7261f26506528b1d0894734a3f6a]
+link applicationAdmin to horusecManager--><path d="M1573.12,530 C1567.76,580.28 1558.02,637.32 1540.41,687 C1529.9,716.64 1512.61,746.77 1496.28,771.52 " fill="none" id="applicationAdmin-to-horusecManager" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1491.7,778.36,1498.6486,773.3883,1493.6662,770.0453,1491.7,778.36" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="1569.41" y="572.1387">Permissão de escrita</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="1580.41" y="586.1074">em workspaces e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="1570.41" y="600.0762">repositórios, criação</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="130" x="1576.91" y="614.0449">de tokens, gestão</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="1569.41" y="628.0137">de vulnerabilidades,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="99" x="1592.41" y="641.9824">dashboard de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="1596.91" y="655.9512">workspace e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="1600.41" y="669.9199">repositórios</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="1623.91" y="683.8887">[HTTP]</text><!--MD5=[d5c08b6a0782e6ab02a2d3eef3f27e94]
+link horusecCLI to horusecApi--><path d="M386.02,463.4 C449.39,544.93 556.18,682.32 619,763.14 " fill="none" id="horusecCLI-to-horusecApi" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="624.19,769.82,621.6555,761.6606,616.9153,765.339,624.19,769.82" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="137" x="552.41" y="614.1387">Envio de dados dos</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="560.91" y="628.1074">resultados da CLI</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="602.91" y="642.0762">[HTTP]</text><!--MD5=[dcf7028233fc69a61147ec2b0e7ee054]
+link horusecCLI to horusecVSCode--><path d="M280.83,463.1 C259.29,486.56 233.01,511.67 205.41,530 C174.81,550.31 149.14,529.68 128.41,560 C86.09,621.91 98.24,712.09 113.06,770.41 " fill="none" id="horusecCLI-to-horusecVSCode" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="115.16,778.42,116.0345,769.9209,110.2304,771.4415,115.16,778.42" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="148" x="129.41" y="621.1387">CLI é exportada para</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="148" x="129.41" y="635.1074">extensão do VSCODE</text><!--MD5=[a64b7957a5838e6d12ab9fb65a5bb98c]
+link horusecPlatform to horusecOperator--><path d="M2085.412,914.9227 C2085.639,915.9159 2085.8722,916.9103 2086.1117,917.9056 C2087.0698,921.8867 2088.1295,925.8813 2089.3013,929.8603 C2093.9881,945.7763 2100.4675,961.4425 2109.41,975 C2115.06,983.57 2121.76,991.62 2129.1,999.13 " fill="none" id="horusecPlatform-to-horusecOperator" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2134.83,1004.76,2131.2356,997.0088,2127.0253,1001.2835,2134.83,1004.76" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="2110.41" y="930.1387">Platform pode ser</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="2129.41" y="944.1074">instalado no</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="107" x="2120.41" y="958.0762">Kubernetes via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="65" x="2143.41" y="972.0449">Operator</text><!--MD5=[a4ade0e1bd8b27b0c4c238e135fcb592]
+link horusecOperator to kubernetes--><path d="M2243.41,1139.06 C2243.41,1189.36 2243.41,1255.99 2243.41,1292.58 " fill="none" id="horusecOperator-to-kubernetes" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="2243.41,1300.78,2246.41,1292.78,2240.41,1292.78,2243.41,1300.78" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="136" x="2244.41" y="1181.1387">Operator realizada</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="2268.91" y="1195.1074">instalação e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="2255.91" y="1209.0762">atualização dos</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="2267.91" y="1223.0449">serviços WEB</text><!--MD5=[a2b8666e3f70928b0277de2b3acc8688]
+link horusecVSCode to response--><path d="M121.63,879.66 C118.15,908.47 117.6,944.88 129.41,975 C134.84,988.84 143.3,1001.87 152.89,1013.6 " fill="none" id="horusecVSCode-to-response" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="158.32,1019.98,155.4241,1011.9417,150.8527,1015.8279,158.32,1019.98" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="142.91" y="937.1387">Exibe ou exporta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="130.41" y="951.1074">resultado da análise</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="43" x="182.41" y="965.0762">da CLI</text><!--MD5=[c19fc47cd72509c796072b54824a19df]
+link horusecCLI to response--><path d="M338.85,463.37 C343.93,573.22 344.7,798.26 282.41,975 C277.82,988.03 271.06,1001 263.62,1013.01 " fill="none" id="horusecCLI-to-response" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="259.18,1019.96,266.0186,1014.8382,260.9646,1011.6045,259.18,1019.96" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="349.91" y="819.6387">Exibe ou exporta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="337.41" y="833.6074">resultado da análise</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="43" x="389.41" y="847.5762">da CLI</text><rect fill="#FFFFFF" height="128.0781" rx="5" ry="5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="144" x="2225.41" y="1830"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="2231.41" y="1849.9951">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="2294.41" y="1849.9951"/><rect fill="#08427B" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2231.41" y="1853.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="2235.41" y="1866.292">person</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2231.41" y="1869.5938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="2235.41" y="1882.5889">system</text><rect fill="#438DD5" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2231.41" y="1885.8906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="2235.41" y="1898.8857">container</text><rect fill="#686868" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2231.41" y="1902.1875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="2235.41" y="1915.1826">external person</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2231.41" y="1918.4844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="2235.41" y="1931.4795">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="132" x="2231.41" y="1934.7813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="2235.41" y="1947.7764">external container</text><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2231.41" x2="2363.41" y1="1837" y2="1837"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2231.41" x2="2363.41" y1="1853.2969" y2="1853.2969"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2231.41" x2="2363.41" y1="1869.5938" y2="1869.5938"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2231.41" x2="2363.41" y1="1885.8906" y2="1885.8906"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2231.41" x2="2363.41" y1="1902.1875" y2="1902.1875"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2231.41" x2="2363.41" y1="1918.4844" y2="1918.4844"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2231.41" x2="2363.41" y1="1934.7813" y2="1934.7813"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2231.41" x2="2363.41" y1="1951.0781" y2="1951.0781"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2231.41" x2="2231.41" y1="1837" y2="1951.0781"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="2363.41" x2="2363.41" y1="1837" y2="1951.0781"/><!--MD5=[05427db5e899b78c7a042dfaeede01af]
+@startuml horusec-c2
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(devSecOps, "DevSecOps", "Usuário que deseje realizar análise de código e gestão de vulnerabilidades")
+Person(developer, "Membro", "Usuário básico do Horusec, possui apenas permissão de leitura sobre workspace ou repositório")
+Person(supervisor, "Supervisor", "Usuário com permissão especifica para repositórios, consegue realizar a gestão de vulnerabilidades e operações de leitura")
+Person(admin, "Administrador", "Usuário com o maior nível de permissões do Horusec, possui todas as permissões de escrita e leitura")
+Person(applicationAdmin, "Administrador da Aplicação", "Usuário opcional especial que possui todas as permissões do administrador padrão, caso ativado apenas ele conseguirá criar novos workspaces, removendo essa permissão de todos outros níveis")
+
+Container(horusecCLI, "Horusec CLI", "Go", "Ferramenta que realiza análise estática de código em busca de vulnerabilidades")
+Container(horusecOperator, "Horusec Operator", "Go", "Operator kubernetes que faz instalação do Horusec Platform na infraestrutura do usuário")
+Container(horusecVSCode, "Horusec VSCode", "Typescript", "Extensão do Horusec CLI para o Visual Studio Code")
+
+System_Ext(kubernetes, "Kubernetes")
+System_Ext(response, "Resultado", "Retorna possíveis vulnerabilidades e informações sobre a análise")
+
+System_Boundary(horusecPlatform, "Horusec Platform") {
+    Container(horusecAuth, "Auth", "Go", "Serviço de autorização e autenticação")
+    Container(horusecApi, "Api", "Go", "Serviço de gestão das análises recebidas pela Horusec-CLI")
+    Container(horusecCore, "Core", "Go", "Serviço de gestão de workspaces, repositórios e usuários")
+    Container(horusecWebhook, "Webhook", "Go", "Serviço de gestão de webhooks")
+    Container(horusecAnalytic, "Analytic", "Go", "Serviço de visão analítica estratégica e dashboard")
+    Container(horusecManager, "Manager", "React", "Aplicação com a interface gráfica web do Horusec")
+    Container(horusecMessages, "Messages", "Go", "Serviço de envio de email")
+    Container(horusecVulnerability, "Vulnerability", "Go", "Serviço de gestão de vulnerabilidades")
+
+    System_Ext(rabbitMQ, "RabbitMQ", "Serviço de messageria")
+
+    ContainerDb(horusecAnalyticDatabase, "Banco de Dados Analítico", "Postgresql", "Armazena dados analíticos do Horusec")
+    ContainerDb(horusecHorusecDatabase, "Banco de Dados Geral Horusec", "Postgresql", "Armazena dados e infomações gerais do Horusec")
+
+    Rel(horusecApi, horusecAuth, "Verifica autenticidade de requisição", "GRPC")
+    Rel(horusecCore, horusecAuth, "Verifica autenticidade de requisição", "GRPC")
+    Rel(horusecWebhook, horusecAuth, "Verifica autenticidade de requisição", "GRPC")
+    Rel(horusecAnalytic, horusecAuth, "Verifica autenticidade de requisição", "GRPC")
+    Rel(horusecVulnerability, horusecAuth, "Verifica autenticidade de requisição", "GRPC")
+
+    Rel(horusecManager, horusecAuth, "Operações de conta e autenticação", "HTTP")
+    Rel(horusecManager, horusecCore, "Gestão de workspace e repositórios", "HTTP")
+    Rel(horusecManager, horusecWebhook, "Gestão de webhooks", "HTTP")
+    Rel(horusecManager, horusecAnalytic, "Visão estratégica e daashboard", "HTTP")
+    Rel(horusecManager, horusecVulnerability, "Gestão de vulnerabilidades", "HTTP")
+
+    Rel(horusecAuth, horusecMessages, "Publicação de pacotes de email", "AMQP")
+    Rel(horusecCore, horusecMessages, "Publicação de pacotes de email", "AMQP")
+    Rel(horusecApi,  horusecMessages, "Publicação de pacotes de novas análises", "AMQP")
+    Rel(horusecApi, horusecAnalytic, "Publicação de pacotes de novas análises", "AMQP")
+    Rel(horusecApi, horusecWebhook, "Publicação de pacotes de novas análises", "AMQP")
+
+    Rel(horusecApi, rabbitMQ, "Conexão com o rabbitMQ")
+    Rel(horusecAuth, rabbitMQ, "Conexão com o rabbitMQ")
+    Rel(horusecCore, rabbitMQ, "Conexão com o rabbitMQ")
+    Rel(horusecWebhook, rabbitMQ, "Conexão com o rabbitMQ")
+    Rel(horusecAnalytic, rabbitMQ, "Conexão com o rabbitMQ")
+    Rel(horusecMessages, rabbitMQ, "Conexão com o rabbitMQ")
+
+    Rel(horusecAnalytic, horusecAnalyticDatabase, "Conexão com o banco de dados")
+    Rel(horusecWebhook, horusecHorusecDatabase, "Conexão com o banco de dados")
+    Rel(horusecApi, horusecHorusecDatabase, "Conexão com o banco de dados")
+    Rel(horusecAuth, horusecHorusecDatabase, "Conexão com o banco de dados")
+    Rel(horusecCore, horusecHorusecDatabase, "Conexão com o banco de dados")
+    Rel(horusecVulnerability, horusecHorusecDatabase, "Conexão com o banco de dados")
+}
+
+Rel(devSecOps, horusecOperator, "Realizar instalação do Horusec Platform")
+Rel(devSecOps, horusecCLI, "Inicia análise de segurança no projeto desejado")
+Rel(devSecOps, horusecVSCode, "Inicia análise de segurança no projeto desejado")
+Rel(developer, horusecManager, "Busca worksapaces e repositórios, visualiza vulnerabilidades e dashboard dos repositórios ao qual tem permissão", "HTTP")
+Rel(supervisor, horusecManager, "Busca worksapaces e repositórios, gestão de vulnerabilidades e dashboard dos repositórios ao qual tem permissão", "HTTP")
+Rel(admin, horusecManager, "Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios", "HTTP")
+Rel(applicationAdmin, horusecManager, "Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios", "HTTP")
+
+Rel(horusecCLI, horusecApi, "Envio de dados dos resultados da CLI", "HTTP")
+Rel(horusecCLI, horusecVSCode, "CLI é exportada para extensão do VSCODE")
+
+Rel(horusecPlatform, horusecOperator, "Platform pode ser instalado no Kubernetes via Operator")
+
+Rel(horusecOperator, kubernetes , "Operator realizada instalação e atualização dos serviços WEB")
+
+Rel(horusecVSCode, response, "Exibe ou exporta resultado da análise da CLI")
+Rel(horusecCLI, response, "Exibe ou exporta resultado da análise da CLI")
+@enduml
+
+@startuml horusec-c2
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+
+rectangle "<$person>\n==DevSecOps\n\n Usuário que deseje realizar análise de código e gestão de vulnerabilidades" <<person>> as devSecOps
+rectangle "<$person>\n==Membro\n\n Usuário básico do Horusec, possui apenas permissão de leitura sobre workspace ou repositório" <<person>> as developer
+rectangle "<$person>\n==Supervisor\n\n Usuário com permissão especifica para repositórios, consegue realizar a gestão de vulnerabilidades e operações de leitura" <<person>> as supervisor
+rectangle "<$person>\n==Administrador\n\n Usuário com o maior nível de permissões do Horusec, possui todas as permissões de escrita e leitura" <<person>> as admin
+rectangle "<$person>\n==Administrador da Aplicação\n\n Usuário opcional especial que possui todas as permissões do administrador padrão, caso ativado apenas ele conseguirá criar novos workspaces, removendo essa permissão de todos outros níveis" <<person>> as applicationAdmin
+
+rectangle "==Horusec CLI\n//<size:12>[Go]</size>//\n\n Ferramenta que realiza análise estática de código em busca de vulnerabilidades" <<container>> as horusecCLI
+rectangle "==Horusec Operator\n//<size:12>[Go]</size>//\n\n Operator kubernetes que faz instalação do Horusec Platform na infraestrutura do usuário" <<container>> as horusecOperator
+rectangle "==Horusec VSCode\n//<size:12>[Typescript]</size>//\n\n Extensão do Horusec CLI para o Visual Studio Code" <<container>> as horusecVSCode
+
+rectangle "==Kubernetes" <<external_system>> as kubernetes
+rectangle "==Resultado\n\n Retorna possíveis vulnerabilidades e informações sobre a análise" <<external_system>> as response
+
+rectangle "==Horusec Platform\n<size:12>[System]</size>" <<boundary>> as horusecPlatform {
+    rectangle "==Auth\n//<size:12>[Go]</size>//\n\n Serviço de autorização e autenticação" <<container>> as horusecAuth
+    rectangle "==Api\n//<size:12>[Go]</size>//\n\n Serviço de gestão das análises recebidas pela Horusec-CLI" <<container>> as horusecApi
+    rectangle "==Core\n//<size:12>[Go]</size>//\n\n Serviço de gestão de workspaces, repositórios e usuários" <<container>> as horusecCore
+    rectangle "==Webhook\n//<size:12>[Go]</size>//\n\n Serviço de gestão de webhooks" <<container>> as horusecWebhook
+    rectangle "==Analytic\n//<size:12>[Go]</size>//\n\n Serviço de visão analítica estratégica e dashboard" <<container>> as horusecAnalytic
+    rectangle "==Manager\n//<size:12>[React]</size>//\n\n Aplicação com a interface gráfica web do Horusec" <<container>> as horusecManager
+    rectangle "==Messages\n//<size:12>[Go]</size>//\n\n Serviço de envio de email" <<container>> as horusecMessages
+    rectangle "==Vulnerability\n//<size:12>[Go]</size>//\n\n Serviço de gestão de vulnerabilidades" <<container>> as horusecVulnerability
+
+    rectangle "==RabbitMQ\n\n Serviço de messageria" <<external_system>> as rabbitMQ
+
+    database "==Banco de Dados Analítico\n//<size:12>[Postgresql]</size>//\n\n Armazena dados analíticos do Horusec" <<container>> as horusecAnalyticDatabase
+    database "==Banco de Dados Geral Horusec\n//<size:12>[Postgresql]</size>//\n\n Armazena dados e infomações gerais do Horusec" <<container>> as horusecHorusecDatabase
+
+horusecApi - ->> horusecAuth : **Verifica autenticidade de requisição**\n//<size:12>[GRPC]</size>//
+horusecCore - ->> horusecAuth : **Verifica autenticidade de requisição**\n//<size:12>[GRPC]</size>//
+horusecWebhook - ->> horusecAuth : **Verifica autenticidade de requisição**\n//<size:12>[GRPC]</size>//
+horusecAnalytic - ->> horusecAuth : **Verifica autenticidade de requisição**\n//<size:12>[GRPC]</size>//
+horusecVulnerability - ->> horusecAuth : **Verifica autenticidade de requisição**\n//<size:12>[GRPC]</size>//
+
+horusecManager - ->> horusecAuth : **Operações de conta e autenticação**\n//<size:12>[HTTP]</size>//
+horusecManager - ->> horusecCore : **Gestão de workspace e repositórios**\n//<size:12>[HTTP]</size>//
+horusecManager - ->> horusecWebhook : **Gestão de webhooks**\n//<size:12>[HTTP]</size>//
+horusecManager - ->> horusecAnalytic : **Visão estratégica e daashboard**\n//<size:12>[HTTP]</size>//
+horusecManager - ->> horusecVulnerability : **Gestão de vulnerabilidades**\n//<size:12>[HTTP]</size>//
+
+horusecAuth - ->> horusecMessages : **Publicação de pacotes de email**\n//<size:12>[AMQP]</size>//
+horusecCore - ->> horusecMessages : **Publicação de pacotes de email**\n//<size:12>[AMQP]</size>//
+horusecApi - ->> horusecMessages : **Publicação de pacotes de novas análises**\n//<size:12>[AMQP]</size>//
+horusecApi - ->> horusecAnalytic : **Publicação de pacotes de novas análises**\n//<size:12>[AMQP]</size>//
+horusecApi - ->> horusecWebhook : **Publicação de pacotes de novas análises**\n//<size:12>[AMQP]</size>//
+
+horusecApi - ->> rabbitMQ : **Conexão com o rabbitMQ**
+horusecAuth - ->> rabbitMQ : **Conexão com o rabbitMQ**
+horusecCore - ->> rabbitMQ : **Conexão com o rabbitMQ**
+horusecWebhook - ->> rabbitMQ : **Conexão com o rabbitMQ**
+horusecAnalytic - ->> rabbitMQ : **Conexão com o rabbitMQ**
+horusecMessages - ->> rabbitMQ : **Conexão com o rabbitMQ**
+
+horusecAnalytic - ->> horusecAnalyticDatabase : **Conexão com o banco de dados**
+horusecWebhook - ->> horusecHorusecDatabase : **Conexão com o banco de dados**
+horusecApi - ->> horusecHorusecDatabase : **Conexão com o banco de dados**
+horusecAuth - ->> horusecHorusecDatabase : **Conexão com o banco de dados**
+horusecCore - ->> horusecHorusecDatabase : **Conexão com o banco de dados**
+horusecVulnerability - ->> horusecHorusecDatabase : **Conexão com o banco de dados**
+}
+
+devSecOps - ->> horusecOperator : **Realizar instalação do Horusec Platform**
+devSecOps - ->> horusecCLI : **Inicia análise de segurança no projeto desejado**
+devSecOps - ->> horusecVSCode : **Inicia análise de segurança no projeto desejado**
+developer - ->> horusecManager : **Busca worksapaces e repositórios, visualiza vulnerabilidades e dashboard dos repositórios ao qual tem permissão**\n//<size:12>[HTTP]</size>//
+supervisor - ->> horusecManager : **Busca worksapaces e repositórios, gestão de vulnerabilidades e dashboard dos repositórios ao qual tem permissão**\n//<size:12>[HTTP]</size>//
+admin - ->> horusecManager : **Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios**\n//<size:12>[HTTP]</size>//
+applicationAdmin - ->> horusecManager : **Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios**\n//<size:12>[HTTP]</size>//
+
+horusecCLI - ->> horusecApi : **Envio de dados dos resultados da CLI**\n//<size:12>[HTTP]</size>//
+horusecCLI - ->> horusecVSCode : **CLI é exportada para extensão do VSCODE**
+
+horusecPlatform - ->> horusecOperator : **Platform pode ser instalado no Kubernetes via Operator**
+
+horusecOperator - ->> kubernetes : **Operator realizada instalação e atualização dos serviços WEB**
+
+horusecVSCode - ->> response : **Exibe ou exporta resultado da análise da CLI**
+horusecCLI - ->> response : **Exibe ou exporta resultado da análise da CLI**
+@enduml
+
+PlantUML version 1.2020.17(Sat Sep 19 09:30:11 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>
