@@ -58,6 +58,8 @@ No primeiro nível podemos ver de forma superficial como é a ligação entre em
 
 [C4Model](#Horusec)
 
+Nesse nível mostramos de maneira mais detalhada o sistema descrevendo os seus containers e como eles se comunicam/interagem. Nesse nível é dado ênfase na arquitetura e tecnologias utilizadas. A ideia é mostrar como o sistema é de forma macro. Um container pode ser uma aplicação web, um database, um sistema de arquivos, etc.
+
 ## C3 - Component
 
 `/C3 - Component`
@@ -68,11 +70,10 @@ Nesse nível damos mais um passo nos detalhes em comparação ao Container; desc
 
 O Horusec hoje é dividido em 4 frentes, sendo cada um deles um container dentro do C4Model.
 
-- CLI
-- Operator
-- Platform
-- VSCode
-
+- [CLI](C3%20-%20Component/CLI/HOME)
+- [Operator](C3%20-%20Component/Operator/HOME)
+- [Platform](C3%20-%20Component/Platform/HOME)
+- [VScode](C3%20-%20Component/VScode/HOME)
 
 ## CLI
 
@@ -91,7 +92,7 @@ A CLI (sigla para interface de linha de comando) é o programa responsável por 
 
 [C4Model](#Horusec)
 
-
+Ao invés de instalar, atualizar e gerenciar manualmente o Horusec em um ambiente de produção, deixe que o operador do Horusec faça isso para você.
 
 ![diagram](c3.svg)
 
