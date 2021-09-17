@@ -1,7 +1,5 @@
 # Operator
 
-`/C3 - Component/Operator`
-
 * [C4Model](/docs/README.md)
   * [C1 - Context](/docs/C1%20-%20Context/README.md)
   * [C2 - Container](/docs/C2%20-%20Container/README.md)

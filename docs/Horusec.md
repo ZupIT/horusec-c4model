@@ -44,8 +44,6 @@ Horusec é uma ferramenta de código aberto que realiza análise de código est�
 
 ## C1 - Context
 
-`/C1 - Context`
-
 [C4Model](#Horusec)
 
 No primeiro nível podemos ver de forma superficial como é a ligação entre em os diferentes componentes do Horusec e um pouco sobre suas responsabilidades.
@@ -54,8 +52,6 @@ No primeiro nível podemos ver de forma superficial como é a ligação entre em
 
 ## C2 - Container
 
-`/C2 - Container`
-
 [C4Model](#Horusec)
 
 No segundo nível podemos verificar de forma mais detalhada como é interligada a arquitetura do Horusec e seus componentes, como também as tecnologias que fazem parte desse ecossistema.
@@ -63,8 +59,6 @@ No segundo nível podemos verificar de forma mais detalhada como é interligada 
 ![diagram](c2.svg)
 
 ## C3 - Component
-
-`/C3 - Component`
 
 [C4Model](#Horusec)
 
@@ -79,8 +73,6 @@ O Horusec hoje é dividido em 4 frentes, sendo cada um deles um container dentro
 
 ## CLI
 
-`/C3 - Component/CLI`
-
 [C4Model](#Horusec)
 
 A CLI (sigla para interface de linha de comando) é o programa responsável por processar comandos de um software ou qualquer programa computacional por meio de texto. No contexto da ferramenta, o Horusec-CLI é a parte de código que permite você rodar os comandos de análise de segurança e de identificação e/ou classificação de vulnerabilidades.
@@ -89,8 +81,6 @@ A CLI (sigla para interface de linha de comando) é o programa responsável por 
 ![diagram](c3.svg)
 
 ## Operator
-
-`/C3 - Component/Operator`
 
 [C4Model](#Horusec)
 
@@ -101,8 +91,6 @@ O horusec-operator é um facilitador para gerenciamento e orquestramento do ambi
 
 ## Platform
 
-`/C3 - Component/Platform`
-
 [C4Model](#Horusec)
 
 A aplicação web do Horusec (horusec-platform) é uma extensão das funcionalidades da CLI. Na aplicação é possível realizar a organização em repositórios e workspaces para facilitar a visualização das vulnerabilidades em forma de gráficos e também classifica-las da forma que convém a equipe.
@@ -111,8 +99,6 @@ A aplicação web do Horusec (horusec-platform) é uma extensão das funcionalid
 ![diagram](c3.svg)
 
 ## VScode
-
-`/C3 - Component/VScode`
 
 [C4Model](#Horusec)
 
