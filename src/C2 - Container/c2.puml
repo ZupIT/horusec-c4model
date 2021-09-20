@@ -4,7 +4,7 @@
 
 LAYOUT_WITH_LEGEND()
 
-Person(devSecOps, "DevSecOps", "Usuário que deseje realizar análise de código e gestão de vulnerabilidades")
+Person(devSecOps, "DevSecOps/Desenvolvedor", "Usuário que deseje realizar análise de código e gestão de vulnerabilidades")
 Person(developer, "Membro", "Usuário básico do Horusec, possui apenas permissão de leitura sobre workspace ou repositório")
 Person(supervisor, "Supervisor", "Usuário com permissão especifica para repositórios, consegue realizar a gestão de vulnerabilidades e operações de leitura")
 Person(admin, "Administrador", "Usuário com o maior nível de permissões do Horusec, possui todas as permissões de escrita e leitura")
