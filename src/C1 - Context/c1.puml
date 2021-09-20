@@ -4,7 +4,7 @@
 LAYOUT_WITH_LEGEND()
 LAYOUT_LEFT_RIGHT()
 
-Person(user, "DevSecOps", "Usuário que deseje realizar análise de código e gestão de vulnerabilidades")
+Person(user, "DevSecOps/Desenvolvedor/PM/Gestor/QA", "Usuário que deseje realizar análise de código e gestão de vulnerabilidades")
 
 System(horusecCLI, "Horusec CLI", "Ferramenta que realiza análise estática de código em busca de vulnerabilidades")
 System(horusecPlatform, "Horusec Platform", "Conjunto de serviços web para gestão e visualização de vulnerabilidades encontradas pela CLI do Horusec")
