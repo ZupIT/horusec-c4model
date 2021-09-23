@@ -1,142 +1,206 @@
 # Horusec
 
 * [C4Model](#C4Model)
-  * [C1 - Context](#C1---Context)
+  * [C1 -  Context](#C1----Context)
   * [C2 - Container](#C2---Container)
-  * [C3 - Component](#C3---Component)
-    * [CLI](#CLI)
-    * [Operator](#Operator)
-    * [Platform](#Platform)
-    * [VScode](#VScode)
+  * [C3 -  Component](#C3----Component)
+    * [Butler](#Butler)
+    * [Circle-Matcher](#Circle-Matcher)
+    * [Compass](#Compass)
+    * [Gate](#Gate)
+    * [Hermes](#Hermes)
+    * [Moove](#Moove)
+    * [UI](#UI)
+    * [Villager](#Villager)
 
 ---
 
 ## C4Model
 
-## Overview
 
-Uma das definições usadas de arquitetura de software é que ela define as partes de um software e é a estratégia tecnológica de um produto/projeto. E como toda estratégia, é muito importante que ela seja vista e frequentemente visitada e atualizada. Afinal, um planejamento sem visualização tenderá a ser falho.
 
-* Documentar a arquitetura de um projeto muitas vezes é um processo maçante, que exige tempo, conhecimento de ferramentas e técnicas para diagramação e documentação. O maior desafio dentro de uma documentação de arquitetura é evitar dois cenários.
+**Overview**
 
-* Documentações de arquitetura muito complexas e por consequência elas tendem a ficarem confusas e obsoletas, assim, se perde o seu propósito. Ou seja, se gasta bastante tempo para uma documentação que tende a ser inutilizada eventualmente.
+Uma das definições usadas de arquitetura de software é que ela define as partes de um software e é a estratégia tecnológica de um produto/projeto. E como toda estratégia, é muito importante que ela seja vista e frequentemente visitada e atualizada. Afinal, um planejamento sem visualização tenderá a ser falho. 
 
-Documentações pobres com pouca informação ou informações falhas.
+Documentar a arquitetura de um projeto muitas vezes é um processo maçante, que exige tempo, conhecimento de ferramentas e técnicas para diagramação e documentação. O maior desafio dentro de uma documentação de arquitetura é evitar dois cenários.
+
+- Documentações de arquitetura muito complexas e por consequência elas tendem a ficarem confusas e obsoletas, assim, se perde o seu propósito. Ou seja, se gasta bastante tempo para uma documentação que tende a ser inutilizada eventualmente.
+
+- Documentações pobres com pouca informação ou informações falhas. 
 
 Em ambos os casos o resultado final é que elas acabam atrapalhando mais do que ajudando.
 
+
 A visualização da arquitetura é crucial em diversos aspectos e responde várias perguntas, por exemplo, como o meu sistema integra entre eles mesmo e outros sistemas? Como consigo escalar a minha aplicação? Como garantir a segurança entre as minhas aplicações, dentre outros pontos.
+
 
 Pensando nisso, nos motivamos para criar uma visualização da nossa arquitetura de um modo bastante simples com o C4 Model.
 
-## O que é o C4Model?
-
-O C4 Model é baseado no 4+1 e UML e foi criado por Simon Brown entre 2006 e 2011. O modelo surgiu com o intuito de ajudar a resolver o problema de documentação de arquiteturas falhas, difíceis de entender e manter, trazendo uma visão mais clara da arquitetura documentada abrangendo vários níveis e que seja relevante para as várias “personas” envolvidas. Ele é dividido em quatro tipos de diagramas, onde cada um possui um nível diferente de detalhes e público alvo. A ideia é que cada nível se aprofunde mais nos detalhes e informações do nível anterior.
-
-## O que é o Horusec ?
-
-Horusec é uma ferramenta de código aberto que realiza análise de código estático para identificar falhas de segurança durante o processo de desenvolvimento. Atualmente, as linguagens de análise são: C#, Java, Kotlin, Python, Ruby, Golang, Terraform, Javascript, Typescript, Kubernetes, PHP, C, HTML, JSON, Dart, Elixir, Shell, Nginx, Swift. A ferramenta possui opções para pesquisar os principais vazamentos e falhas de segurança em todos os arquivos do seu projeto, bem como no histórico do Git. O Horusec pode ser usado pelo desenvolvedor por meio da CLI e pela equipe DevSecOps em esteiras CI/CD.
-
-<img src="https://horusec.io/site/horus-animation-1.gif" alt="usec-animation-cli" style="width: 40%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
-
-<img src="https://horusec.io/site/static/67e40e4cf66a01b3cd5c68cb8089f911/ee604/example-illustration.png" alt="horusec-arquitecture" style="width: 40%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
 
 
-## C1 - Context
+**O que é o C4Model?**
+
+ O C4 Model é baseado no 4+1 e UML e foi criado por Simon Brown entre 2006 e 2011. O modelo surgiu com o intuito de ajudar a resolver o problema de documentação de arquiteturas falhas, difíceis de entender e manter, trazendo uma visão mais clara da arquitetura documentada abrangendo vários níveis e que seja relevante para as várias “personas” envolvidas. Ele é dividido em quatro tipos de diagramas, onde cada um possui um nível diferente de detalhes e público alvo. A ideia é que cada nível se aprofunde mais nos detalhes e informações do nível anterior. 
+
+
+
+**O que é o CharlesCD?**
+
+O CharlesCD é uma ferramenta open source que realiza deploys de forma ágil, contínua e segura, permitindo que as equipes de desenvolvimento realizem simultaneamente validações de hipóteses com grupos específicos de usuários. 
+
+O produto traz um conceito pioneiro no mercado e na comunidade: deploys em círculos de usuários em clusters de Kubernetes. 
+
+Neste modelo de deploy, é possível segmentar seus clientes através de características específicas e, ao mesmo tempo, submeter diversas versões de uma mesma aplicação para teste com os usuários dos círculos. 
+
+## C1 -  Context
+
+`/C1 -  Context`
 
 [C4Model](#Horusec)
 
-No primeiro nível podemos ver de forma superficial como é a ligação entre em os diferentes componentes do Horusec e um pouco sobre suas responsabilidades.
+É o primeiro nível do nosso desenho. A ideia é mostrar as interações de forma macro, sem muitos detalhes, dando enfoque às comunicações e dependências entre sistemas e usuários que compõem e interagem com o software.
 
-Nesse nível contextualizamos de forma macro como o Horusec entrega o resultado de suas análises e permite que o usuário possa gerenciar as vulnerabildades na plataforma web. Onde:
-  - **Usuário:** Qualquer pessoa que deseje realizar análise de código e gestão de vulnerabilidades pelo Horusec. Seja ela um DevSecOps, Desenvolvedor, PM, Gestor, QA, etc.
+Nesse nível contextualizamos  de forma macro como o CharlesCD interage com o Kubernetes e permite que o usuário possa gerenciar seus deploys utilizando uma série de recursos como métricas, hipoteses e webhooks. Onde:
 
-  - **Sistema Horusec-CLI:** A Horusec-CLI é uma interface de linha de comando (CLI) que orquestra outras ferramentas de análise estática de código. Sua principal funcionalidade é identificar as linguagens de programação do projeto automaticamente e iniciar as devidas ferramentas, logo em seguida poderá ser exportada as informações unificadas em um dado em comum. Também é possível enviar a análise realizada para o sistema Horusec-Platform onde poderá retirar de metricas e realizar a gestão de vulnerabilidades em uma aplicação web.
+- **Usuário:** Qualquer pessoa que possui uma aplicação que tem os deploys gerenciados pelo CharlesCD. Seja ela um desenvolvedor, gestor, QA, PM, etc.
 
-  - **Sistema Horusec-Platform:** A Horusec-Platform é um conjunto de serviços web para gestão e visualização de vulnerabilidades encontradas pelo sistema Horusec-CLI.
+- **Sistema CharlesCD**: O CharlesCD é uma ferramenta de deploy continuo orientada a hipoteses que permite o gerenciamento dos deploys de aplições web e backend. Ele permite o gerenciamento dos deploys (rollout e rollback), cria estratégias inteligentes para validação de hipóteses, colhe e observa métricas e faz acompanhamento de versões das suas aplicações. Além disse ele envia informações de eventos (previamente configurados) via webhooks. 
+O CharlesCD interage diretamente com o Kubernetes, solicitando a implantação de atualizações no cluster do usuário.
 
-  - **Sistema Horusec-Operator:** O Horusec-Operator é um sistema de kuberntes operators que agiliza e potencializa a instação do sistema Horusec-Platform de forma unificada.
-
-  - **Sistema Horusec-VsCode:** O Horusec-VsCode é uma extenção da Horusec-CLI para um Ambiente de Desenvolvimento Integrado (IDE) [Visual Studio Code](https://code.visualstudio.com/) onde pode realizar as análises sem necessitar de instalar um binário em sua máquina local.
-
-  - **Kubernetes:** Orquestra os containers das aplicações.
-
-  - **Resultado:** Resultado das análises realizadas pelos sistemas Horusec-CLI ou Horusec-VsCode.
-
+- **Kubernetes:** Orquestra os containers das aplicações.
 
 
 ![diagram](c1.svg)
 
 ## C2 - Container
 
+`/C2 - Container`
+
 [C4Model](#Horusec)
 
-No segundo nível podemos verificar de forma mais detalhada como é interligada a arquitetura do Horusec e seus componentes, como também as tecnologias que fazem parte desse ecossistema.
+Nesse nível mostramos de maneira mais detalhada o sistema descrevendo os seus containers (Não confundir com o Docker) e como eles se comunicam/interagem. Nesse nível é dado ênfase na arquitetura e tecnologias utilizadas. A ideia é mostrar como o sistema é de forma macro. Um container pode ser uma aplicação web, um database, um sistema de arquivos, etc.
 
-O Horusec foi construindo utilizando usando as seguintes abordagens:
-- A **Horusec-CLI** é um compilador que executa localmente na maquina do usuário seja atrávez de uma maquina de desenvolvimento ou uma esteira CI/CD em busca de vulnerabilidades. E seus containers são:
-  - **Horusec-CLI:** interface de linha de comando que realiza orquestração de ferramentas de análise estática de código.
-- O **Horusec-VsCode** é uma extensão da ferramenta visual studio code que utiliza a Horusec-CLI para análisar projetos em busca de vulnerabilidades. E seus containers são:
-  - **Horusec-VsCode** é responsável por iniciar o horusec-cli em imagem docker e trazer o resultado da análise para dentro do Ambiente de Desenvolvimento Integrado (IDE) em um formato amigável a fim de garantir que o desenvolvedor faça suas devidas modificações.
-- O **Horusec-Platform** é uma plataforma web construida em micro-serviços para visualização e gestão das vulnerabilidades. E seus containers são:
-  - **API** Responsável por salvar as análises realizada via Horusec-CLI no banco de dados principal e publicar para os serviços analytic e webhook via message broker.
-  - **Analytic** Responsável por receber as análises realizadas via message broker e salvar no banco de dados analytic para visualização no dasboard do container Horusec-Manager.
-  - **Auth** Responsável por gerenciar sessão e acessos a plataforma web através do container Horusec-Manager.
-  - **Core** Responsável por gerenciamento de repositórios, workspaces e tokens da plataforma web através do container Horusec-Manager.
-  - **Manager** Responsável por disponibilizar a página estática para integração com os containers do Horusec-Platform.
-  - **Messages** Responsável por diparos de emails em determida ações do usuário da plataforma web através do container Horusec-Manager.
-  - **Vulnerability** Responsável por realizar a gestão das vulnerabilidades criadas pelo container Horusec-API.
-  - **Webhook** Responsável por disparo de análises para serviços de terceiros via HTTP na plataforma web através do container Horusec-Manager.
-- O **Horusec-Operator** é uma aplicação usando a base de kubernetes operator para agilizar e garantir que os serviços sejam entregues nos formatos desejados. E seus containers são:
-  - **Horusec-Operator** é responsável por realizar a integração com o kubernetes, onde após instalado sua CRD no cluster ele pode identificar que o usuário pediu modificações e aplicar no cluster de acordo com as configurações enviadas pelo usuário.
+O CharlesCD foi construindo utilizando a abordagem de microserviços e possui os seguintes módulos (onde cada módulo, é um container):
 
+- **UI:**  Responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD.
+
+- **Moove:**  Serviço backend que orquestra os testes de hipóteses de seus produtos e o pipeline de entrega até atingir seus círculos, realizando a ponte entre os demais microserviços.
+
+- **Butler:**  Responsável por orquestrar e gerenciar as releases e deploys realizados.
+
+- **Circle Matcher:** Gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
+
+- **Compass:** Integração do provedor de dados, faz análise de métricas e executa ações configuráveis.
+
+- **Hermes:**  Responsável por gerenciar e notificar eventos de webhook.
+
+- **Gate:** Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
 
 ![diagram](c2.svg)
 
-## C3 - Component
+## C3 -  Component
+
+`/C3 -  Component`
 
 [C4Model](#Horusec)
 
-Nesse nível damos mais um passo nos detalhes em comparação ao Container; descrevendo as partes que compõem os componentes. Nesse nível damos ênfase nas interações, responsabilidades e tecnologias utilizadas de maneira mais detalhada que nos níveis anteriores.
+Nesse nível damos mais um passo nos detalhes em comparação ao Container; descrevendo as partes que compõem os compõe. Nesse nível damos enfase nas interações, responsabilidades e tecnologias utilizadas de maneira mais detalhada que nos níveis anteriores. 
 
-O Horusec hoje é dividido em 4 frentes, sendo cada um deles um container dentro do C4Model.
+O CharlesCD hoje é dividido em módulos, sendo cada um deles um container dentro do C4Model:
 
-- [CLI](C3%20-%20Component/CLI/HOME)
-- [Operator](C3%20-%20Component/Operator/HOME)
-- [Platform](C3%20-%20Component/Platform/HOME)
-- [VScode](C3%20-%20Component/VScode/HOME)
+- Butler: Orquestra e gerencia as releases e deploys realizados
+- Circle Matcher: Gerencia e identifica os círculos
+- Compass: Realiza ntegração do provedor de dados, faz análise de métricas e executa ações configuráveis
+- Gate: Controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles
+- Moove:  Orquestra os testes de hipóteses e o pipeline de entrega até atingir seus círculos, facilitando a ponte entre os outros módulos
+- UI: Prove uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD
+- Villager: Responsável por acessar as imagens docker
 
-## CLI
+
+## Butler
+
+`/C3 -  Component/Butler`
 
 [C4Model](#Horusec)
 
-A CLI (sigla para interface de linha de comando) é o programa responsável por processar comandos de um software ou qualquer programa computacional por meio de texto. No contexto da ferramenta, o Horusec-CLI é a parte de código que permite você rodar os comandos de análise de segurança e de identificação e/ou classificação de vulnerabilidades.
+
+Serviço backend em NestJS, responsável por orquestrar e gerenciar as releases e deploys realizados.
+
 
 
 ![diagram](c3.svg)
 
-## Operator
+## Circle-Matcher
+
+`/C3 -  Component/Circle-Matcher`
 
 [C4Model](#Horusec)
 
-O horusec-operator é um facilitador para gerenciamento e orquestramento do ambiente de produção do [horusec-platform](C3%20-%20Component/Platform/HOME).
+
+Serviço backend em Java, que gerencia todos os círculos criados, além de indicar a qual círculo um usuário pertence, com base em um conjunto de características.
 
 
 ![diagram](c3.svg)
 
-## Platform
+## Compass
+
+`/C3 -  Component/Compass`
 
 [C4Model](#Horusec)
 
-A aplicação web do Horusec (horusec-platform) é uma extensão das funcionalidades da CLI. Na aplicação é possível realizar a organização em repositórios e workspaces para facilitar a visualização das vulnerabilidades em forma de gráficos e também classifica-las da forma que convém a equipe.
-
+Serviço backend em Golang, que realiza a integração do provedor de dados, faz análise de métricas e executa ações configuráveis.
 
 ![diagram](c3.svg)
 
-## VScode
+## Gate
+
+`/C3 -  Component/Gate`
 
 [C4Model](#Horusec)
 
-O Horusec disponibiliza a extensão do VS Code para realizar análises de código, na qual é possível você fazer análises completas em seu projeto com apenas um clique.
+Serviço backend em Golang, que controla as permissões dos usuários em relação aos recursos existentes nas APIs do Charles.
+
+![diagram](c3.svg)
+
+## Hermes
+
+`/C3 -  Component/Hermes`
+
+[C4Model](#Horusec)
+
+Serviço backend em Golang, que controla as subscriçõe de webhooks e envia as mensagens de eventos para as subscrições cadastradas.
+
+![diagram](c3.svg)
+
+## Moove
+
+`/C3 -  Component/Moove`
+
+[C4Model](#Horusec)
+
+Serviço backend em Kotlin, que orquestra os testes de hipóteses de seus produtos e o pipeline de entrega até atingir seus círculos, facilitando a ponte entre os outros módulos.
+
+![diagram](c3.svg)
+
+## UI
+
+`/C3 -  Component/UI`
+
+[C4Model](#Horusec)
+
+Serviço frontend em ReactJS, responsável por prover uma interface de fácil usabilidade para todas as features fornecida pelo CharlesCD, no intuito de simplificar testes de hipóteses e circle deployment.
+
+![diagram](c3.svg)
+
+## Villager
+
+`/C3 -  Component/Villager`
+
+[C4Model](#Horusec)
+
+Serviço backend em Java, responsável por acessar as imagens docker. Possui integração com DockerHub, AWS ECR, Azure Container Registry, GCR e Harbor.
+
+
 
 ![diagram](c3.svg)
