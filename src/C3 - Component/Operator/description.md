@@ -1,1 +1,1 @@
-O horusec-operator é um facilitador para gerenciamento e orquestramento do ambiente de produção do [horusec-platform](C3%20-%20Component/Platform/HOME).
+O Horusec-Operator é um facilitador para gerenciamento e orquestração do ambiente de produção do [Horusec-Platform](C3%20-%20Component/Platform/HOME).
