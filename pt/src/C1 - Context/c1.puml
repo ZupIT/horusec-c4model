@@ -1,0 +1,30 @@
+@startuml horusec-c1
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+
+Person(user, "DevSecOps/Desenvolvedor/PM/Gestor/QA", "Usuário que deseje realizar análise de código e gestão de vulnerabilidades")
+
+System(horusecCLI, "Horusec CLI", "Ferramenta que realiza análise estática de código em busca de vulnerabilidades")
+System(horusecPlatform, "Horusec Platform", "Conjunto de serviços web para gestão e visualização de vulnerabilidades encontradas pela CLI do Horusec")
+System(horusecOperator, "Horusec Operator", "Operator kubernetes que faz instalação do Horusec Platform na infraestrutura do usuário")
+System(horusecVSCode, "Horusec VSCode", "Extensão do Horusec CLI para o Visual Studio Code")
+
+System_Ext(response, "Resultado", "Retorna possíveis vulnerabilidades e informações sobre a análise")
+System_Ext(kubernetes, "Kubernetes")
+
+Rel(user, horusecCLI, "Inicia análise de segurança no projeto desejado")
+Rel(user, horusecOperator, "Realizar instalação do Horusec Platform")
+Rel(user, horusecVSCode, "Inicia análise de segurança no projeto desejado")
+
+Rel(horusecCLI, horusecPlatform, "Possíveis vulnerabilidades são enviadas para os serviços WEB")
+Rel(horusecCLI, horusecVSCode, "CLI é exportada para extensão do VSCODE")
+
+Rel(horusecCLI, response, "Exibe ou exporta resultado da análise da CLI")
+Rel(horusecVSCode, response, "Exibe ou exporta resultado da análise da CLI")
+
+Rel(horusecPlatform, horusecOperator, "Platform pode ser instalado no Kubernetes via Operator")
+
+Rel(horusecOperator, kubernetes , "Operator realizada instalação e atualização dos serviços WEB")
+@enduml

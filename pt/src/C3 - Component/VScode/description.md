@@ -1,0 +1,1 @@
+O Horusec disponibiliza a extensão do Visual Studio Code para realizar análises completas do código de seu projeto com apenas um clique.
