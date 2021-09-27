@@ -2,10 +2,11 @@ GO ?= go
 ADDLICENSE ?= addlicense
 
 build:
-	ARGS=""; c4builder $(ARGS)
+	cd ./pt-br && c4builder && cd ..
+	cd ./en && c4builder && cd ..
 
 run:
-	c4builder site
+	cd ./pt-br && c4builder site
 
 up-plantuml:
 	docker run -d -p 8080:8080 plantuml/plantuml-server:tomcat

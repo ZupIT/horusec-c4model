@@ -22,7 +22,7 @@ Take a look at
 - [c4builder](https://github.com/adrianvlupu/C4-Builder)
 - [graphviz](https://graphviz.org/download)
 
-For run this project you can run this command:
+For run this project you can choice `pt` or `en` folder and run this command:
 
 ```bash
     make run
