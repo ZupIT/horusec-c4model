@@ -1,1 +1,1 @@
-A aplicação web do Horusec (horusec-platform) é uma extensão das funcionalidades da CLI. Nela, é possível realizar a organização em repositórios e em workspaces para facilitar a visualização das vulnerabilidades no formato de gráficos e também classificá-las da forma que convém à equipe.
+Horusec's web application (horusec-platform) is an extension of the CLI functionalities. In it, it is possible to carry out the organization in repositories and workspaces to facilitate the visualization of vulnerabilities in chart format, and also classify them in a way that suits the team.

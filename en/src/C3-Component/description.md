@@ -1,8 +1,8 @@
-Neste nível, mais informações são detalhadas na comparação com o C2 (Container), pois é aqui que as partes dos componentes são descritas.
+In this level, more information is detailed in comparison with C2 (Container), as this is where the component parts are described.
 
-A ênfase está nas interações, responsabilidades e tecnologias utilizadas de maneira mais detalhada que nos níveis anteriores.
+The emphasys is in the interactions, responsibilities and technologies used in more detail than at previous levels.
 
-O Horusec, hoje, é dividido em 4 frentes, sendo cada um delas um container dentro do C4Model.
+Currently, Horusec is divided in 4 fronts, each of them a container inside C4Model.
 
 - [CLI](C3-Component/CLI/HOME)
 - [Operator](C3-Component/Operator/HOME)
