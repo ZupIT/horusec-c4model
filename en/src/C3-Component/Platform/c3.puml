@@ -4,117 +4,117 @@
 
 LAYOUT_WITH_LEGEND()
 
-Person(developer, "Membro (Desenvolvedor/QA)", "Usuário básico do Horusec, possui apenas permissão de leitura sobre workspace ou repositório.")
-Person(supervisor, "Supervisor (AppSec/TechLead)", "Usuário com permissão especifica para repositórios, consegue realizar a gestão de vulnerabilidades e operações de leitura.")
-Person(admin, "Administrador (PO/Head)", "Usuário com o maior nível de permissões do Horusec, possui todas as permissões de escrita e leitura.")
-Person(applicationAdmin, "Administrador da Aplicação (CTO/Principal)", "Usuário opcional especial que possui todas as permissões do administrador, caso ativado apenas ele conseguirá criar novos workspaces, removendo essa permissão do administrador padrão.")
+Person(developer, "Member (Developer/QA)", "Horusec basic user, has only permission to read about workspaces and repositories.")
+Person(supervisor, "Supervisor (AppSec/TechLead)", "User with specific permission for repositories, can manage vulnerabilities and reading operations.")
+Person(admin, "Administrator (PO/Head)", "User with the highest level of Horusec permissions, has all permissions for writing and reading.")
+Person(applicationAdmin, "Application Administrator (CTO/Principal)", "Special optional user who has all administrator permissions, if activated it can create new workspaces, removing this permission from the default administrator.")
 
-Rel(developer, horusecManager, "Busca worksapaces e repositórios, visualiza vulnerabilidades e dashboard dos repositórios ao qual tem permissão.")
-Rel(supervisor, horusecManager, "Busca worksapaces e repositórios, gestão de vulnerabilidades e dashboard dos repositórios ao qual tem permissão.")
-Rel(admin, horusecManager, "Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios.")
-Rel(applicationAdmin, horusecManager, "Permissão de escrita em workspaces e repositórios, criação de tokens, gestão de vulnerabilidades, dashboard de workspace e repositórios.")
+Rel(developer, horusecManager, "Search workspaces and repositories, view vulnerabilities and dashboards from repositories it has permissions to.")
+Rel(supervisor, horusecManager, "Search workspaces and repositories, manage vulnerabilities and dashboards from repositories it has permissions to.")
+Rel(admin, horusecManager, "Permission to write in workspaces and repositories, token creation, vulnerabilities management, workspace and repositories dashboards.")
+Rel(applicationAdmin, horusecManager, "Permission to write in workspaces and repositories, token creation, vulnerabilities management, workspace and repositories dashboards.")
 
 System_Boundary(horusecManager, "Horusec Manager") {
-        System(managerLoginScreen, "Operações de login", "Tela de login, criação de conta e recuperação de senha.")
-        System(workspaceCreation, "Criação de Workspace", "Criação de espaços de trabalho para organização.")
-        System(accountConfig, "Configurações", "Possibilidade de troca de idioma e senha, exclusão de conta.")
+        System(managerLoginScreen, "Login operations", "Login screen, account creation and password recovery.")
+        System(workspaceCreation, "Workspace Creation", "Creation of workspaces for organization.")
+        System(accountConfig, "Configuration", "Possibility to change language and password, account deletion.")
 
-        Rel(managerLoginScreen, workspaceCreation, "Após o login é possível criar um workspace.")
-        Rel(managerLoginScreen, accountConfig, "Após o login é possível alterar algumas configurações da conta.")
+        Rel(managerLoginScreen, workspaceCreation, "After login it is possible to create a workspace.")
+        Rel(managerLoginScreen, accountConfig, "After login it is possible to change account configurations.")
 
-        System(dashboard, "Dashboard", "Visualização analítica dos dados das vulnerabilidades.")
-        System(vulnManagement, "Gestão de Vulnerabilidades", "Alterações de status e tipo de vulnerabilidade.")
-        System(tokens, "Tokens", "Criação e exclusão de tokens.")
-        System(users, "Usuários", "Convidar e remover permissões de usuários.")
-        System(webhooks, "Webhooks", "Criação, edição e exclusão de webhooks.")
+        System(dashboard, "Dashboard", "Analytical view of vulnerabilities data.")
+        System(vulnManagement, "Vulnerabilities Management", "Status and vulnerability type alterations.")
+        System(tokens, "Tokens", "Creation and deletion of tokens.")
+        System(users, "Users", "Invite and remove user permissions")
+        System(webhooks, "Webhooks", "Create, edit and delete webhooks.")
 
-        Rel(workspaceCreation, dashboard, "Visualizar dashboard de workspace")
-        Rel(workspaceCreation, vulnManagement, "Gestão de vulnerabilidades do workspace")
-        Rel(workspaceCreation, tokens, "Gestão de tokens de workspace")
-        Rel(workspaceCreation, users, "Gestão de usuário com acesso ao workspace e suas permissões")
-        Rel(workspaceCreation, webhooks, "Gestão de webhooks a nível de workspace")
+        Rel(workspaceCreation, dashboard, "View workspace dashboard")
+        Rel(workspaceCreation, vulnManagement, "Workspace vulnerability management")
+        Rel(workspaceCreation, tokens, "Workspace tokens management")
+        Rel(workspaceCreation, users, "User management with access to the workspace and their permissions")
+        Rel(workspaceCreation, webhooks, "Webhooks management on workspace level")
 
-        System(repositoryCreation, "Criação de Repositório", "Criação de repositórios para workspace.")
+        System(repositoryCreation, "Repository creation", "Creation of repositories for workspaces.")
 
-        Rel(workspaceCreation, repositoryCreation, "Após a criação de um workspace é possível adicionar repositorios dentro dele.")
+        Rel(workspaceCreation, repositoryCreation, "After the creation of a workspace it is possible to add repositories to it.")
 
-        Rel(repositoryCreation, dashboard, "Visualizar dashboard de repositório")
-        Rel(repositoryCreation, vulnManagement, "Gestão de vulnerabilidades do repositório")
-        Rel(repositoryCreation, tokens, "Gestão de tokens de repositório")
-        Rel(repositoryCreation, users, "Gestão de usuário com acesso ao repositório e suas permissões")
-        Rel(repositoryCreation, webhooks, "Gestão de webhooks a nível de repositório")
+        Rel(repositoryCreation, dashboard, "View repository dashboard")
+        Rel(repositoryCreation, vulnManagement, "Repository vulnerability management")
+        Rel(repositoryCreation, tokens, "Repository token management")
+        Rel(repositoryCreation, users, "User management with access to the repository and their permissions")
+        Rel(repositoryCreation, webhooks, "Webhooks management on repository level")
 }
 
 System_Boundary(horusecAuth, "Horusec Auth") {
-        System(accountController, "Controlador de Conta", "Contém operações de conta.")
-        System(authenticationController, "Controlador de Autenticação", "Contém operações de login e autenticação de requisições.")
-        System(healthController, "Health Check", "Responsável por verificar a saúde da aplicação.")
-        System(authTypes, "Tipos de Autenticação", "Serviço possuí suporte para 3 tipos diferentes de autenticação (nativa, LDAP, Keycloak).")
+        System(accountController, "Account Controller", "Contains account operations.")
+        System(authenticationController, "Authentication Controller", "Contains login operations and request authentications.")
+        System(healthController, "Health Check", "Responsible to verify the application's health.")
+        System(authTypes, "Authentication Types", "Service has support to 3 different types of authentication (native, LDAP, Keycloak).")
 
-        Rel(authenticationController, authTypes, "Valida autenticidade das requisições de acordo com o tipo de autenticação")
+        Rel(authenticationController, authTypes, "Validates the requests authenticity according to the authentication type")
 }
 
 
 System_Boundary(horusecCLI, "Horusec CLI"){
-        System_Ext(vulnDetection, "Detecção de vulnerabilidades", "Executa uma análise estática em busca de vulnerabilidades.")
-        System_Ext(vulnProcessing, "Processamento e Envio", "Vulnerabilidades são processadas e caso a CLI contenhha token as vulnerabilidades encontradas são enviadas ao API.")
+        System_Ext(vulnDetection, "Vulnerability detection", "Executes a static analysis for vulnerabilities.")
+        System_Ext(vulnProcessing, "Processing and send, "Vulnerabilities are processed, and if CLI has a token, the vulnerabilities are sent to the API.")
 
         Rel(vulnDetection, vulnProcessing, "")
 }
 
 System_Boundary(horusecApi, "Horusec Api") {
-        System(analysisController, "Controlador de Análise", "Responsavél por receber as vulnerabilidades da CLI.")
-        System(tokenValidation, "Validação de Token", "irá validar se o token daquela requisição é valido e identificar a qual repositório ela pertence.")
+        System(analysisController, "analysis controller", "Resposible for receiving the vulnerabilities from CLI.")
+        System(tokenValidation, "Token Validation", "Will validate if the token from that request is valid, and identify to which repository it belongs to.")
 
         Rel(analysisController, tokenValidation, "")
 }
 
-Rel(horusecCLI, horusecApi, "Envio de dados das vulnerabilidades via HTTP.")
+Rel(horusecCLI, horusecApi, "Send vulnerabilities data via HTTP.")
 
 
 System_Boundary(horusecAnalytic, "Horusec Analytic") {
-        System(vulnProcess, "Processamento de Vulnerabilidades", "Recebe uma análise via fila e faz o processamento para salvar no banco de dados.")
-        System(workspaceAnalyticController, "Controlador do Dashboard Workspace", "Possuiu um controlador específico para buscar dados sobre a visão de workspace.")
-        System(repositoryAnalyticController, "Controlador do Dashboard Repositórios", "Possuiu um controlador específico para buscar dados sobre a visão de repositório.")
-        System(healthController, "Health Check", "Responsável por verificar a saúde da aplicação.")
+        System(vulnProcess, "Vulnerability Processing", "Receives an analysis via queue and processes it to save in the database.")
+        System(workspaceAnalyticController, "Dashboard Workspace Controller", "Had a specific controller to fetch data on the workspace view.")
+        System(repositoryAnalyticController, "Dashboard Repository Controller", "Had a specific controller to fetch data on the repository view.")
+        System(healthController, "Health Check", "Responsible to check the application's health.")
 }
 
 System_Boundary(horusecCore, "Horusec Core") {
-        System(healthController, "Health Check", "Responsável por verificar a saúde da aplicação.")
-        System(vulnProcess, "Controlador de Workspaces", "Contém operações de criação e gestão de workspace, podendo definir quais usuário terão permissão a ele, como também criação de tokens.")
-        System(vulnProcess, "Controlador de Repositórios", "Contém operações de criação e gestão de repositório, podendo definir quais usuário terão permissão a ele, como também criação de tokens.")
+        System(healthController, "Health Check", "Responsible to check the application's health.")
+        System(vulnProcess, "Workspaces Controller", "Contains workspace creation and management operations, it can define which users have permission to it, and token creation.")
+        System(vulnProcess, "Repositories Controller", "Contains repository creation and management operations, it can define which users have permission to it, and token creation.")
 }
 
 System_Boundary(horusecMessages, "Horusec Messages") {
-        System(messagesEventListener, "Listener de Eventos", "Consome de uma fila pacotes com dados que serão convertidos para email.")
-        System(emailController, "Processador de Emails", "Responsável por identificar qual o tipo de mensagem e preencher o email com os dados enviados e o template desejado.")
-        System(emailTemplates, "Templates de Email", "Conjuntos de templates dinâmicos pré definidos.")
+        System(messagesEventListener, "Events Listener", "Consumes data packs from a queue, that will be converted to email.")
+        System(emailController, "Email Processor", "Responsible to identify the type of message and fill the email with the data sent and the desired template.")
+        System(emailTemplates, "Email Templates", "Set of pre defined dynamic templates.")
 
         Rel(messagesEventListener, emailController, "")
         Rel(emailTemplates, emailController, "")
 }
 
 System_Boundary(horusecVulnerability, "Horusec Vulnerability") {
-        System(vulManagement, "Controlador de Vulnerabilidades", "Responsavel por fazer modificações na vulnerabilidades reportados pelo Horusec, como por exemplo: Alterarar tipo (falso positivo, risco aceito), alteração de severidade (LOW, MEDIUM ...).")
-        System(publishChanges, "Publicação de Alterações", "Toda alteração nos dados da análise é salva no banco e enviada para o analítico para ser processada.")
+        System(vulManagement, "Vulnerability Controller", "Responsible to make modifications in the vulnerabilities reported by Horusec, such as: Change type (False positive, risk accepted), Severity change (Low, Medium...).")
+        System(publishChanges, "Publication of Changes", "Every change in analysis data is saved in the base and sent to analitycal to be processed.")
 }
 
 System_Boundary(horusecWebhook, "Horusec Webhook") {
-        System(webhookEventListener, "Listener de Eventos", "Consome de uma fila pacotes com dados da análise que serão enviados através de um webhook.")
-        System(webhookController, "Listener de Eventos", "Verifica a existência de um webhook, caso exista pacote é enviado para ele via HTTP, caso contrário ele é apenas ignorado.")
+        System(webhookEventListener, "Events Listener", "Consumes analysis data packs from a queue, that will be sent through a webhook.")
+        System(webhookController, "Events Listener", "Verifies the existence of a webhook, if it exists the package is sent to it via HTTP, otherwise it is just ignored.")
 
         Rel(webhookEventListener, webhookController, "")
 }
 
-ContainerDb(horusecPlatformDatabase, "Platform Database", "(Postgresql)", "Armazena dados da análise.")
+ContainerDb(horusecPlatformDatabase, "Platform Database", "(Postgresql)", "Stores analysis data.")
 Rel(horusecAuth, horusecPlatformDatabase, "")
 Rel(horusecVulnerability, horusecPlatformDatabase, "")
 Rel(horusecCore, horusecPlatformDatabase, "")
 Rel(horusecWebhook, horusecPlatformDatabase, "")
-Rel(horusecApi, horusecPlatformDatabase, "Armazena dados de novas análises recebidas pela CLI.")
+Rel(horusecApi, horusecPlatformDatabase, "Stores data from new analysis received by CLI.")
 
-ContainerDb(horusecAnalyticDatabase, "Database-Analytic", "(Postgresql)", "Armazena dados do dashboard.")
-Rel(horusecAnalytic, horusecAnalyticDatabase, "Enviado dados processados para o banco de dados")
+ContainerDb(horusecAnalyticDatabase, "Database-Analytic", "(Postgresql)", "Stores dashboard data.")
+Rel(horusecAnalytic, horusecAnalyticDatabase, "Sent processed data to the database")
 
 Rel(horusecManager, horusecAuth, "")
 Rel(horusecManager, horusecVulnerability, "")
@@ -125,9 +125,9 @@ Rel(horusecManager, horusecAnalytic, "")
 Rel(horusecAuth, horusecMessages, "")
 Rel(horusecCore, horusecMessages, "")
 
-Rel(horusecVulnerability, horusecAnalytic, "Pacote é publicado via RabbitMQ para o analítico.")
+Rel(horusecVulnerability, horusecAnalytic, "Pack is published via RabbitMQ to analytical.")
 
-System_Ext(externalAPP, "Aplicação Externa", "Aplicação externa que irá receber os dados da análise do Horusec.")
-Rel(horusecWebhook, externalAPP, "Dados da análise são enviados via HTTP.")
+System_Ext(externalAPP, "External Application", "External application that will receive analysis data from Horusec.")
+Rel(horusecWebhook, externalAPP, "analysis data are sent via HTTP.")
 
 @enduml
