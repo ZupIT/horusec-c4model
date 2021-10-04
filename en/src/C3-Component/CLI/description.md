@@ -1,3 +1,3 @@
-A CLI (sigla para interface de linha de comando) é o programa responsável por processar comandos de um software ou qualquer programa computacional por meio de texto.
+CLI (acrony for command line interface) is the program responsible for processing a software's commands or any computer program through text. A 
 
-No contexto da ferramenta, o Horusec-CLI é a parte de código que permite você rodar os comandos de análise de segurança e de identificação e/ou classificação de vulnerabilidades.
+In the context of the tool, Horusec-CLI is  the piece of code that allows you to run commands for security analisys and for identifying and/or classifying vulnerabilities.
