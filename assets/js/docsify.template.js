@@ -36,8 +36,10 @@ module.exports = options => {
       <meta name="description" content="Description">
       <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <link href="https://horusec.io/c4model/assets/css/theme.css" rel="stylesheet" type="text/css" />
+        
+        <link rel="icon" href="https://horusec.io/site/favicon-32x32.png?v=c7be0f0b3cbcb493ed0d4426e278997f"/>
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+        <link href="https://horusec.io/c4model/assets/css/theme.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
@@ -59,16 +61,21 @@ module.exports = options => {
         </div>
       </nav>
       <script>
-        window.$docsify = ${JSON.stringify({
-          ...options,
-          el: '#app-c4model',
-          loadSidebar: true,
-          sidebarDisplayLevel: 1,
-          alias: {
-            '/.*/_sidebar.md': '/_sidebar.md',
+        window.$docsify = ${JSON.stringify(
+          {
+            ...options,
+            el: '#app-c4model',
+            loadSidebar: true,
+            sidebarDisplayLevel: 1,
+            alias: {
+              '/.*/_sidebar.md': '/_sidebar.md'
+            },
+            logo:
+              'https://raw.githubusercontent.com/ZupIT/horusec/main/assets/horusec_logo.png'
           },
-          logo: 'https://raw.githubusercontent.com/ZupIT/horusec/main/assets/horusec_logo.png'
-        }, null, 2)};
+          null,
+          2
+        )};
       </script>
       <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
       <script src="https://unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
@@ -78,5 +85,5 @@ module.exports = options => {
       <script src="https://horusec.io/c4model/assets/js/theme.js"></script>
     </body>
 
-    </html>`;
-};
+    </html>`
+}
