@@ -27,21 +27,34 @@
 //   }
 module.exports = options => {
   return `<!DOCTYPE html>
-    <html lang="en">
-
+  <html lang="en-US">
     <head>
       <meta charset="UTF-8">
       <title>Horusec C4Model</title>
+  
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-      <meta name="description" content="Description">
-      <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        
-        <link rel="icon" href="https://horusec.io/site/favicon-32x32.png?v=c7be0f0b3cbcb493ed0d4426e278997f"/>
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-        <link href="https://horusec.io/c4model/assets/css/theme.css" rel="stylesheet" type="text/css" />
+      <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  
+      <meta name="description" content="Horusec is an open source framework that enhances the identificationof vulnerabilities in your project with just one command.">
+      <meta name="image" content="//horusec.io/c4model/assets/images/screen.png" />
+      
+      <!-- OG tags-->
+      <meta property="og:title" content="Horusec" />
+      <meta property="og:url" content="https://horusec.io/c4model" />
+      <meta property="og:type" content="website"
+      <meta property="og:image" content="//horusec.io/c4model/assets/images/screen.png" />
+      <meta property="og:description" content="Horusec is an open source framework that enhances the identificationof vulnerabilities in your project with just one command." />
+      <meta property="og:locale" content="en-US" />
+      <meta property="og:site_name" content="Horusec" />
+      <meta property="og:titleTemplate" content="Horusec" />
+      <meta property="og:locale:alternate" content="pt-BR" />
+      <!-- OG tags-->
+  
+      <link rel="icon" href="//horusec.io/site/favicon-32x32.png?v=c7be0f0b3cbcb493ed0d4426e278997f" />
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+      <link href="//horusec.io/c4model/assets/css/theme.css" rel="stylesheet" type="text/css" />
     </head>
-
+  
     <body>
       <div id="app-c4model"></div>
       <nav class="language-nav">
@@ -71,19 +84,18 @@ module.exports = options => {
               '/.*/_sidebar.md': '/_sidebar.md'
             },
             logo:
-              'https://raw.githubusercontent.com/ZupIT/horusec/main/assets/horusec_logo.png'
+              '//raw.githubusercontent.com/ZupIT/horusec/main/assets/horusec_logo.png'
           },
           null,
           2
         )};
       </script>
-      <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
-      <script src="https://unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-      <script src="https://horusec.io/c4model/assets/js/theme.js"></script>
+      <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+      <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+      <script src="//horusec.io/c4model/assets/js/theme.js"></script>
     </body>
-
-    </html>`
+  </html>`
 }
