@@ -9,86 +9,86 @@ LAYOUT_WITH_LEGEND()
 
 LAYOUT_WITH_LEGEND()
 
-Person(user, "Desenvolvedor", "Qualquer usuário que interage diretamente com o código fonte do software.")
+Person(user, "Developer", "Any user who interacts directly with the software's source code.")
 
 System_Boundary(horusecVsCode, "Horusec-VsCode") {
-  System_Boundary(horusecVsCodeCommandStart, "Comando de Inicialização da análise") {
-    System(horusecVsCodeCommandStartPhase1, "Existe análise rodando?", "")
-    System(horusecVsCodeCommandStartPhase2, "Retorna erro pedindo para usuário aguardar a última análise, para iniciar uma nova análise", "")
-    System(horusecVsCodeCommandStartPhase3, "Realiza download da imagem docker e inicia a análise com o volume para criar o arquivo json da análise e compartilhar a instancia docker para utilizar as imagens de ferrementas da horusec-cli de sua máquina local", "")
-    System(horusecVsCodeCommandStartPhase4, "Após finalizar a análise, deve-se realizar leitura do arquivo com as vulnerabilidades encontradas", "")
-    System(horusecVsCodeCommandStartPhase5, "Foi encontrada vulnerabilidades no projeto?", "")
-    System(horusecVsCodeCommandStartPhase6, "Exibe mensagem de sucesso, pois não foi encontrada nenhuma vulnerabilidade no projeto", "")
-    System(horusecVsCodeCommandStartPhase7, "Adicionar vulnerabilidades nos respectivos lugares", "")
-    System(horusecVsCodeCommandStartPhase8, "Adicionar vulnerabilidades na aba de diagnosticos de problemas do visual studio code", "")
-    System(horusecVsCodeCommandStartPhase9, "Adicionar vulnerabilidades na aba de vulnerabilidades do horusec no visual studio code", "")
-    System(horusecVsCodeCommandStartPhase10, "Executa comando para remover imagem docker e icones de loading do visual studio code", "")
+  System_Boundary(horusecVsCodeCommandStart, "Analysis initialization command") {
+    System(horusecVsCodeCommandStartPhase1, "Is there an analysis running?", """).
+    System(horusecVsCodeCommandStartPhase2, "Returns an error asking the user to wait for the last analysis before starting a new one", "").
+    System(horusecVsCodeCommandStartPhase3, "Downloads the docker image and starts the analysis with the volume to create the analysis JSON file. It shares the Docker instance to use Horusec-CLI tool images from your local machine", "")
+    System(horusecVsCodeCommandStartPhase4, "After finishing the analysis, it must read the file with the vulnerabilities found", "").
+    System(horusecVsCodeCommandStartPhase5, "Were vulnerabilities found in the project?", "").
+    System(horusecVsCodeCommandStartPhase6, "Displays a success message, because no vulnerabilities were found in the project", "").
+    System(horusecVsCodeCommandStartPhase7, "Add vulnerabilities in their respective places", "").
+    System(horusecVsCodeCommandStartPhase8, "Add vulnerabilities in the Visual Studio Code troubleshooting tab", "").
+    System(horusecVsCodeCommandStartPhase9, "Add vulnerabilities in Horusec's vulnerabilities tab in Visual Studio Code", "").
+    System(horusecVsCodeCommandStartPhase10, "Run the command to remove a Docker image and loading icons from Visual Studio Code", "").
   }
-  System_Boundary(horusecVsCodeCommandStop, "Comando para interromper análise da análise") {
-    System(horusecVsCodeCommandStopPhase1, "Existe análise rodando?", "")
-    System(horusecVsCodeCommandStopPhase2, "Executa comando para parar e remover imagem docker", "")
-    System(horusecVsCodeCommandStopPhase3, "Mostra mensagem que não tem imagem docker rodando", "")
-    System(horusecVsCodeCommandStopPhase4, "Remove icones de loading pendentes", "")
+  System_Boundary(horusecVsCodeCommandStop, "Command to interrupt analysis from the analysis") {
+    System(horusecVsCodeCommandStopPhase1, "Is there an analysis running?", "").
+    System(horusecVsCodeCommandStopPhase2, "Run the command to stop and remove Docker image", "").
+    System(horusecVsCodeCommandStopPhase3, "Displays a message that has no Docker image running", "").
+    System(horusecVsCodeCommandStopPhase4, "Removes pending loading icons", "").
   }
-  System_Boundary(horusecVsCodeCommandConfig, "Comando para realizar configuração do projeto") {
-    System(horusecVsCodeCommandConfigPhase1, "Existe arquivo de configuração na raíz do projeto?", "")
-    System(horusecVsCodeCommandConfigPhase2, "Cria arquivo de configuração", "")
-    System(horusecVsCodeCommandConfigPhase3, "Adiciona a opção e valor passado pelo usuário", "")
+  System_Boundary(horusecVsCodeCommandConfig, "Command to perform project configuration"). {
+    System(horusecVsCodeCommandConfigPhase1, "Is there a configuration file at the root of the project?", "").
+    System(horusecVsCodeCommandConfigPhase2, "Creates a configuration file", "").
+    System(horusecVsCodeCommandConfigPhase3, "Adds the option and value passed by the user", "").
   }
 }
 
 System_Boundary(HorusecCLIDocker, "Horusec-CLI via docker image") {
-    System_Boundary(HorusecCLIDockerCommandStart, "Comando 'Start'") {
-      System_Boundary(HorusecCLIDockerCommandStartPhase1, "Realiza o set das configurações do projeto") {
-        System(HorusecCLIDockerCommandStartPhase1_1, "Adquire as configurações do arquivo de configuração", "Logo em seguida sobreescreve as configurações anteriores")
-        System(HorusecCLIDockerCommandStartPhase1_2, "Adquire as configurações das variáveis de ambiente", "Logo em seguida sobreescreve as configurações anteriores")
-        System(HorusecCLIDockerCommandStartPhase1_3, "Adquire as configurações das flags", "Logo em seguida sobreescreve as configurações anteriores")
+    System_Boundary(HorusecCLIDockerCommandStart, "Command 'Start'") {
+      System_Boundary(HorusecCLIDockerCommandStartPhase1, "Performs the project's configuration set"). {
+        System(HorusecCLIDockerCommandStartPhase1_1, "Gets the configurations from the configuration file", "Right after, it overwrites the previous configurations").
+        System(HorusecCLIDockerCommandStartPhase1_2, "Gets the environment variables configurations", "Right after, it overwrites the previous configurations").
+        System(HorusecCLIDockerCommandStartPhase1_3, "Gets the flags configurations", "Right after, it overwrites the previous configurations").
       }
-      System(HorusecCLIDockerCommandStartPhase2, "Verifica se o usuário não passou o diretório da análise", "Caso não tenha a informação deverá perguntar antes de iniciar a análise")
-      System(HorusecCLIDockerCommandStartPhase3, "Normaliza as configurações e realiza a validação de entradas", "As validações podem ser entre: Diretório inválido, Requisitos não atendidos, dentre outros")
-      System(HorusecCLIDockerCommandStartPhase4, "Verifica quais linguagens de programação tem no projeto", "Além de identificar é feito um filtro de linguagens suportadas pela ferramenta")
-      System_Boundary(HorusecCLIDockerCommandStartPhase5, "Iníciar análise") {
-        System(HorusecCLIDockerCommandStartPhase5_1, "Inicia a detecção de falhas de segurança para cada linguagem de programação de forma assíncrona", "")
-        System(HorusecCLIDockerCommandStartPhase5_2, "Existe download de imagem docker para a linguagem?", "É verificado se o usuário pediu para desabilitar o docker na análise caso sim é apenas ignorado esse passo")
-        System(HorusecCLIDockerCommandStartPhase5_3, "Inicia download da imagem", "Este passo pode ser pulado caso a opção para desabilitar docker esteja ativa")
-        System(HorusecCLIDockerCommandStartPhase5_4, "Inicia o processo de análise das ferramentas necessárias.", "Ao iniciar esse process é realizado uma verificação se a ferramenta utiliza")
-        System(HorusecCLIDockerCommandStartPhase5_5, "Ferramentas de mercado que utilizam docker", "Este passo pode ser pulado caso a opção para desabilitar docker esteja ativa")
-        System(HorusecCLIDockerCommandStartPhase5_6, "Ferramentas criadas pelo Horusec que utilizam Horusec-Engine", "Neste processo será verificado as regras disponíveis dentro do binário e se o usuário passou qualquer regra externa e começará a análise.")
-        System(HorusecCLIDockerCommandStartPhase5_7, "Centralização de dados das possíveis falhas de segurança via referência de memoria", "")
-        System(HorusecCLIDockerCommandStartPhase5_8, "Após todas as linguagens de programação terminar sua análise deve ser feito normalização dos dados", "A normalização são validações como falso positivos, minímo de severidade para ser acusada, dentre outros.")
+      System(HorusecCLIDockerCommandStartPhase2, "Verifies if the user did not pass the analysis directory", "If not informed, it must ask before starting the analysis").
+      System(HorusecCLIDockerCommandStartPhase3, "Normalizes the configurations and performs input validation", "Validations can be: Invalid directory, Requirements not met, others").
+      System(HorusecCLIDockerCommandStartPhase4, "Verifies which programming languages are in the project.", "It also filters the languages supported by the tool").
+      System_Boundary(HorusecCLIDockerCommandStartPhase5, "Start Analysis") {
+        System(HorusecCLIDockerCommandStartPhase5_1, "Starts detection of security flaws for each programming language asynchronously", "").
+        System(HorusecCLIDockerCommandStartPhase5_2, "Is there a download of a Docker image for the language?", "In the analysis, it verifies if the user asked to disable Docker, if yes, this step is ignored").
+        System(HorusecCLIDockerCommandStartPhase5_3, "Starts image download", "Skip this step if the option to disable Docker is activated").
+        System(HorusecCLIDockerCommandStartPhase5_4, "Starts the process to analyze the necessary tools.", "When starting this process, it verifies which tool is used").
+        System(HorusecCLIDockerCommandStartPhase5_5, "Market tools that use Docker", "Skip this step if the option to disable Docker is activated").
+        System(HorusecCLIDockerCommandStartPhase5_6, "Tools created by Horusec that use Horusec-Engine", "This process verifies the available rules in the binary and if the user passed an external rule, and it will start the analysis.").
+        System(HorusecCLIDockerCommandStartPhase5_7, "Data centralization of possible security flaws via memory reference", "").
+        System(HorusecCLIDockerCommandStartPhase5_8, "After all programming languages finish its analysis, data normalization has to be performed", "Normalization are validations as false positives, minimum severity to report, others.")
       }
-      System(HorusecCLIDockerCommandStartPhase6, "Cria o output da análise", "O output para o plugin do vscode sempre será no formato json")
+      System(HorusecCLIDockerCommandStartPhase6, "Creates analysis output", "The output for Visual Code Studio plugin is the JSON format").
     }
 }
 
-System_Ext(responseGenerate, "Resposta", "Retorna saída de sucesso ou erro de acordo com as configurações realizadas", "")
+System_Ext(responseGenerate, "Response", "Returns the output of success or error according to the set configurations", "").
 
 Rel(user, horusecVsCodeCommandStartPhase1, "")
-Rel(horusecVsCodeCommandStartPhase1, horusecVsCodeCommandStartPhase2, "SIM")
-Rel(horusecVsCodeCommandStartPhase1, horusecVsCodeCommandStartPhase3, "NÃO")
+Rel(horusecVsCodeCommandStartPhase1, horusecVsCodeCommandStartPhase2, "YES").
+Rel(horusecVsCodeCommandStartPhase1, horusecVsCodeCommandStartPhase3, "NO").
 Rel(horusecVsCodeCommandStartPhase3, horusecVsCodeCommandStartPhase4, "")
 Rel(horusecVsCodeCommandStartPhase4, horusecVsCodeCommandStartPhase5, "")
-Rel(horusecVsCodeCommandStartPhase5, horusecVsCodeCommandStartPhase6, "NÃO")
-Rel(horusecVsCodeCommandStartPhase5, horusecVsCodeCommandStartPhase7, "SIM")
+Rel(horusecVsCodeCommandStartPhase5, horusecVsCodeCommandStartPhase6, "NO").
+Rel(horusecVsCodeCommandStartPhase5, horusecVsCodeCommandStartPhase7, "YES").
 Rel(horusecVsCodeCommandStartPhase7, horusecVsCodeCommandStartPhase8, "")
 Rel(horusecVsCodeCommandStartPhase7, horusecVsCodeCommandStartPhase9, "")
 Rel(horusecVsCodeCommandStartPhase7, horusecVsCodeCommandStartPhase10, "")
 Rel(horusecVsCodeCommandStartPhase10, HorusecCLIDocker, "")
 
 Rel(user, horusecVsCodeCommandStopPhase1, "")
-Rel(horusecVsCodeCommandStopPhase1, horusecVsCodeCommandStopPhase2, "SIM")
-Rel(horusecVsCodeCommandStopPhase1, horusecVsCodeCommandStopPhase3, "NÃO")
+Rel(horusecVsCodeCommandStopPhase1, horusecVsCodeCommandStopPhase2, "YES").
+Rel(horusecVsCodeCommandStopPhase1, horusecVsCodeCommandStopPhase3, "NO").
 Rel(horusecVsCodeCommandStopPhase2, horusecVsCodeCommandStopPhase4, "")
 Rel(horusecVsCodeCommandStopPhase3, horusecVsCodeCommandStopPhase4, "")
 Rel(horusecVsCodeCommandStopPhase2, HorusecCLIDocker, "")
 
 Rel(user, horusecVsCodeCommandConfigPhase1, "")
-Rel(horusecVsCodeCommandConfigPhase1, horusecVsCodeCommandConfigPhase2, "SIM")
-Rel(horusecVsCodeCommandConfigPhase1, horusecVsCodeCommandConfigPhase3, "NÃO")
+Rel(horusecVsCodeCommandConfigPhase1, horusecVsCodeCommandConfigPhase2, "YES").
+Rel(horusecVsCodeCommandConfigPhase1, horusecVsCodeCommandConfigPhase3, "NO").
 Rel(horusecVsCodeCommandConfigPhase2, horusecVsCodeCommandConfigPhase3, "")
 
 
-Rel(horusecVsCodeCommandStart, HorusecCLIDockerCommandStartPhase1_1, "Iniciar uma análise")
+Rel(horusecVsCodeCommandStart, HorusecCLIDockerCommandStartPhase1_1, "Start an analysis").
 Rel(HorusecCLIDockerCommandStartPhase1_1, HorusecCLIDockerCommandStartPhase1_2, "")
 Rel(HorusecCLIDockerCommandStartPhase1_2, HorusecCLIDockerCommandStartPhase1_3, "")
 Rel(HorusecCLIDockerCommandStartPhase1_3, HorusecCLIDockerCommandStartPhase2, "")
@@ -96,8 +96,8 @@ Rel(HorusecCLIDockerCommandStartPhase2, HorusecCLIDockerCommandStartPhase3, "")
 Rel(HorusecCLIDockerCommandStartPhase3, HorusecCLIDockerCommandStartPhase4, "")
 Rel(HorusecCLIDockerCommandStartPhase4, HorusecCLIDockerCommandStartPhase5_1, "")
 Rel(HorusecCLIDockerCommandStartPhase5_1, HorusecCLIDockerCommandStartPhase5_2, "")
-Rel(HorusecCLIDockerCommandStartPhase5_2, HorusecCLIDockerCommandStartPhase5_3, "SIM")
-Rel(HorusecCLIDockerCommandStartPhase5_2, HorusecCLIDockerCommandStartPhase5_4, "NÃO")
+Rel(HorusecCLIDockerCommandStartPhase5_2, HorusecCLIDockerCommandStartPhase5_3, "YES")
+Rel(HorusecCLIDockerCommandStartPhase5_2, HorusecCLIDockerCommandStartPhase5_4, "NO")
 Rel(HorusecCLIDockerCommandStartPhase5_3, HorusecCLIDockerCommandStartPhase5_4, "")
 Rel(HorusecCLIDockerCommandStartPhase5_4, HorusecCLIDockerCommandStartPhase5_5, "")
 Rel(HorusecCLIDockerCommandStartPhase5_4, HorusecCLIDockerCommandStartPhase5_6, "")
