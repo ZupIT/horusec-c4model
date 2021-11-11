@@ -50,9 +50,9 @@ module.exports = options => {
       <meta property="og:locale:alternate" content="pt-BR" />
       <!-- OG tags-->
   
-      <link rel="icon" href="//horusec.io/site/favicon-32x32.png?v=c7be0f0b3cbcb493ed0d4426e278997f" />
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-      <link href="//docs.horusec.io/c4model/assets/css/theme.css" rel="stylesheet" type="text/css" />
+      <link rel="icon" href="https://docs.horusec.io/docs/favicons/favicon.ico" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+      <link href="https://docs.horusec.io/c4model/assets/css/theme.css" rel="stylesheet" type="text/css" />
     </head>
   
     <body>
