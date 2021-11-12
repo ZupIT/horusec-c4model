@@ -36,13 +36,13 @@ module.exports = options => {
       <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   
       <meta name="description" content="Horusec is an open source framework that enhances the identificationof vulnerabilities in your project with just one command.">
-      <meta name="image" content="//horusec.io/c4model/assets/images/screen.png" />
+      <meta name="image" content="//docs.horusec.io/c4model/assets/images/screen.png" />
       
       <!-- OG tags-->
       <meta property="og:title" content="Horusec" />
-      <meta property="og:url" content="https://horusec.io/c4model" />
+      <meta property="og:url" content="https://docs.horusec.io/c4model" />
       <meta property="og:type" content="website"
-      <meta property="og:image" content="//horusec.io/c4model/assets/images/screen.png" />
+      <meta property="og:image" content="//docs.horusec.io/c4model/assets/images/screen.png" />
       <meta property="og:description" content="Horusec is an open source framework that enhances the identificationof vulnerabilities in your project with just one command." />
       <meta property="og:locale" content="en-US" />
       <meta property="og:site_name" content="Horusec" />
@@ -50,9 +50,9 @@ module.exports = options => {
       <meta property="og:locale:alternate" content="pt-BR" />
       <!-- OG tags-->
   
-      <link rel="icon" href="https://horusec.io/docs/favicons/favicon.ico" />
+      <link rel="icon" href="https://docs.horusec.io/docs/favicons/favicon.ico" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-      <link href="https://horusec.io/c4model/assets/css/theme.css" rel="stylesheet" type="text/css" />
+      <link href="https://docs.horusec.io/c4model/assets/css/theme.css" rel="stylesheet" type="text/css" />
     </head>
   
     <body>
@@ -95,7 +95,7 @@ module.exports = options => {
       <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-      <script src="//horusec.io/c4model/assets/js/theme.js"></script>
+      <script src="//docs.horusec.io/c4model/assets/js/theme.js"></script>
     </body>
   </html>`
 }
