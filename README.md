@@ -6,10 +6,11 @@
 >#### 2.1.  [**Requirements**](#requirements)
 ### 3. [**Usage**](#usage)
 >#### 3.1. [**Structure**](#structure)
-### 4. [**Documentation**](#documentation)       
-### 5. [**Contributing**](#contributing)
-### 6. [**License**](#license)
-### 7. [**Community**](#community)
+### 4. [**Documentation**](#documentation)
+### 5. [**Issues**](#issues)       
+### 6. [**Contributing**](#contributing)
+### 7. [**License**](#license)
+### 8. [**Community**](#community)
 
 ## **About**
 
@@ -115,6 +116,10 @@ All components inside a container typically execute in the same process space.
 
 ## **Documentation**
 You can find Horusec's documentation on our [**website**](https://horusec.io/docs/).
+
+## **Issues**
+
+To open or track an issue for this project, in order to better coordinate your discussions, we recommend that you use the [**Issues tab**](https://github.com/ZupIT/horusec/issues) in the main [**Horusec**](https://github.com/ZupIT/horusec) repository.
 
 ## **Contributing**
 
