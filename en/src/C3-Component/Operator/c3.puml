@@ -8,17 +8,17 @@
 LAYOUT_WITH_LEGEND()
 LAYOUT_LEFT_RIGHT()
 
-Person(user, "SRE/DevSecOps/DevOps", "User who wants to install or maintain Horusec-Platform in a Kubernetes cluster").
+Person(user, "SRE/DevSecOps/DevOps", "User who wants to install or maintain Horusec-Platform in a Kubernetes cluster")
 
 System_Boundary(horusecOperator, "Horusec-Operator") {
-  System(HorusecOperatorPhase0, "User installs Horusec CRD in their cluster").
-  System(HorusecOperatorPhase1, "Kubernetes informs Horusec-operator that there was an external change in Horusec's resources").
+  System(HorusecOperatorPhase0, "User installs Horusec CRD in their cluster")
+  System(HorusecOperatorPhase1, "Kubernetes informs Horusec-operator that there was an external change in Horusec's resources")
   System(HorusecOperatorPhase2, "When notified by Kubernetes, Horusec-Operator searches for the altered definitions.")
-  System(HorusecOperatorPhase3, "Horusec-Operator compares the definitions with the current installation").
-  System(HorusecOperatorPhase4, "It applies the settings state to achieve the desired state").
+  System(HorusecOperatorPhase3, "Horusec-Operator compares the definitions with the current installation")
+  System(HorusecOperatorPhase4, "It applies the settings state to achieve the desired state")
 }
 
-System_Ext(Kubernetes, "Kubernetes", "Container orchestration system").
+System_Ext(Kubernetes, "Kubernetes", "Container orchestration system")
 
 Rel(user, HorusecOperatorPhase0, "")
 Rel(HorusecOperatorPhase0, Kubernetes, "")

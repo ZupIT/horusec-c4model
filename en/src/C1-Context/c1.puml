@@ -4,29 +4,29 @@
 LAYOUT_WITH_LEGEND()
 LAYOUT_LEFT_RIGHT()
 
-Person(user, "DevSecOps/Developer/PM/Manager/QA", "User who wants to perform code analysis and vulnerability management").
+Person(user, "DevSecOps/Developer/PM/Manager/QA", "User who wants to perform code analysis and vulnerability management")
 
-System(horusecCLI, "Horusec CLI", "Tool that performs static code analysis searching vulnerabilities").
-System(horusecPlatform, "Horusec Platform", "Web services set to manage and view vulnerabilities found by Horusec CLI").
-System(horusecOperator, "Horusec Operator", "Kubernetes Operator that installs Horusec Platform in the user infrastructure").
-System(horusecVSCode, "Horusec VSCode", "Extension of Horusec CLI for Visual Studio Code").
+System(horusecCLI, "Horusec CLI", "Tool that performs static code analysis searching vulnerabilities")
+System(horusecPlatform, "Horusec Platform", "Web services set to manage and view vulnerabilities found by Horusec CLI")
+System(horusecOperator, "Horusec Operator", "Kubernetes Operator that installs Horusec Platform in the user infrastructure")
+System(horusecVSCode, "Horusec VSCode", "Extension of Horusec CLI for Visual Studio Code")
 
-System_Ext(response, "Result", "Returns possible vulnerabilities and the analysis' information").
+System_Ext(response, "Result", "Returns possible vulnerabilities and the analysis' information")
 System_Ext(kubernetes, "Kubernetes")
 
-Rel(user, horusecCLI, "Starts security analysis on your project").
-Rel(user, horusecOperator, "Perform Horusec Platform installation").
-Rel(user, horusecVSCode, "Starts security analysis on your project").
+Rel(user, horusecCLI, "Starts security analysis on your project")
+Rel(user, horusecOperator, "Perform Horusec Platform installation")
+Rel(user, horusecVSCode, "Starts security analysis on your project")
 
-Rel(horusecCLI, horusecPlatform, "Send possible vulnerabilities to the web services").
-Rel(horusecCLI, horusecVSCode, "Exports CLI to the Visual Studio Code extension").
+Rel(horusecCLI, horusecPlatform, "Send possible vulnerabilities to the web services")
+Rel(horusecCLI, horusecVSCode, "Exports CLI to the Visual Studio Code extension")
 
-Rel(horusecCLI, response, "Displays or exports CLI analysis result").
-Rel(horusecVSCode, response, "Displays or exports CLI analysis result").
+Rel(horusecCLI, response, "Displays or exports CLI analysis result")
+Rel(horusecVSCode, response, "Displays or exports CLI analysis result")
 
-Rel(horusecPlatform, horusecOperator, "Platform may be installed in Kubernetes via Operator").
+Rel(horusecPlatform, horusecOperator, "Platform may be installed in Kubernetes via Operator")
 
-Rel(horusecOperator, kubernetes, "Operator performs WEB services installation and update").
+Rel(horusecOperator, kubernetes, "Operator performs WEB services installation and update")
 
 
 @enduml

@@ -4,82 +4,82 @@
 
 LAYOUT_WITH_LEGEND()
 
-Person(devSecOps, "DevSecOps/Developer", "User who wants to perform code analysis and vulnerability management").
-Person(developer, "Member", "Horusec basic user, it has only read permission on workspace or repository").
-Person(supervisor, "Supervisor", "User with specific permissions for repositories. It can manage vulnerabilities and read operations").
-Person(admin, "Administrator", "User with the highest level of permissions on Horusec, it has all permissions to write and read").
-Person(applicationAdmin, "Application Administrator", "Optional special user who has all the permissions from the default administrator, if activated they can create new workspaces and remove this permission from all other levels").
+Person(devSecOps, "DevSecOps/Developer", "User who wants to perform code analysis and vulnerability management")
+Person(developer, "Member", "Horusec basic user, it has only read permission on workspace or repository")
+Person(supervisor, "Supervisor", "User with specific permissions for repositories. It can manage vulnerabilities and read operations")
+Person(admin, "Administrator", "User with the highest level of permissions on Horusec, it has all permissions to write and read")
+Person(applicationAdmin, "Application Administrator", "Optional special user who has all the permissions from the default administrator, if activated they can create new workspaces and remove this permission from all other levels")
 
-Container(horusecCLI, "Horusec CLI", "Go", "A tool that performs static code analysis searching vulnerabilities").
-Container(horusecOperator, "Horusec Operator", "Go", "Kubernetes Operator installs Horusec Platform in the user infrastructure").
-Container(horusecVSCode, "Horusec VSCode", "Typescript", "Horusec CLI extension for Visual Studio Code").
+Container(horusecCLI, "Horusec CLI", "Go", "A tool that performs static code analysis searching vulnerabilities")
+Container(horusecOperator, "Horusec Operator", "Go", "Kubernetes Operator installs Horusec Platform in the user infrastructure")
+Container(horusecVSCode, "Horusec VSCode", "Typescript", "Horusec CLI extension for Visual Studio Code")
 
 System_Ext(kubernetes, "Kubernetes")
-System_Ext(response, "Result", "Returns possible vulnerabilities and analysis information").
+System_Ext(response, "Result", "Returns possible vulnerabilities and analysis information")
 
 System_Boundary(horusecPlatform, "Horusec Platform") {
-    Container(horusecAuth, "Auth", "Go", "Authorization and authentication service").
-    Container(horusecApi, "Api", "Go", "Management service for analysis received by Horusec-CLI").
-    Container(horusecCore, "Core", "Go", "Management service for workspaces, repositories, and users").
-    Container(horusecWebhook, "Webhook", "Go", "Webhooks management service").
-    Container(horusecAnalytic, "Analytic", "Go", "Strategic analytical vision and dashboard service").
-    Container(horusecManager, "Manager", "React", "Application with Horusec's graphical web interface").
-    Container(horusecMessages, "Messages", "Go", "Email sending service").
-    Container(horusecVulnerability, "Vulnerability", "Go", "Vulnerability management service").
+    Container(horusecAuth, "Auth", "Go", "Authorization and authentication service")
+    Container(horusecApi, "Api", "Go", "Management service for analysis received by Horusec-CLI")
+    Container(horusecCore, "Core", "Go", "Management service for workspaces, repositories, and users")
+    Container(horusecWebhook, "Webhook", "Go", "Webhooks management service")
+    Container(horusecAnalytic, "Analytic", "Go", "Strategic analytical vision and dashboard service")
+    Container(horusecManager, "Manager", "React", "Application with Horusec's graphical web interface")
+    Container(horusecMessages, "Messages", "Go", "Email sending service")
+    Container(horusecVulnerability, "Vulnerability", "Go", "Vulnerability management service")
 
-    System_Ext(rabbitMQ, "RabbitMQ", "Messaging Service").
+    System_Ext(rabbitMQ, "RabbitMQ", "Messaging Service")
 
-    ContainerDb(horusecAnalyticDatabase, "Analytical Database", "Postgresql", "It stores Horusec's analytical data").
-    ContainerDb(horusecHorusecDatabase, "Horusec General Database", "Postgresql", "It stores Horusec's data and general information").
+    ContainerDb(horusecAnalyticDatabase, "Analytical Database", "Postgresql", "It stores Horusec's analytical data")
+    ContainerDb(horusecHorusecDatabase, "Horusec General Database", "Postgresql", "It stores Horusec's data and general information")
 
-    Rel(horusecApi, horusecAuth, "Verifies request authenticity", "GRPC").
-    Rel(horusecCore, horusecAuth, "Verifies request authenticity", "GRPC").
-    Rel(horusecWebhook, horusecAuth, "Verifies request authenticity", "GRPC").
-    Rel(horusecAnalytic, horusecAuth, "Verifies request authenticity", "GRPC").
-    Rel(horusecVulnerability, horusecAuth, "Verifies request authenticity", "GRPC").
+    Rel(horusecApi, horusecAuth, "Verifies request authenticity", "GRPC")
+    Rel(horusecCore, horusecAuth, "Verifies request authenticity", "GRPC")
+    Rel(horusecWebhook, horusecAuth, "Verifies request authenticity", "GRPC")
+    Rel(horusecAnalytic, horusecAuth, "Verifies request authenticity", "GRPC")
+    Rel(horusecVulnerability, horusecAuth, "Verifies request authenticity", "GRPC")
 
-    Rel(horusecManager, horusecAuth, "Account and authentication operations", "HTTP").
-    Rel(horusecManager, horusecCore, "Workspace and repositories management", "HTTP").
-    Rel(horusecManager, horusecWebhook, "Webhooks Management", "HTTP").
-    Rel(horusecManager, horusecAnalytic, "Strategic vision and dashboard", "HTTP").
-    Rel(horusecManager, horusecVulnerability, "Vulnerability management", "HTTP").
+    Rel(horusecManager, horusecAuth, "Account and authentication operations", "HTTP")
+    Rel(horusecManager, horusecCore, "Workspace and repositories management", "HTTP")
+    Rel(horusecManager, horusecWebhook, "Webhooks Management", "HTTP")
+    Rel(horusecManager, horusecAnalytic, "Strategic vision and dashboard", "HTTP")
+    Rel(horusecManager, horusecVulnerability, "Vulnerability management", "HTTP")
 
-    Rel(horusecAuth, horusecMessages, "Publishing email packs", "AMQP").
-    Rel(horusecCore, horusecMessages, "Publishing email packs", "AMQP").
-    Rel(horusecApi,  horusecMessages, "Publishing new analysis packages", "AMQP").
-    Rel(horusecApi, horusecAnalytic, "Publishing new analysis packages", "AMQP").
-    Rel(horusecApi, horusecWebhook, "Publishing new analysis packages", "AMQP").
+    Rel(horusecAuth, horusecMessages, "Publishing email packs", "AMQP")
+    Rel(horusecCore, horusecMessages, "Publishing email packs", "AMQP")
+    Rel(horusecApi,  horusecMessages, "Publishing new analysis packages", "AMQP")
+    Rel(horusecApi, horusecAnalytic, "Publishing new analysis packages", "AMQP")
+    Rel(horusecApi, horusecWebhook, "Publishing new analysis packages", "AMQP")
 
-    Rel(horusecApi, rabbitMQ, "RabbitMQ connection").
-    Rel(horusecAuth, rabbitMQ, "RabbitMQ connection").
-    Rel(horusecCore, rabbitMQ, "RabbitMQ connection").
-    Rel(horusecWebhook, rabbitMQ, "RabbitMQ connection").
-    Rel(horusecAnalytic, rabbitMQ, "RabbitMQ connection").
-    Rel(horusecMessages, rabbitMQ, "RabbitMQ connection").
+    Rel(horusecApi, rabbitMQ, "RabbitMQ connection")
+    Rel(horusecAuth, rabbitMQ, "RabbitMQ connection")
+    Rel(horusecCore, rabbitMQ, "RabbitMQ connection")
+    Rel(horusecWebhook, rabbitMQ, "RabbitMQ connection")
+    Rel(horusecAnalytic, rabbitMQ, "RabbitMQ connection")
+    Rel(horusecMessages, rabbitMQ, "RabbitMQ connection")
 
-    Rel(horusecAnalytic, horusecAnalyticDatabase, "Database connection").
-    Rel(horusecWebhook, horusecHorusecDatabase, "Database connection").
+    Rel(horusecAnalytic, horusecAnalyticDatabase, "Database connection")
+    Rel(horusecWebhook, horusecHorusecDatabase, "Database connection")
     Rel(horusecApi, horusecHorusecDatabase, "Database connection")
-    Rel(horusecAuth, horusecHorusecDatabase, "Database connection").
-    Rel(horusecCore, horusecHorusecDatabase, "Database connection").
-    Rel(horusecVulnerability, horusecHorusecDatabase, "Database connection").
+    Rel(horusecAuth, horusecHorusecDatabase, "Database connection")
+    Rel(horusecCore, horusecHorusecDatabase, "Database connection")
+    Rel(horusecVulnerability, horusecHorusecDatabase, "Database connection")
 }
 
-Rel(devSecOps, horusecOperator, "Perform Horusec Platform installation").
-Rel(devSecOps, horusecCLI, "Initiate security analysis in your project").
-Rel(devSecOps, horusecVSCode, "Initiate security analysis in your project").
-Rel(developer, horusecManager, "Search for workspaces and repositories, view vulnerabilities and repositories dashboard you have permission", "HTTP").
-Rel(supervisor, horusecManager, "Search for workspaces and repositories, view vulnerabilities and repositories dashboard you have permission", "HTTP").
-Rel(admin, horusecManager, "Writes permission on workspaces and repositories, creates tokens, manages vulnerability, workspace and repositories dashboard", "HTTP").
-Rel(applicationAdmin, horusecManager, "Writes permission on workspaces and repositories, creates tokens, manages vulnerability, workspace and repositories dashboard", "HTTP").
+Rel(devSecOps, horusecOperator, "Perform Horusec Platform installation")
+Rel(devSecOps, horusecCLI, "Initiate security analysis in your project")
+Rel(devSecOps, horusecVSCode, "Initiate security analysis in your project")
+Rel(developer, horusecManager, "Search for workspaces and repositories, view vulnerabilities and repositories dashboard you have permission", "HTTP")
+Rel(supervisor, horusecManager, "Search for workspaces and repositories, view vulnerabilities and repositories dashboard you have permission", "HTTP")
+Rel(admin, horusecManager, "Writes permission on workspaces and repositories, creates tokens, manages vulnerability, workspace and repositories dashboard", "HTTP")
+Rel(applicationAdmin, horusecManager, "Writes permission on workspaces and repositories, creates tokens, manages vulnerability, workspace and repositories dashboard", "HTTP")
 
-Rel(horusecCLI, horusecApi, "Sends data from the CLI results", "HTTP").
-Rel(horusecCLI, horusecVSCode, "CLI is exported to Visual Studio Code extension").
+Rel(horusecCLI, horusecApi, "Sends data from the CLI results", "HTTP")
+Rel(horusecCLI, horusecVSCode, "CLI is exported to Visual Studio Code extension")
 
-Rel(horusecPlatform, horusecOperator, "Platform can be installed in Kubernetes via Operator").
+Rel(horusecPlatform, horusecOperator, "Platform can be installed in Kubernetes via Operator")
 
 Rel(horusecOperator, kubernetes , "Operator installs and updates WEB services")
 
-Rel(horusecVSCode, response, "Display or export CLI analysis result").
-Rel(horusecCLI, response, "Display or export CLI analysis result").
+Rel(horusecVSCode, response, "Display or export CLI analysis result")
+Rel(horusecCLI, response, "Display or export CLI analysis result")
 @enduml

@@ -49,7 +49,7 @@ System_Boundary(horusecAuth, "Horusec Auth") {
         System(accountController, "Account Controller", "Contains account operations.")
         System(authenticationController, "Authentication Controller", "Contains login operations and request authentications.")
         System(healthController, "Health Check", "Responsible to verify the application's health.")
-        System(authTypes, "Authentication Types", "Service has support to 3 different types of authentication (native, LDAP, Keycloak).")
+        System(authTypes, "Authentication Types", "Service has support to 3 different types of authentication (native, LDAP, Keycloak)")
 
         Rel(authenticationController, authTypes, "Validates the requests authenticity according to the authentication type")
 }
@@ -57,7 +57,7 @@ System_Boundary(horusecAuth, "Horusec Auth") {
 
 System_Boundary(horusecCLI, "Horusec CLI"){
         System_Ext(vulnDetection, "Vulnerability detection", "Executes a static analysis for vulnerabilities.")
-        System_Ext(vulnProcessing, "Processing and send, "Vulnerabilities are processed, and if CLI has a token, the vulnerabilities are sent to the API.")
+        System_Ext(vulnProcessing, "Processing and send", "Vulnerabilities are processed, and if CLI has a token, the vulnerabilities are sent to the API.")
 
         Rel(vulnDetection, vulnProcessing, "")
 }
@@ -95,7 +95,7 @@ System_Boundary(horusecMessages, "Horusec Messages") {
 }
 
 System_Boundary(horusecVulnerability, "Horusec Vulnerability") {
-        System(vulManagement, "Vulnerability Controller", "Responsible to make modifications in the vulnerabilities reported by Horusec, such as: Change type (False positive, risk accepted), Severity change (Low, Medium...).")
+        System(vulManagement, "Vulnerability Controller", "Responsible to make modifications in the vulnerabilities reported by Horusec, such as: Change type (False positive, risk accepted), Severity change (Low, Medium...)")
         System(publishChanges, "Publication of Changes", "Every change in analysis data is saved in the base and sent to analitycal to be processed.")
 }
 

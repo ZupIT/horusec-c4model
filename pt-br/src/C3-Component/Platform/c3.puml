@@ -49,7 +49,7 @@ System_Boundary(horusecAuth, "Horusec Auth") {
         System(accountController, "Controlador de Conta", "Contém operações de conta.")
         System(authenticationController, "Controlador de Autenticação", "Contém operações de login e autenticação de requisições.")
         System(healthController, "Health Check", "Responsável por verificar a saúde da aplicação.")
-        System(authTypes, "Tipos de Autenticação", "Serviço possuí suporte para 3 tipos diferentes de autenticação (nativa, LDAP, Keycloak).")
+        System(authTypes, "Tipos de Autenticação", "Serviço possuí suporte para 3 tipos diferentes de autenticação (nativa, LDAP, Keycloak)")
 
         Rel(authenticationController, authTypes, "Valida autenticidade das requisições de acordo com o tipo de autenticação")
 }
@@ -95,7 +95,7 @@ System_Boundary(horusecMessages, "Horusec Messages") {
 }
 
 System_Boundary(horusecVulnerability, "Horusec Vulnerability") {
-        System(vulManagement, "Controlador de Vulnerabilidades", "Responsavel por fazer modificações na vulnerabilidades reportados pelo Horusec, como por exemplo: Alterarar tipo (falso positivo, risco aceito), alteração de severidade (LOW, MEDIUM ...).")
+        System(vulManagement, "Controlador de Vulnerabilidades", "Responsavel por fazer modificações na vulnerabilidades reportados pelo Horusec, como por exemplo: Alterarar tipo (falso positivo, risco aceito), alteração de severidade (LOW, MEDIUM ...)")
         System(publishChanges, "Publicação de Alterações", "Toda alteração nos dados da análise é salva no banco e enviada para o analítico para ser processada.")
 }
 
